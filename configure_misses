@@ -1,0 +1,25 @@
+Configure miss: distcheck mode
+Configure miss: if assert() uses __builtin_expect()
+Configure miss: direct.h usability
+Configure miss: direct.h presence
+Configure miss: flex file adjustments
+Configure miss: tlhelp32.h
+Configure miss: _splitpath()
+Configure miss: if the Win32 API is available
+Configure miss: IN_PATH define conflict
+Configure miss: fpclass() function
+Configure miss: _fpclass() function
+Configure miss: GetEnvironmentVariable() function
+Configure miss: timeGetTime() function
+Configure miss: MessageBox() function
+Configure miss: QueryPerformanceCounter() function
+Configure miss: _ftime() function
+Configure miss: _getcwd() function
+Configure miss: _logb() function
+Configure miss: mach-o/dyld.h usability
+Configure miss: mach-o/dyld.h presence
+Configure miss: mach-o/dyld.h
+Configure miss: whether we can use Mach-O dyld
+Configure miss: math functions library
+Configure miss: how to include glu.h
+Configure miss: __declspec() support
