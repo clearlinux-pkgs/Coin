@@ -4,7 +4,7 @@
 #
 Name     : Coin
 Version  : 3.1.3
-Release  : 1
+Release  : 2
 URL      : https://bitbucket.org/Coin3D/coin/downloads/Coin-3.1.3.tar.gz
 Source0  : https://bitbucket.org/Coin3D/coin/downloads/Coin-3.1.3.tar.gz
 Summary  : a high-level 3D graphics toolkit, fully compatible with SGI Open Inventor 2.1
