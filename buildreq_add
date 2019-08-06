@@ -3,3 +3,5 @@
 mesa-dev
 buildreq-gnome
 gfortran
+glu-dev
+pkg-config

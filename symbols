@@ -1,80 +1,4 @@
 libCoin.so.80:GLUWrapper
-libCoin.so.80:XML_DefaultCurrent
-libCoin.so.80:XML_ErrorString
-libCoin.so.80:XML_ExpatVersion
-libCoin.so.80:XML_ExpatVersionInfo
-libCoin.so.80:XML_ExternalEntityParserCreate
-libCoin.so.80:XML_FreeContentModel
-libCoin.so.80:XML_GetBase
-libCoin.so.80:XML_GetBuffer
-libCoin.so.80:XML_GetCurrentByteCount
-libCoin.so.80:XML_GetCurrentByteIndex
-libCoin.so.80:XML_GetCurrentColumnNumber
-libCoin.so.80:XML_GetCurrentLineNumber
-libCoin.so.80:XML_GetErrorCode
-libCoin.so.80:XML_GetFeatureList
-libCoin.so.80:XML_GetIdAttributeIndex
-libCoin.so.80:XML_GetInputContext
-libCoin.so.80:XML_GetParsingStatus
-libCoin.so.80:XML_GetSpecifiedAttributeCount
-libCoin.so.80:XML_MemFree
-libCoin.so.80:XML_MemMalloc
-libCoin.so.80:XML_MemRealloc
-libCoin.so.80:XML_Parse
-libCoin.so.80:XML_ParseBuffer
-libCoin.so.80:XML_ParserCreate
-libCoin.so.80:XML_ParserCreateNS
-libCoin.so.80:XML_ParserCreate_MM
-libCoin.so.80:XML_ParserFree
-libCoin.so.80:XML_ParserReset
-libCoin.so.80:XML_ResumeParser
-libCoin.so.80:XML_SetAttlistDeclHandler
-libCoin.so.80:XML_SetBase
-libCoin.so.80:XML_SetCdataSectionHandler
-libCoin.so.80:XML_SetCharacterDataHandler
-libCoin.so.80:XML_SetCommentHandler
-libCoin.so.80:XML_SetDefaultHandler
-libCoin.so.80:XML_SetDefaultHandlerExpand
-libCoin.so.80:XML_SetDoctypeDeclHandler
-libCoin.so.80:XML_SetElementDeclHandler
-libCoin.so.80:XML_SetElementHandler
-libCoin.so.80:XML_SetEncoding
-libCoin.so.80:XML_SetEndCdataSectionHandler
-libCoin.so.80:XML_SetEndDoctypeDeclHandler
-libCoin.so.80:XML_SetEndElementHandler
-libCoin.so.80:XML_SetEndNamespaceDeclHandler
-libCoin.so.80:XML_SetEntityDeclHandler
-libCoin.so.80:XML_SetExternalEntityRefHandler
-libCoin.so.80:XML_SetExternalEntityRefHandlerArg
-libCoin.so.80:XML_SetHashSalt
-libCoin.so.80:XML_SetNamespaceDeclHandler
-libCoin.so.80:XML_SetNotStandaloneHandler
-libCoin.so.80:XML_SetNotationDeclHandler
-libCoin.so.80:XML_SetParamEntityParsing
-libCoin.so.80:XML_SetProcessingInstructionHandler
-libCoin.so.80:XML_SetReturnNSTriplet
-libCoin.so.80:XML_SetSkippedEntityHandler
-libCoin.so.80:XML_SetStartCdataSectionHandler
-libCoin.so.80:XML_SetStartDoctypeDeclHandler
-libCoin.so.80:XML_SetStartElementHandler
-libCoin.so.80:XML_SetStartNamespaceDeclHandler
-libCoin.so.80:XML_SetUnknownEncodingHandler
-libCoin.so.80:XML_SetUnparsedEntityDeclHandler
-libCoin.so.80:XML_SetUserData
-libCoin.so.80:XML_SetXmlDeclHandler
-libCoin.so.80:XML_StopParser
-libCoin.so.80:XML_UseForeignDTD
-libCoin.so.80:XML_UseParserAsHandlerArg
-libCoin.so.80:XmlGetUtf16InternalEncoding
-libCoin.so.80:XmlGetUtf8InternalEncoding
-libCoin.so.80:XmlInitEncoding
-libCoin.so.80:XmlInitUnknownEncoding
-libCoin.so.80:XmlParseXmlDecl
-libCoin.so.80:XmlPrologStateInit
-libCoin.so.80:XmlSizeOfUnknownEncoding
-libCoin.so.80:XmlUtf16Encode
-libCoin.so.80:XmlUtf8Encode
-libCoin.so.80:_INTERNAL_trim_to_complete_utf8_characters
 libCoin.so.80:_Z10SbHashFuncPK6SoBase
 libCoin.so.80:_Z10SbHashFuncPK8SoOutput
 libCoin.so.80:_Z10SbHashFuncPK8SoSensor
@@ -114,6 +38,7 @@ libCoin.so.80:_Z17scxml_coin_get_inv
 libCoin.so.80:_Z17scxml_coin_set_inP8_IO_FILE
 libCoin.so.80:_Z17scxml_minimum_lexv
 libCoin.so.80:_Z17stl_yylex_destroyv
+libCoin.so.80:_Z18coin_3ds_read_fileP7SoInputRP11SoSeparatorifiiiiif
 libCoin.so.80:_Z18scxml_coin_get_outv
 libCoin.so.80:_Z18scxml_coin_reallocPvm
 libCoin.so.80:_Z18scxml_coin_restartP8_IO_FILE
@@ -399,6 +324,7 @@ libCoin.so.80:_ZN10SoBaseListC2Ev
 libCoin.so.80:_ZN10SoBaseListD1Ev
 libCoin.so.80:_ZN10SoBaseListD2Ev
 libCoin.so.80:_ZN10SoBaseListaSERKS_
+libCoin.so.80:_ZN10SoBlinkerP12whichChildCBEPvP8SoSensor
 libCoin.so.80:_ZN10SoCallback11handleEventEP19SoHandleEventAction
 libCoin.so.80:_ZN10SoCallback11setCallbackEPFvPvP8SoActionES0_
 libCoin.so.80:_ZN10SoCallback12copyContentsEPK16SoFieldContaineri
@@ -487,6 +413,7 @@ libCoin.so.80:_ZN10SoListenerD2Ev
 libCoin.so.80:_ZN10SoMFDouble10read1ValueEP7SoInputi
 libCoin.so.80:_ZN10SoMFDouble11allocValuesEi
 libCoin.so.80:_ZN10SoMFDouble12setValuesPtrEPv
+libCoin.so.80:_ZN10SoMFDouble14atexit_cleanupEv
 libCoin.so.80:_ZN10SoMFDouble14createInstanceEv
 libCoin.so.80:_ZN10SoMFDouble14getClassTypeIdEv
 libCoin.so.80:_ZN10SoMFDouble15deleteAllValuesEv
@@ -511,6 +438,7 @@ libCoin.so.80:_ZN10SoMFEngine11allocValuesEi
 libCoin.so.80:_ZN10SoMFEngine11insertSpaceEii
 libCoin.so.80:_ZN10SoMFEngine12deleteValuesEii
 libCoin.so.80:_ZN10SoMFEngine12setValuesPtrEPv
+libCoin.so.80:_ZN10SoMFEngine14atexit_cleanupEv
 libCoin.so.80:_ZN10SoMFEngine14createInstanceEv
 libCoin.so.80:_ZN10SoMFEngine14getClassTypeIdEv
 libCoin.so.80:_ZN10SoMFEngine15deleteAllValuesEv
@@ -532,6 +460,7 @@ libCoin.so.80:_ZN10SoMFEngineaSERKS_
 libCoin.so.80:_ZN10SoMFMatrix10read1ValueEP7SoInputi
 libCoin.so.80:_ZN10SoMFMatrix11allocValuesEi
 libCoin.so.80:_ZN10SoMFMatrix12setValuesPtrEPv
+libCoin.so.80:_ZN10SoMFMatrix14atexit_cleanupEv
 libCoin.so.80:_ZN10SoMFMatrix14createInstanceEv
 libCoin.so.80:_ZN10SoMFMatrix14getClassTypeIdEv
 libCoin.so.80:_ZN10SoMFMatrix15deleteAllValuesEv
@@ -554,6 +483,7 @@ libCoin.so.80:_ZN10SoMFString10deleteTextEiiii
 libCoin.so.80:_ZN10SoMFString10read1ValueEP7SoInputi
 libCoin.so.80:_ZN10SoMFString11allocValuesEi
 libCoin.so.80:_ZN10SoMFString12setValuesPtrEPv
+libCoin.so.80:_ZN10SoMFString14atexit_cleanupEv
 libCoin.so.80:_ZN10SoMFString14createInstanceEv
 libCoin.so.80:_ZN10SoMFString14getClassTypeIdEv
 libCoin.so.80:_ZN10SoMFString15deleteAllValuesEv
@@ -576,6 +506,7 @@ libCoin.so.80:_ZN10SoMFStringaSERKS_
 libCoin.so.80:_ZN10SoMFUInt3210read1ValueEP7SoInputi
 libCoin.so.80:_ZN10SoMFUInt3211allocValuesEi
 libCoin.so.80:_ZN10SoMFUInt3212setValuesPtrEPv
+libCoin.so.80:_ZN10SoMFUInt3214atexit_cleanupEv
 libCoin.so.80:_ZN10SoMFUInt3214createInstanceEv
 libCoin.so.80:_ZN10SoMFUInt3214getClassTypeIdEv
 libCoin.so.80:_ZN10SoMFUInt3215deleteAllValuesEv
@@ -598,6 +529,7 @@ libCoin.so.80:_ZN10SoMFUInt32aSERKS_
 libCoin.so.80:_ZN10SoMFUShort10read1ValueEP7SoInputi
 libCoin.so.80:_ZN10SoMFUShort11allocValuesEi
 libCoin.so.80:_ZN10SoMFUShort12setValuesPtrEPv
+libCoin.so.80:_ZN10SoMFUShort14atexit_cleanupEv
 libCoin.so.80:_ZN10SoMFUShort14createInstanceEv
 libCoin.so.80:_ZN10SoMFUShort14getClassTypeIdEv
 libCoin.so.80:_ZN10SoMFUShort15deleteAllValuesEv
@@ -620,6 +552,7 @@ libCoin.so.80:_ZN10SoMFUShortaSERKS_
 libCoin.so.80:_ZN10SoMFVec4ub10read1ValueEP7SoInputi
 libCoin.so.80:_ZN10SoMFVec4ub11allocValuesEi
 libCoin.so.80:_ZN10SoMFVec4ub12setValuesPtrEPv
+libCoin.so.80:_ZN10SoMFVec4ub14atexit_cleanupEv
 libCoin.so.80:_ZN10SoMFVec4ub14createInstanceEv
 libCoin.so.80:_ZN10SoMFVec4ub14getClassTypeIdEv
 libCoin.so.80:_ZN10SoMFVec4ub15deleteAllValuesEv
@@ -649,6 +582,7 @@ libCoin.so.80:_ZN10SoMFVec4ubaSERKS_
 libCoin.so.80:_ZN10SoMFVec4us10read1ValueEP7SoInputi
 libCoin.so.80:_ZN10SoMFVec4us11allocValuesEi
 libCoin.so.80:_ZN10SoMFVec4us12setValuesPtrEPv
+libCoin.so.80:_ZN10SoMFVec4us14atexit_cleanupEv
 libCoin.so.80:_ZN10SoMFVec4us14createInstanceEv
 libCoin.so.80:_ZN10SoMFVec4us14getClassTypeIdEv
 libCoin.so.80:_ZN10SoMFVec4us15deleteAllValuesEv
@@ -780,6 +714,7 @@ libCoin.so.80:_ZN10SoRotationC2Ev
 libCoin.so.80:_ZN10SoRotationD0Ev
 libCoin.so.80:_ZN10SoRotationD1Ev
 libCoin.so.80:_ZN10SoRotationD2Ev
+libCoin.so.80:_ZN10SoSFDouble14atexit_cleanupEv
 libCoin.so.80:_ZN10SoSFDouble14createInstanceEv
 libCoin.so.80:_ZN10SoSFDouble14getClassTypeIdEv
 libCoin.so.80:_ZN10SoSFDouble8copyFromERK7SoField
@@ -792,6 +727,7 @@ libCoin.so.80:_ZN10SoSFDoubleD0Ev
 libCoin.so.80:_ZN10SoSFDoubleD1Ev
 libCoin.so.80:_ZN10SoSFDoubleD2Ev
 libCoin.so.80:_ZN10SoSFDoubleaSERKS_
+libCoin.so.80:_ZN10SoSFEngine14atexit_cleanupEv
 libCoin.so.80:_ZN10SoSFEngine14createInstanceEv
 libCoin.so.80:_ZN10SoSFEngine14getClassTypeIdEv
 libCoin.so.80:_ZN10SoSFEngine7fixCopyEi
@@ -807,6 +743,7 @@ libCoin.so.80:_ZN10SoSFEngineD2Ev
 libCoin.so.80:_ZN10SoSFEngineaSERKS_
 libCoin.so.80:_ZN10SoSFImage312startEditingER7SbVec3sRi
 libCoin.so.80:_ZN10SoSFImage313finishEditingEv
+libCoin.so.80:_ZN10SoSFImage314atexit_cleanupEv
 libCoin.so.80:_ZN10SoSFImage314createInstanceEv
 libCoin.so.80:_ZN10SoSFImage314getClassTypeIdEv
 libCoin.so.80:_ZN10SoSFImage38copyFromERK7SoField
@@ -819,6 +756,7 @@ libCoin.so.80:_ZN10SoSFImage3D0Ev
 libCoin.so.80:_ZN10SoSFImage3D1Ev
 libCoin.so.80:_ZN10SoSFImage3D2Ev
 libCoin.so.80:_ZN10SoSFImage3aSERKS_
+libCoin.so.80:_ZN10SoSFMatrix14atexit_cleanupEv
 libCoin.so.80:_ZN10SoSFMatrix14createInstanceEv
 libCoin.so.80:_ZN10SoSFMatrix14getClassTypeIdEv
 libCoin.so.80:_ZN10SoSFMatrix8copyFromERK7SoField
@@ -832,6 +770,7 @@ libCoin.so.80:_ZN10SoSFMatrixD0Ev
 libCoin.so.80:_ZN10SoSFMatrixD1Ev
 libCoin.so.80:_ZN10SoSFMatrixD2Ev
 libCoin.so.80:_ZN10SoSFMatrixaSERKS_
+libCoin.so.80:_ZN10SoSFString14atexit_cleanupEv
 libCoin.so.80:_ZN10SoSFString14createInstanceEv
 libCoin.so.80:_ZN10SoSFString14getClassTypeIdEv
 libCoin.so.80:_ZN10SoSFString8copyFromERK7SoField
@@ -845,6 +784,7 @@ libCoin.so.80:_ZN10SoSFStringD0Ev
 libCoin.so.80:_ZN10SoSFStringD1Ev
 libCoin.so.80:_ZN10SoSFStringD2Ev
 libCoin.so.80:_ZN10SoSFStringaSERKS_
+libCoin.so.80:_ZN10SoSFUInt3214atexit_cleanupEv
 libCoin.so.80:_ZN10SoSFUInt3214createInstanceEv
 libCoin.so.80:_ZN10SoSFUInt3214getClassTypeIdEv
 libCoin.so.80:_ZN10SoSFUInt328copyFromERK7SoField
@@ -857,6 +797,7 @@ libCoin.so.80:_ZN10SoSFUInt32D0Ev
 libCoin.so.80:_ZN10SoSFUInt32D1Ev
 libCoin.so.80:_ZN10SoSFUInt32D2Ev
 libCoin.so.80:_ZN10SoSFUInt32aSERKS_
+libCoin.so.80:_ZN10SoSFUShort14atexit_cleanupEv
 libCoin.so.80:_ZN10SoSFUShort14createInstanceEv
 libCoin.so.80:_ZN10SoSFUShort14getClassTypeIdEv
 libCoin.so.80:_ZN10SoSFUShort8copyFromERK7SoField
@@ -869,6 +810,7 @@ libCoin.so.80:_ZN10SoSFUShortD0Ev
 libCoin.so.80:_ZN10SoSFUShortD1Ev
 libCoin.so.80:_ZN10SoSFUShortD2Ev
 libCoin.so.80:_ZN10SoSFUShortaSERKS_
+libCoin.so.80:_ZN10SoSFVec4ub14atexit_cleanupEv
 libCoin.so.80:_ZN10SoSFVec4ub14createInstanceEv
 libCoin.so.80:_ZN10SoSFVec4ub14getClassTypeIdEv
 libCoin.so.80:_ZN10SoSFVec4ub8copyFromERK7SoField
@@ -883,6 +825,7 @@ libCoin.so.80:_ZN10SoSFVec4ubD0Ev
 libCoin.so.80:_ZN10SoSFVec4ubD1Ev
 libCoin.so.80:_ZN10SoSFVec4ubD2Ev
 libCoin.so.80:_ZN10SoSFVec4ubaSERKS_
+libCoin.so.80:_ZN10SoSFVec4us14atexit_cleanupEv
 libCoin.so.80:_ZN10SoSFVec4us14createInstanceEv
 libCoin.so.80:_ZN10SoSFVec4us14getClassTypeIdEv
 libCoin.so.80:_ZN10SoSFVec4us8copyFromERK7SoField
@@ -1015,6 +958,10 @@ libCoin.so.80:_ZN10SoVRMLTextC2Ev
 libCoin.so.80:_ZN10SoVRMLTextD0Ev
 libCoin.so.80:_ZN10SoVRMLTextD1Ev
 libCoin.so.80:_ZN10SoVRMLTextD2Ev
+libCoin.so.80:_ZN10tagContext18genGetEmptyTextureEv
+libCoin.so.80:_ZN10tagContext19genGetOneSidedHintsEv
+libCoin.so.80:_ZN10tagContext19genGetTwoSidedHintsEv
+libCoin.so.80:_ZN10tagContext23genGetEmptyTexTransformEv
 libCoin.so.80:_ZN11SbProjector10tryProjectERK7SbVec2ffR7SbVec3f
 libCoin.so.80:_ZN11SbProjector13setViewVolumeERK12SbViewVolume
 libCoin.so.80:_ZN11SbProjector15setWorkingSpaceERK8SbMatrix
@@ -1236,6 +1183,7 @@ libCoin.so.80:_ZN11SoLightPathC2Ei
 libCoin.so.80:_ZN11SoLightPathD1Ev
 libCoin.so.80:_ZN11SoLightPathD2Ev
 libCoin.so.80:_ZN11SoMFBitMask10read1ValueEP7SoInputi
+libCoin.so.80:_ZN11SoMFBitMask14atexit_cleanupEv
 libCoin.so.80:_ZN11SoMFBitMask14createInstanceEv
 libCoin.so.80:_ZN11SoMFBitMask14getClassTypeIdEv
 libCoin.so.80:_ZN11SoMFBitMask8copyFromERK7SoField
@@ -1249,6 +1197,7 @@ libCoin.so.80:_ZN11SoMFBitMaskaSERKS_
 libCoin.so.80:_ZN11SoMFVec2i3210read1ValueEP7SoInputi
 libCoin.so.80:_ZN11SoMFVec2i3211allocValuesEi
 libCoin.so.80:_ZN11SoMFVec2i3212setValuesPtrEPv
+libCoin.so.80:_ZN11SoMFVec2i3214atexit_cleanupEv
 libCoin.so.80:_ZN11SoMFVec2i3214createInstanceEv
 libCoin.so.80:_ZN11SoMFVec2i3214getClassTypeIdEv
 libCoin.so.80:_ZN11SoMFVec2i3215deleteAllValuesEv
@@ -1278,6 +1227,7 @@ libCoin.so.80:_ZN11SoMFVec2i32aSERKS_
 libCoin.so.80:_ZN11SoMFVec3i3210read1ValueEP7SoInputi
 libCoin.so.80:_ZN11SoMFVec3i3211allocValuesEi
 libCoin.so.80:_ZN11SoMFVec3i3212setValuesPtrEPv
+libCoin.so.80:_ZN11SoMFVec3i3214atexit_cleanupEv
 libCoin.so.80:_ZN11SoMFVec3i3214createInstanceEv
 libCoin.so.80:_ZN11SoMFVec3i3214getClassTypeIdEv
 libCoin.so.80:_ZN11SoMFVec3i3215deleteAllValuesEv
@@ -1307,6 +1257,7 @@ libCoin.so.80:_ZN11SoMFVec3i32aSERKS_
 libCoin.so.80:_ZN11SoMFVec4i3210read1ValueEP7SoInputi
 libCoin.so.80:_ZN11SoMFVec4i3211allocValuesEi
 libCoin.so.80:_ZN11SoMFVec4i3212setValuesPtrEPv
+libCoin.so.80:_ZN11SoMFVec4i3214atexit_cleanupEv
 libCoin.so.80:_ZN11SoMFVec4i3214createInstanceEv
 libCoin.so.80:_ZN11SoMFVec4i3214getClassTypeIdEv
 libCoin.so.80:_ZN11SoMFVec4i3215deleteAllValuesEv
@@ -1350,6 +1301,8 @@ libCoin.so.80:_ZN11SoMarkerSetC2Ev
 libCoin.so.80:_ZN11SoMarkerSetD0Ev
 libCoin.so.80:_ZN11SoMarkerSetD1Ev
 libCoin.so.80:_ZN11SoMarkerSetD2Ev
+libCoin.so.80:_ZN11SoMaterialP16free_colorpackerEPv
+libCoin.so.80:_ZN11SoMaterialP17alloc_colorpackerEPv
 libCoin.so.80:_ZN11SoPickStyle14atexit_cleanupEv
 libCoin.so.80:_ZN11SoPickStyle14createInstanceEv
 libCoin.so.80:_ZN11SoPickStyle14getClassTypeIdEv
@@ -1379,6 +1332,7 @@ libCoin.so.80:_ZN11SoReadError18getHandlerCallbackEv
 libCoin.so.80:_ZN11SoReadError18setHandlerCallbackEPFvPK7SoErrorPvES3_
 libCoin.so.80:_ZN11SoReadError4postEPK7SoInputPKcz
 libCoin.so.80:_ZN11SoReadError9initClassEv
+libCoin.so.80:_ZN11SoSFBitMask14atexit_cleanupEv
 libCoin.so.80:_ZN11SoSFBitMask14createInstanceEv
 libCoin.so.80:_ZN11SoSFBitMask14getClassTypeIdEv
 libCoin.so.80:_ZN11SoSFBitMask8copyFromERK7SoField
@@ -1390,6 +1344,7 @@ libCoin.so.80:_ZN11SoSFBitMaskD0Ev
 libCoin.so.80:_ZN11SoSFBitMaskD1Ev
 libCoin.so.80:_ZN11SoSFBitMaskD2Ev
 libCoin.so.80:_ZN11SoSFBitMaskaSERKS_
+libCoin.so.80:_ZN11SoSFBox2i3214atexit_cleanupEv
 libCoin.so.80:_ZN11SoSFBox2i3214createInstanceEv
 libCoin.so.80:_ZN11SoSFBox2i3214getClassTypeIdEv
 libCoin.so.80:_ZN11SoSFBox2i328copyFromERK7SoField
@@ -1404,6 +1359,7 @@ libCoin.so.80:_ZN11SoSFBox2i32D0Ev
 libCoin.so.80:_ZN11SoSFBox2i32D1Ev
 libCoin.so.80:_ZN11SoSFBox2i32D2Ev
 libCoin.so.80:_ZN11SoSFBox2i32aSERKS_
+libCoin.so.80:_ZN11SoSFBox3i3214atexit_cleanupEv
 libCoin.so.80:_ZN11SoSFBox3i3214createInstanceEv
 libCoin.so.80:_ZN11SoSFBox3i3214getClassTypeIdEv
 libCoin.so.80:_ZN11SoSFBox3i328copyFromERK7SoField
@@ -1419,6 +1375,7 @@ libCoin.so.80:_ZN11SoSFBox3i32D1Ev
 libCoin.so.80:_ZN11SoSFBox3i32D2Ev
 libCoin.so.80:_ZN11SoSFBox3i32aSERKS_
 libCoin.so.80:_ZN11SoSFTrigger11startNotifyEv
+libCoin.so.80:_ZN11SoSFTrigger14atexit_cleanupEv
 libCoin.so.80:_ZN11SoSFTrigger14createInstanceEv
 libCoin.so.80:_ZN11SoSFTrigger14getClassTypeIdEv
 libCoin.so.80:_ZN11SoSFTrigger5touchEv
@@ -1433,6 +1390,7 @@ libCoin.so.80:_ZN11SoSFTriggerD0Ev
 libCoin.so.80:_ZN11SoSFTriggerD1Ev
 libCoin.so.80:_ZN11SoSFTriggerD2Ev
 libCoin.so.80:_ZN11SoSFTriggeraSERKS_
+libCoin.so.80:_ZN11SoSFVec2i3214atexit_cleanupEv
 libCoin.so.80:_ZN11SoSFVec2i3214createInstanceEv
 libCoin.so.80:_ZN11SoSFVec2i3214getClassTypeIdEv
 libCoin.so.80:_ZN11SoSFVec2i328copyFromERK7SoField
@@ -1447,6 +1405,7 @@ libCoin.so.80:_ZN11SoSFVec2i32D0Ev
 libCoin.so.80:_ZN11SoSFVec2i32D1Ev
 libCoin.so.80:_ZN11SoSFVec2i32D2Ev
 libCoin.so.80:_ZN11SoSFVec2i32aSERKS_
+libCoin.so.80:_ZN11SoSFVec3i3214atexit_cleanupEv
 libCoin.so.80:_ZN11SoSFVec3i3214createInstanceEv
 libCoin.so.80:_ZN11SoSFVec3i3214getClassTypeIdEv
 libCoin.so.80:_ZN11SoSFVec3i328copyFromERK7SoField
@@ -1461,6 +1420,7 @@ libCoin.so.80:_ZN11SoSFVec3i32D0Ev
 libCoin.so.80:_ZN11SoSFVec3i32D1Ev
 libCoin.so.80:_ZN11SoSFVec3i32D2Ev
 libCoin.so.80:_ZN11SoSFVec3i32aSERKS_
+libCoin.so.80:_ZN11SoSFVec4i3214atexit_cleanupEv
 libCoin.so.80:_ZN11SoSFVec4i3214createInstanceEv
 libCoin.so.80:_ZN11SoSFVec4i3214getClassTypeIdEv
 libCoin.so.80:_ZN11SoSFVec4i328copyFromERK7SoField
@@ -1577,6 +1537,7 @@ libCoin.so.80:_ZN11SoSpotLightC2Ev
 libCoin.so.80:_ZN11SoSpotLightD0Ev
 libCoin.so.80:_ZN11SoSpotLightD1Ev
 libCoin.so.80:_ZN11SoSpotLightD2Ev
+libCoin.so.80:_ZN11SoTexture2P7cleanupEv
 libCoin.so.80:_ZN11SoTransform11combineLeftEP16SoTransformation
 libCoin.so.80:_ZN11SoTransform12combineRightEP16SoTransformation
 libCoin.so.80:_ZN11SoTransform14atexit_cleanupEv
@@ -1751,6 +1712,12 @@ libCoin.so.80:_ZN11SoWWWInlineC2Ev
 libCoin.so.80:_ZN11SoWWWInlineD0Ev
 libCoin.so.80:_ZN11SoWWWInlineD1Ev
 libCoin.so.80:_ZN11SoWWWInlineD2Ev
+libCoin.so.80:_ZN11tagMaterial11hasTexture2EP10tagContext
+libCoin.so.80:_ZN11tagMaterial13getSoMaterialEP10tagContext
+libCoin.so.80:_ZN11tagMaterial13getSoTexture2EP10tagContext
+libCoin.so.80:_ZN11tagMaterial16updateSoMaterialEiP10SoMaterial
+libCoin.so.80:_ZN11tagMaterial20hasTexture2TransformEP10tagContext
+libCoin.so.80:_ZN11tagMaterial22getSoTexture2TransformEP10tagContext
 libCoin.so.80:_ZN12SbByteBuffer10makeUniqueEv
 libCoin.so.80:_ZN12SbByteBuffer13invalidBufferEv
 libCoin.so.80:_ZN12SbByteBuffer4dataEv
@@ -1915,6 +1882,8 @@ libCoin.so.80:_ZN12SoAntiSquishD1Ev
 libCoin.so.80:_ZN12SoAntiSquishD2Ev
 libCoin.so.80:_ZN12SoAsciiTextP11setUpGlyphsEP7SoStateP11SoAsciiText
 libCoin.so.80:_ZN12SoAsciiTextP22calculateStringStretchEiPK21cc_font_specificationRfS3_
+libCoin.so.80:_ZN12SoBaseColorP16free_colorpackerEPv
+libCoin.so.80:_ZN12SoBaseColorP17alloc_colorpackerEPv
 libCoin.so.80:_ZN12SoByteStream11getNumBytesEv
 libCoin.so.80:_ZN12SoByteStream4copyEPvm
 libCoin.so.80:_ZN12SoByteStream7convertEP10SoPathListi
@@ -1971,6 +1940,7 @@ libCoin.so.80:_ZN12SoComplexityC2Ev
 libCoin.so.80:_ZN12SoComplexityD0Ev
 libCoin.so.80:_ZN12SoComplexityD1Ev
 libCoin.so.80:_ZN12SoComplexityD2Ev
+libCoin.so.80:_ZN12SoConeDetail12cleanupClassEv
 libCoin.so.80:_ZN12SoConeDetail14getClassTypeIdEv
 libCoin.so.80:_ZN12SoConeDetail7setPartEi
 libCoin.so.80:_ZN12SoConeDetail9initClassEv
@@ -1992,6 +1962,7 @@ libCoin.so.80:_ZN12SoConvertAllC2E6SoTypeS0_
 libCoin.so.80:_ZN12SoConvertAllD0Ev
 libCoin.so.80:_ZN12SoConvertAllD1Ev
 libCoin.so.80:_ZN12SoConvertAllD2Ev
+libCoin.so.80:_ZN12SoCubeDetail12cleanupClassEv
 libCoin.so.80:_ZN12SoCubeDetail14getClassTypeIdEv
 libCoin.so.80:_ZN12SoCubeDetail7setPartEi
 libCoin.so.80:_ZN12SoCubeDetail9initClassEv
@@ -2039,6 +2010,7 @@ libCoin.so.80:_ZN12SoEngineListC2Ev
 libCoin.so.80:_ZN12SoEngineListD1Ev
 libCoin.so.80:_ZN12SoEngineListD2Ev
 libCoin.so.80:_ZN12SoEngineListaSERKS_
+libCoin.so.80:_ZN12SoFaceDetail12cleanupClassEv
 libCoin.so.80:_ZN12SoFaceDetail12incFaceIndexEv
 libCoin.so.80:_ZN12SoFaceDetail12incPartIndexEv
 libCoin.so.80:_ZN12SoFaceDetail12setFaceIndexEi
@@ -2069,6 +2041,7 @@ libCoin.so.80:_ZN12SoGLBigImageC2Ev
 libCoin.so.80:_ZN12SoGLBigImageD0Ev
 libCoin.so.80:_ZN12SoGLBigImageD1Ev
 libCoin.so.80:_ZN12SoGLBigImageD2Ev
+libCoin.so.80:_ZN12SoGeoElement12cleanupClassEv
 libCoin.so.80:_ZN12SoGeoElement14createInstanceEv
 libCoin.so.80:_ZN12SoGeoElement14getClassTypeIdEv
 libCoin.so.80:_ZN12SoGeoElement18getClassStackIndexEv
@@ -2110,6 +2083,7 @@ libCoin.so.80:_ZN12SoLightModelC2Ev
 libCoin.so.80:_ZN12SoLightModelD0Ev
 libCoin.so.80:_ZN12SoLightModelD1Ev
 libCoin.so.80:_ZN12SoLightModelD2Ev
+libCoin.so.80:_ZN12SoLineDetail12cleanupClassEv
 libCoin.so.80:_ZN12SoLineDetail12incLineIndexEv
 libCoin.so.80:_ZN12SoLineDetail12incPartIndexEv
 libCoin.so.80:_ZN12SoLineDetail12setLineIndexEi
@@ -2126,6 +2100,7 @@ libCoin.so.80:_ZN12SoLineDetailD2Ev
 libCoin.so.80:_ZN12SoMFRotation10read1ValueEP7SoInputi
 libCoin.so.80:_ZN12SoMFRotation11allocValuesEi
 libCoin.so.80:_ZN12SoMFRotation12setValuesPtrEPv
+libCoin.so.80:_ZN12SoMFRotation14atexit_cleanupEv
 libCoin.so.80:_ZN12SoMFRotation14createInstanceEv
 libCoin.so.80:_ZN12SoMFRotation14getClassTypeIdEv
 libCoin.so.80:_ZN12SoMFRotation15deleteAllValuesEv
@@ -2153,6 +2128,7 @@ libCoin.so.80:_ZN12SoMFRotationaSERKS_
 libCoin.so.80:_ZN12SoMFVec4ui3210read1ValueEP7SoInputi
 libCoin.so.80:_ZN12SoMFVec4ui3211allocValuesEi
 libCoin.so.80:_ZN12SoMFVec4ui3212setValuesPtrEPv
+libCoin.so.80:_ZN12SoMFVec4ui3214atexit_cleanupEv
 libCoin.so.80:_ZN12SoMFVec4ui3214createInstanceEv
 libCoin.so.80:_ZN12SoMFVec4ui3214getClassTypeIdEv
 libCoin.so.80:_ZN12SoMFVec4ui3215deleteAllValuesEv
@@ -2285,6 +2261,7 @@ libCoin.so.80:_ZN12SoPointLightC2Ev
 libCoin.so.80:_ZN12SoPointLightD0Ev
 libCoin.so.80:_ZN12SoPointLightD1Ev
 libCoin.so.80:_ZN12SoPointLightD2Ev
+libCoin.so.80:_ZN12SoSFRotation14atexit_cleanupEv
 libCoin.so.80:_ZN12SoSFRotation14createInstanceEv
 libCoin.so.80:_ZN12SoSFRotation14getClassTypeIdEv
 libCoin.so.80:_ZN12SoSFRotation8copyFromERK7SoField
@@ -2300,6 +2277,7 @@ libCoin.so.80:_ZN12SoSFRotationD0Ev
 libCoin.so.80:_ZN12SoSFRotationD1Ev
 libCoin.so.80:_ZN12SoSFRotationD2Ev
 libCoin.so.80:_ZN12SoSFRotationaSERKS_
+libCoin.so.80:_ZN12SoSFVec4ui3214atexit_cleanupEv
 libCoin.so.80:_ZN12SoSFVec4ui3214createInstanceEv
 libCoin.so.80:_ZN12SoSFVec4ui3214getClassTypeIdEv
 libCoin.so.80:_ZN12SoSFVec4ui328copyFromERK7SoField
@@ -2350,6 +2328,7 @@ libCoin.so.80:_ZN12SoScXMLEventD0Ev
 libCoin.so.80:_ZN12SoScXMLEventD1Ev
 libCoin.so.80:_ZN12SoScXMLEventD2Ev
 libCoin.so.80:_ZN12SoSeparatorP14getGLCacheListEi
+libCoin.so.80:_ZN12SoSeparatorP19invalidate_gl_cacheEPvS0_
 libCoin.so.80:_ZN12SoSeparatorP6doCullEPS_P7SoStatePFiS2_RK7SbBox3fiE
 libCoin.so.80:_ZN12SoShapeHints14atexit_cleanupEv
 libCoin.so.80:_ZN12SoShapeHints14createInstanceEv
@@ -2366,6 +2345,7 @@ libCoin.so.80:_ZN12SoShapeHintsC2Ev
 libCoin.so.80:_ZN12SoShapeHintsD0Ev
 libCoin.so.80:_ZN12SoShapeHintsD1Ev
 libCoin.so.80:_ZN12SoShapeHintsD2Ev
+libCoin.so.80:_ZN12SoTextDetail12cleanupClassEv
 libCoin.so.80:_ZN12SoTextDetail14getClassTypeIdEv
 libCoin.so.80:_ZN12SoTextDetail14setStringIndexEi
 libCoin.so.80:_ZN12SoTextDetail17setCharacterIndexEi
@@ -2410,7 +2390,10 @@ libCoin.so.80:_ZN12SoVRMLAnchorC2Ev
 libCoin.so.80:_ZN12SoVRMLAnchorD0Ev
 libCoin.so.80:_ZN12SoVRMLAnchorD1Ev
 libCoin.so.80:_ZN12SoVRMLAnchorD2Ev
+libCoin.so.80:_ZN12SoVRMLColorP16free_colorpackerEPv
+libCoin.so.80:_ZN12SoVRMLColorP17alloc_colorpackerEPv
 libCoin.so.80:_ZN12SoVRMLGroupP14getGLCacheListEi
+libCoin.so.80:_ZN12SoVRMLGroupP19invalidate_gl_cacheEPvS0_
 libCoin.so.80:_ZN12SoVRMLInline11handleEventEP19SoHandleEventAction
 libCoin.so.80:_ZN12SoVRMLInline12copyContentsEPK16SoFieldContaineri
 libCoin.so.80:_ZN12SoVRMLInline12readInstanceEP7SoInputt
@@ -2591,6 +2574,7 @@ libCoin.so.80:_ZN12SoVRMLSwitchC2Ev
 libCoin.so.80:_ZN12SoVRMLSwitchD0Ev
 libCoin.so.80:_ZN12SoVRMLSwitchD1Ev
 libCoin.so.80:_ZN12SoVRMLSwitchD2Ev
+libCoin.so.80:_ZN12SoWWWAnchorP14atexit_cleanupEv
 libCoin.so.80:_ZN12SoWWWInlineP12readChildrenEv
 libCoin.so.80:_ZN12SoWWWInlineP13readNamedFileEv
 libCoin.so.80:_ZN12SoWrapperKit14atexit_cleanupEv
@@ -2617,6 +2601,16 @@ libCoin.so.80:_ZN12coin_bspnodeC1EP6SbListI7SbVec3fE
 libCoin.so.80:_ZN12coin_bspnodeC2EP6SbListI7SbVec3fE
 libCoin.so.80:_ZN12coin_bspnodeD1Ev
 libCoin.so.80:_ZN12coin_bspnodeD2Ev
+libCoin.so.80:_ZN12tagFaceGroup11hasTexture2EP10tagContext
+libCoin.so.80:_ZN12tagFaceGroup13getSoMaterialEP10tagContext
+libCoin.so.80:_ZN12tagFaceGroup13getSoTexture2EP10tagContext
+libCoin.so.80:_ZN12tagFaceGroup14createSoNormalEP10tagContext
+libCoin.so.80:_ZN12tagFaceGroup20hasTexture2TransformEP10tagContext
+libCoin.so.80:_ZN12tagFaceGroup21createSoCoordinate3_nEP10tagContext
+libCoin.so.80:_ZN12tagFaceGroup21createSoTriStripSet_nEP10tagContext
+libCoin.so.80:_ZN12tagFaceGroup22getSoTexture2TransformEP10tagContext
+libCoin.so.80:_ZN12tagFaceGroup28createSoIndexedTriStripSet_iEP10tagContext
+libCoin.so.80:_ZN12tagFaceGroup28createSoTextureCoordinate2_nEP10tagContext
 libCoin.so.80:_ZN13CoinResources19freeLoadedExternalsEv
 libCoin.so.80:_ZN13CoinResources3getEPKc
 libCoin.so.80:_ZN13CoinResources3setEPKcRK12SbByteBufferNS_13ResourceFlagsE
@@ -2786,6 +2780,7 @@ libCoin.so.80:_ZN13SoAuditorListC1Ev
 libCoin.so.80:_ZN13SoAuditorListC2Ev
 libCoin.so.80:_ZN13SoAuditorListD1Ev
 libCoin.so.80:_ZN13SoAuditorListD2Ev
+libCoin.so.80:_ZN13SoButtonEvent12cleanupClassEv
 libCoin.so.80:_ZN13SoButtonEvent12enumToStringENS_5StateER8SbString
 libCoin.so.80:_ZN13SoButtonEvent14createInstanceEv
 libCoin.so.80:_ZN13SoButtonEvent14getClassTypeIdEv
@@ -2851,6 +2846,7 @@ libCoin.so.80:_ZN13SoCoordinate4C2Ev
 libCoin.so.80:_ZN13SoCoordinate4D0Ev
 libCoin.so.80:_ZN13SoCoordinate4D1Ev
 libCoin.so.80:_ZN13SoCoordinate4D2Ev
+libCoin.so.80:_ZN13SoCullElement12cleanupClassEv
 libCoin.so.80:_ZN13SoCullElement13setViewVolumeEP7SoStateRK12SbViewVolume
 libCoin.so.80:_ZN13SoCullElement14createInstanceEv
 libCoin.so.80:_ZN13SoCullElement14getClassTypeIdEv
@@ -3014,6 +3010,7 @@ libCoin.so.80:_ZN13SoLazyElement11getInstanceEP7SoState
 libCoin.so.80:_ZN13SoLazyElement11getSpecularEP7SoState
 libCoin.so.80:_ZN13SoLazyElement11setEmissiveEP7SoStatePK7SbColor
 libCoin.so.80:_ZN13SoLazyElement11setSpecularEP7SoStatePK7SbColor
+libCoin.so.80:_ZN13SoLazyElement12cleanupClassEv
 libCoin.so.80:_ZN13SoLazyElement12getAlphaTestEP7SoStateRf
 libCoin.so.80:_ZN13SoLazyElement12getShininessEP7SoState
 libCoin.so.80:_ZN13SoLazyElement12getWInstanceEP7SoState
@@ -3093,6 +3090,7 @@ libCoin.so.80:_ZN13SoMFColorRGBA12set1HSVValueEiPKf
 libCoin.so.80:_ZN13SoMFColorRGBA12set1HSVValueEiffff
 libCoin.so.80:_ZN13SoMFColorRGBA12setHSVValuesEiiPA4_Kf
 libCoin.so.80:_ZN13SoMFColorRGBA12setValuesPtrEPv
+libCoin.so.80:_ZN13SoMFColorRGBA14atexit_cleanupEv
 libCoin.so.80:_ZN13SoMFColorRGBA14createInstanceEv
 libCoin.so.80:_ZN13SoMFColorRGBA14getClassTypeIdEv
 libCoin.so.80:_ZN13SoMFColorRGBA15deleteAllValuesEv
@@ -3186,6 +3184,7 @@ libCoin.so.80:_ZN13SoPickedPointC2EPK6SoPathP7SoStateRK7SbVec3f
 libCoin.so.80:_ZN13SoPickedPointC2ERKS_
 libCoin.so.80:_ZN13SoPickedPointD1Ev
 libCoin.so.80:_ZN13SoPickedPointD2Ev
+libCoin.so.80:_ZN13SoPointDetail12cleanupClassEv
 libCoin.so.80:_ZN13SoPointDetail14getClassTypeIdEv
 libCoin.so.80:_ZN13SoPointDetail14setNormalIndexEi
 libCoin.so.80:_ZN13SoPointDetail16setMaterialIndexEi
@@ -3216,6 +3215,7 @@ libCoin.so.80:_ZN13SoRotationXYZD1Ev
 libCoin.so.80:_ZN13SoRotationXYZD2Ev
 libCoin.so.80:_ZN13SoSFColorRGBA11setHSVValueEPKf
 libCoin.so.80:_ZN13SoSFColorRGBA11setHSVValueEffff
+libCoin.so.80:_ZN13SoSFColorRGBA14atexit_cleanupEv
 libCoin.so.80:_ZN13SoSFColorRGBA14createInstanceEv
 libCoin.so.80:_ZN13SoSFColorRGBA14getClassTypeIdEv
 libCoin.so.80:_ZN13SoSFColorRGBA8copyFromERK7SoField
@@ -3551,6 +3551,7 @@ libCoin.so.80:_ZN14SoAudioDevicePD2Ev
 libCoin.so.80:_ZN14SoCacheElement10addElementEP7SoStatePK9SoElement
 libCoin.so.80:_ZN14SoCacheElement10invalidateEP7SoState
 libCoin.so.80:_ZN14SoCacheElement10setInvalidEi
+libCoin.so.80:_ZN14SoCacheElement12cleanupClassEv
 libCoin.so.80:_ZN14SoCacheElement14createInstanceEv
 libCoin.so.80:_ZN14SoCacheElement14getClassTypeIdEv
 libCoin.so.80:_ZN14SoCacheElement15getCurrentCacheEP7SoState
@@ -3677,6 +3678,7 @@ libCoin.so.80:_ZN14SoExtSelectionC2Ev
 libCoin.so.80:_ZN14SoExtSelectionD0Ev
 libCoin.so.80:_ZN14SoExtSelectionD1Ev
 libCoin.so.80:_ZN14SoExtSelectionD2Ev
+libCoin.so.80:_ZN14SoFloatElement12cleanupClassEv
 libCoin.so.80:_ZN14SoFloatElement14getClassTypeIdEv
 libCoin.so.80:_ZN14SoFloatElement18getClassStackIndexEv
 libCoin.so.80:_ZN14SoFloatElement3getEiP7SoState
@@ -3690,9 +3692,11 @@ libCoin.so.80:_ZN14SoFloatElementC2Ev
 libCoin.so.80:_ZN14SoFloatElementD0Ev
 libCoin.so.80:_ZN14SoFloatElementD1Ev
 libCoin.so.80:_ZN14SoFloatElementD2Ev
+libCoin.so.80:_ZN14SoGLCacheListP14contextCleanupEjPv
 libCoin.so.80:_ZN14SoGLVBOElement10getElementEP7SoState
 libCoin.so.80:_ZN14SoGLVBOElement11getInstanceEP7SoState
 libCoin.so.80:_ZN14SoGLVBOElement11setColorVBOEP7SoStateP5SoVBO
+libCoin.so.80:_ZN14SoGLVBOElement12cleanupClassEv
 libCoin.so.80:_ZN14SoGLVBOElement12setNormalVBOEP7SoStateP5SoVBO
 libCoin.so.80:_ZN14SoGLVBOElement12setVertexVBOEP7SoStateP5SoVBO
 libCoin.so.80:_ZN14SoGLVBOElement14createInstanceEv
@@ -3752,6 +3756,7 @@ libCoin.so.80:_ZN14SoInput_ReaderC2Ev
 libCoin.so.80:_ZN14SoInput_ReaderD0Ev
 libCoin.so.80:_ZN14SoInput_ReaderD1Ev
 libCoin.so.80:_ZN14SoInput_ReaderD2Ev
+libCoin.so.80:_ZN14SoInt32Element12cleanupClassEv
 libCoin.so.80:_ZN14SoInt32Element14getClassTypeIdEv
 libCoin.so.80:_ZN14SoInt32Element18getClassStackIndexEv
 libCoin.so.80:_ZN14SoInt32Element3getEiP7SoState
@@ -3765,6 +3770,7 @@ libCoin.so.80:_ZN14SoInt32ElementC2Ev
 libCoin.so.80:_ZN14SoInt32ElementD0Ev
 libCoin.so.80:_ZN14SoInt32ElementD1Ev
 libCoin.so.80:_ZN14SoInt32ElementD2Ev
+libCoin.so.80:_ZN14SoLightElement12cleanupClassEv
 libCoin.so.80:_ZN14SoLightElement14createInstanceEv
 libCoin.so.80:_ZN14SoLightElement14getClassTypeIdEv
 libCoin.so.80:_ZN14SoLightElement18getClassStackIndexEv
@@ -3780,6 +3786,7 @@ libCoin.so.80:_ZN14SoLightElementD0Ev
 libCoin.so.80:_ZN14SoLightElementD1Ev
 libCoin.so.80:_ZN14SoLightElementD2Ev
 libCoin.so.80:_ZN14SoMotion3Event11setRotationERK10SbRotation
+libCoin.so.80:_ZN14SoMotion3Event12cleanupClassEv
 libCoin.so.80:_ZN14SoMotion3Event14createInstanceEv
 libCoin.so.80:_ZN14SoMotion3Event14getClassTypeIdEv
 libCoin.so.80:_ZN14SoMotion3Event14setTranslationERK7SbVec3f
@@ -3942,6 +3949,7 @@ libCoin.so.80:_ZN14SoShadowGroupP23updateDirectionalCameraEP7SoStateP18SoShadowL
 libCoin.so.80:_ZN14SoShadowGroupP8GLRenderEP16SoGLRenderActioni
 libCoin.so.80:_ZN14SoShadowGroupP8calcBBoxEP18SoShadowLightCache
 libCoin.so.80:_ZN14SoShadowGroupP9supportedEPK9cc_glglue8SbString
+libCoin.so.80:_ZN14SoSoundElement12cleanupClassEv
 libCoin.so.80:_ZN14SoSoundElement14createInstanceEv
 libCoin.so.80:_ZN14SoSoundElement14getClassTypeIdEv
 libCoin.so.80:_ZN14SoSoundElement16setDefaultValuesEv
@@ -3992,6 +4000,7 @@ libCoin.so.80:_ZN14SoTranReceiverC2EP7SoGroup
 libCoin.so.80:_ZN14SoTranReceiverD1Ev
 libCoin.so.80:_ZN14SoTranReceiverD2Ev
 libCoin.so.80:_ZN14SoUnitsElement10getDefaultEv
+libCoin.so.80:_ZN14SoUnitsElement12cleanupClassEv
 libCoin.so.80:_ZN14SoUnitsElement14createInstanceEv
 libCoin.so.80:_ZN14SoUnitsElement14getClassTypeIdEv
 libCoin.so.80:_ZN14SoUnitsElement18getClassStackIndexEv
@@ -4302,6 +4311,7 @@ libCoin.so.80:_ZN15SoGLLazyElement10endCachingEP7SoState
 libCoin.so.80:_ZN15SoGLLazyElement10lazyDidSetEj
 libCoin.so.80:_ZN15SoGLLazyElement11getInstanceEPK7SoState
 libCoin.so.80:_ZN15SoGLLazyElement12beginCachingEP7SoStatePNS_7GLStateES3_
+libCoin.so.80:_ZN15SoGLLazyElement12cleanupClassEv
 libCoin.so.80:_ZN15SoGLLazyElement12isColorIndexEP7SoState
 libCoin.so.80:_ZN15SoGLLazyElement12lazyDidntSetEj
 libCoin.so.80:_ZN15SoGLLazyElement12preCacheCallEPK7SoStatePKNS_7GLStateE
@@ -4377,6 +4387,7 @@ libCoin.so.80:_ZN15SoGeoCoordinateC2Ev
 libCoin.so.80:_ZN15SoGeoCoordinateD0Ev
 libCoin.so.80:_ZN15SoGeoCoordinateD1Ev
 libCoin.so.80:_ZN15SoGeoCoordinateD2Ev
+libCoin.so.80:_ZN15SoKeyboardEvent12cleanupClassEv
 libCoin.so.80:_ZN15SoKeyboardEvent12enumToStringENS_3KeyER8SbString
 libCoin.so.80:_ZN15SoKeyboardEvent14createInstanceEv
 libCoin.so.80:_ZN15SoKeyboardEvent14getClassTypeIdEv
@@ -4480,6 +4491,7 @@ libCoin.so.80:_ZN15SoNormalBindingD0Ev
 libCoin.so.80:_ZN15SoNormalBindingD1Ev
 libCoin.so.80:_ZN15SoNormalBindingD2Ev
 libCoin.so.80:_ZN15SoNormalElement11getInstanceEP7SoState
+libCoin.so.80:_ZN15SoNormalElement12cleanupClassEv
 libCoin.so.80:_ZN15SoNormalElement14createInstanceEv
 libCoin.so.80:_ZN15SoNormalElement14getClassTypeIdEv
 libCoin.so.80:_ZN15SoNormalElement18getClassStackIndexEv
@@ -4741,8 +4753,10 @@ libCoin.so.80:_ZN15SoShaderObjectP10readSourceEv
 libCoin.so.80:_ZN15SoShaderObjectP11isSupportedEN14SoShaderObject10SourceTypeEPK9cc_glglue
 libCoin.so.80:_ZN15SoShaderObjectP16updateParametersEjii
 libCoin.so.80:_ZN15SoShaderObjectP19updateAllParametersEj
+libCoin.so.80:_ZN15SoShaderObjectP20really_delete_objectEPvj
 libCoin.so.80:_ZN15SoShaderObjectP20setSearchDirectoriesERK12SbStringList
 libCoin.so.80:_ZN15SoShaderObjectP20updateCoinParametersEjP7SoState
+libCoin.so.80:_ZN15SoShaderObjectP22context_destruction_cbEjPv
 libCoin.so.80:_ZN15SoShaderObjectP27updateStateMatrixParametersEjP7SoState
 libCoin.so.80:_ZN15SoShaderObjectP8GLRenderEP16SoGLRenderAction
 libCoin.so.80:_ZN15SoShaderObjectP8sensorCBEPvP8SoSensor
@@ -4808,6 +4822,7 @@ libCoin.so.80:_ZN15SoSurroundScaleD0Ev
 libCoin.so.80:_ZN15SoSurroundScaleD1Ev
 libCoin.so.80:_ZN15SoSurroundScaleD2Ev
 libCoin.so.80:_ZN15SoSwitchElement10getDefaultEv
+libCoin.so.80:_ZN15SoSwitchElement12cleanupClassEv
 libCoin.so.80:_ZN15SoSwitchElement14createInstanceEv
 libCoin.so.80:_ZN15SoSwitchElement14getClassTypeIdEv
 libCoin.so.80:_ZN15SoSwitchElement18getClassStackIndexEv
@@ -4989,6 +5004,8 @@ libCoin.so.80:_ZN15SoVRMLFontStyleC2Ev
 libCoin.so.80:_ZN15SoVRMLFontStyleD0Ev
 libCoin.so.80:_ZN15SoVRMLFontStyleD1Ev
 libCoin.so.80:_ZN15SoVRMLFontStyleD2Ev
+libCoin.so.80:_ZN15SoVRMLMaterialP16free_colorpackerEPv
+libCoin.so.80:_ZN15SoVRMLMaterialP17alloc_colorpackerEPv
 libCoin.so.80:_ZN15SoVRMLSpotLight14atexit_cleanupEv
 libCoin.so.80:_ZN15SoVRMLSpotLight14createInstanceEv
 libCoin.so.80:_ZN15SoVRMLSpotLight14getClassTypeIdEv
@@ -5052,6 +5069,7 @@ libCoin.so.80:_ZN15SoVRMLWorldInfoC2Ev
 libCoin.so.80:_ZN15SoVRMLWorldInfoD0Ev
 libCoin.so.80:_ZN15SoVRMLWorldInfoD1Ev
 libCoin.so.80:_ZN15SoVRMLWorldInfoD2Ev
+libCoin.so.80:_ZN15SoWindowElement12cleanupClassEv
 libCoin.so.80:_ZN15SoWindowElement14createInstanceEv
 libCoin.so.80:_ZN15SoWindowElement14getClassTypeIdEv
 libCoin.so.80:_ZN15SoWindowElement18getClassStackIndexEv
@@ -5232,6 +5250,7 @@ libCoin.so.80:_ZN16ScXMLValidateEltC2Ev
 libCoin.so.80:_ZN16ScXMLValidateEltD0Ev
 libCoin.so.80:_ZN16ScXMLValidateEltD1Ev
 libCoin.so.80:_ZN16ScXMLValidateEltD2Ev
+libCoin.so.80:_ZN16SoBumpMapElement12cleanupClassEv
 libCoin.so.80:_ZN16SoBumpMapElement14createInstanceEv
 libCoin.so.80:_ZN16SoBumpMapElement14getClassTypeIdEv
 libCoin.so.80:_ZN16SoBumpMapElement18getClassStackIndexEv
@@ -5315,6 +5334,7 @@ libCoin.so.80:_ZN16SoConnectStorage16add_vrml2_routesEP8SoOutputPK7SoField
 libCoin.so.80:_ZN16SoContextHandler18destructingContextEj
 libCoin.so.80:_ZN16SoContextHandler29addContextDestructionCallbackEPFvjPvES0_
 libCoin.so.80:_ZN16SoContextHandler32removeContextDestructionCallbackEPFvjPvES0_
+libCoin.so.80:_ZN16SoCylinderDetail12cleanupClassEv
 libCoin.so.80:_ZN16SoCylinderDetail14getClassTypeIdEv
 libCoin.so.80:_ZN16SoCylinderDetail7setPartEi
 libCoin.so.80:_ZN16SoCylinderDetail9initClassEv
@@ -5595,6 +5615,7 @@ libCoin.so.80:_ZN16SoInteractionKitC2Ev
 libCoin.so.80:_ZN16SoInteractionKitD0Ev
 libCoin.so.80:_ZN16SoInteractionKitD1Ev
 libCoin.so.80:_ZN16SoInteractionKitD2Ev
+libCoin.so.80:_ZN16SoLocation2Event12cleanupClassEv
 libCoin.so.80:_ZN16SoLocation2Event14createInstanceEv
 libCoin.so.80:_ZN16SoLocation2Event14getClassTypeIdEv
 libCoin.so.80:_ZN16SoLocation2Event9initClassEv
@@ -5642,6 +5663,7 @@ libCoin.so.80:_ZN16SoPackedColorV20C2Ev
 libCoin.so.80:_ZN16SoPackedColorV20D0Ev
 libCoin.so.80:_ZN16SoPackedColorV20D1Ev
 libCoin.so.80:_ZN16SoPackedColorV20D2Ev
+libCoin.so.80:_ZN16SoPickRayElement12cleanupClassEv
 libCoin.so.80:_ZN16SoPickRayElement14createInstanceEv
 libCoin.so.80:_ZN16SoPickRayElement14getClassTypeIdEv
 libCoin.so.80:_ZN16SoPickRayElement18getClassStackIndexEv
@@ -5654,6 +5676,7 @@ libCoin.so.80:_ZN16SoPickRayElementC2Ev
 libCoin.so.80:_ZN16SoPickRayElementD0Ev
 libCoin.so.80:_ZN16SoPickRayElementD1Ev
 libCoin.so.80:_ZN16SoPickRayElementD2Ev
+libCoin.so.80:_ZN16SoProfileElement12cleanupClassEv
 libCoin.so.80:_ZN16SoProfileElement14createInstanceEv
 libCoin.so.80:_ZN16SoProfileElement14getClassTypeIdEv
 libCoin.so.80:_ZN16SoProfileElement18getClassStackIndexEv
@@ -5842,6 +5865,7 @@ libCoin.so.80:_ZN16SoToVRML2ActionP10pop_sep_cbEPvP16SoCallbackActionPK6SoNode
 libCoin.so.80:_ZN16SoToVRML2ActionP10solabel_cbEPvP16SoCallbackActionPK6SoNode
 libCoin.so.80:_ZN16SoToVRML2ActionP10soscale_cbEPvP16SoCallbackActionPK6SoNode
 libCoin.so.80:_ZN16SoToVRML2ActionP10sotoifs_cbEPvP16SoCallbackActionPK6SoNode
+libCoin.so.80:_ZN16SoToVRML2ActionP10sotoils_cbEPvP16SoCallbackActionPK6SoNode
 libCoin.so.80:_ZN16SoToVRML2ActionP10sounits_cbEPvP16SoCallbackActionPK6SoNode
 libCoin.so.80:_ZN16SoToVRML2ActionP11push_lod_cbEPvP16SoCallbackActionPK6SoNode
 libCoin.so.80:_ZN16SoToVRML2ActionP11push_sep_cbEPvP16SoCallbackActionPK6SoNode
@@ -5852,11 +5876,13 @@ libCoin.so.80:_ZN16SoToVRML2ActionP11triangle_cbEPvP16SoCallbackActionPK17SoPrim
 libCoin.so.80:_ZN16SoToVRML2ActionP12insert_shapeEP16SoCallbackActionP14SoVRMLGeometry
 libCoin.so.80:_ZN16SoToVRML2ActionP12solineset_cbEPvP16SoCallbackActionPK6SoNode
 libCoin.so.80:_ZN16SoToVRML2ActionP13pop_switch_cbEPvP16SoCallbackActionPK6SoNode
+libCoin.so.80:_ZN16SoToVRML2ActionP13post_lines_cbEPvP16SoCallbackActionPK6SoNode
 libCoin.so.80:_ZN16SoToVRML2ActionP13socylinder_cbEPvP16SoCallbackActionPK6SoNode
 libCoin.so.80:_ZN16SoToVRML2ActionP13sodirlight_cbEPvP16SoCallbackActionPK6SoNode
 libCoin.so.80:_ZN16SoToVRML2ActionP13somattrans_cbEPvP16SoCallbackActionPK6SoNode
 libCoin.so.80:_ZN16SoToVRML2ActionP13sopointset_cbEPvP16SoCallbackActionPK6SoNode
 libCoin.so.80:_ZN16SoToVRML2ActionP13sorotation_cbEPvP16SoCallbackActionPK6SoNode
+libCoin.so.80:_ZN16SoToVRML2ActionP14linesegment_cbEPvP16SoCallbackActionPK17SoPrimitiveVertexS5_
 libCoin.so.80:_ZN16SoToVRML2ActionP14push_switch_cbEPvP16SoCallbackActionPK6SoNode
 libCoin.so.80:_ZN16SoToVRML2ActionP14soasciitext_cbEPvP16SoCallbackActionPK6SoNode
 libCoin.so.80:_ZN16SoToVRML2ActionP14sospotlight_cbEPvP16SoCallbackActionPK6SoNode
@@ -6218,6 +6244,7 @@ libCoin.so.80:_ZN17SoDecomposeMatrixD0Ev
 libCoin.so.80:_ZN17SoDecomposeMatrixD1Ev
 libCoin.so.80:_ZN17SoDecomposeMatrixD2Ev
 libCoin.so.80:_ZN17SoFontNameElement10getDefaultEv
+libCoin.so.80:_ZN17SoFontNameElement12cleanupClassEv
 libCoin.so.80:_ZN17SoFontNameElement14createInstanceEv
 libCoin.so.80:_ZN17SoFontNameElement14getClassTypeIdEv
 libCoin.so.80:_ZN17SoFontNameElement18getClassStackIndexEv
@@ -6232,6 +6259,7 @@ libCoin.so.80:_ZN17SoFontNameElementD0Ev
 libCoin.so.80:_ZN17SoFontNameElementD1Ev
 libCoin.so.80:_ZN17SoFontNameElementD2Ev
 libCoin.so.80:_ZN17SoFontSizeElement10getDefaultEv
+libCoin.so.80:_ZN17SoFontSizeElement12cleanupClassEv
 libCoin.so.80:_ZN17SoFontSizeElement14createInstanceEv
 libCoin.so.80:_ZN17SoFontSizeElement14getClassTypeIdEv
 libCoin.so.80:_ZN17SoFontSizeElement18getClassStackIndexEv
@@ -6245,6 +6273,8 @@ libCoin.so.80:_ZN17SoFontSizeElementC2Ev
 libCoin.so.80:_ZN17SoFontSizeElementD0Ev
 libCoin.so.80:_ZN17SoFontSizeElementD1Ev
 libCoin.so.80:_ZN17SoFontSizeElementD2Ev
+libCoin.so.80:_ZN17SoGLCubeMapImageP14contextCleanupEjPv
+libCoin.so.80:_ZN17SoGLNormalElement12cleanupClassEv
 libCoin.so.80:_ZN17SoGLNormalElement14createInstanceEv
 libCoin.so.80:_ZN17SoGLNormalElement14getClassTypeIdEv
 libCoin.so.80:_ZN17SoGLNormalElement18getClassStackIndexEv
@@ -6438,6 +6468,7 @@ libCoin.so.80:_ZN17SoNormalGeneratorC2Eii
 libCoin.so.80:_ZN17SoNormalGeneratorD1Ev
 libCoin.so.80:_ZN17SoNormalGeneratorD2Ev
 libCoin.so.80:_ZN17SoOffscreenCGData13getResolutionEv
+libCoin.so.80:_ZN17SoOverrideElement12cleanupClassEv
 libCoin.so.80:_ZN17SoOverrideElement14createInstanceEv
 libCoin.so.80:_ZN17SoOverrideElement14getClassTypeIdEv
 libCoin.so.80:_ZN17SoOverrideElement18getClassStackIndexEv
@@ -6534,6 +6565,7 @@ libCoin.so.80:_ZN17SoPrimitiveVertexC2Ev
 libCoin.so.80:_ZN17SoPrimitiveVertexD1Ev
 libCoin.so.80:_ZN17SoPrimitiveVertexD2Ev
 libCoin.so.80:_ZN17SoPrimitiveVertexaSERKS_
+libCoin.so.80:_ZN17SoProfilerElement12cleanupClassEv
 libCoin.so.80:_ZN17SoProfilerElement14createInstanceEv
 libCoin.so.80:_ZN17SoProfilerElement14getClassTypeIdEv
 libCoin.so.80:_ZN17SoProfilerElement16getProfilingDataEv
@@ -6551,6 +6583,7 @@ libCoin.so.80:_ZN17SoProfilerTopKitP13attachToStatsEv
 libCoin.so.80:_ZN17SoProfilerTopKitP15detachFromStatsEv
 libCoin.so.80:_ZN17SoProfilerTopKitP16statsNodeChangedEPvP8SoSensor
 libCoin.so.80:_ZN17SoReplacedElement10getElementEP7SoStateiP6SoNode
+libCoin.so.80:_ZN17SoReplacedElement12cleanupClassEv
 libCoin.so.80:_ZN17SoReplacedElement14getClassTypeIdEv
 libCoin.so.80:_ZN17SoReplacedElement18getClassStackIndexEv
 libCoin.so.80:_ZN17SoReplacedElement4initEP7SoState
@@ -6975,6 +7008,7 @@ libCoin.so.80:_ZN18SoBumpMapTransformC2Ev
 libCoin.so.80:_ZN18SoBumpMapTransformD0Ev
 libCoin.so.80:_ZN18SoBumpMapTransformD1Ev
 libCoin.so.80:_ZN18SoBumpMapTransformD2Ev
+libCoin.so.80:_ZN18SoCacheHintElement12cleanupClassEv
 libCoin.so.80:_ZN18SoCacheHintElement14createInstanceEv
 libCoin.so.80:_ZN18SoCacheHintElement14getClassTypeIdEv
 libCoin.so.80:_ZN18SoCacheHintElement18getClassStackIndexEv
@@ -6990,6 +7024,7 @@ libCoin.so.80:_ZN18SoCacheHintElementD0Ev
 libCoin.so.80:_ZN18SoCacheHintElementD1Ev
 libCoin.so.80:_ZN18SoCacheHintElementD2Ev
 libCoin.so.80:_ZN18SoClipPlaneElement11getInstanceEP7SoState
+libCoin.so.80:_ZN18SoClipPlaneElement12cleanupClassEv
 libCoin.so.80:_ZN18SoClipPlaneElement13so_plane_dataC1ERK7SbPlaneRK8SbMatrix
 libCoin.so.80:_ZN18SoClipPlaneElement13so_plane_dataC2ERK7SbPlaneRK8SbMatrix
 libCoin.so.80:_ZN18SoClipPlaneElement14createInstanceEv
@@ -7058,6 +7093,7 @@ libCoin.so.80:_ZN18SoDragPointDraggerD0Ev
 libCoin.so.80:_ZN18SoDragPointDraggerD1Ev
 libCoin.so.80:_ZN18SoDragPointDraggerD2Ev
 libCoin.so.80:_ZN18SoDrawStyleElement10getDefaultEv
+libCoin.so.80:_ZN18SoDrawStyleElement12cleanupClassEv
 libCoin.so.80:_ZN18SoDrawStyleElement14createInstanceEv
 libCoin.so.80:_ZN18SoDrawStyleElement14getClassTypeIdEv
 libCoin.so.80:_ZN18SoDrawStyleElement18getClassStackIndexEv
@@ -7108,6 +7144,7 @@ libCoin.so.80:_ZN18SoGLDriverDatabase7addFileERK6SbName
 libCoin.so.80:_ZN18SoGLDriverDatabase8isBrokenEPK9cc_glglueRK6SbName
 libCoin.so.80:_ZN18SoGLDriverDatabase9addBufferEPKc
 libCoin.so.80:_ZN18SoGLLightIdElement10getDefaultEv
+libCoin.so.80:_ZN18SoGLLightIdElement12cleanupClassEv
 libCoin.so.80:_ZN18SoGLLightIdElement14createInstanceEv
 libCoin.so.80:_ZN18SoGLLightIdElement14getClassTypeIdEv
 libCoin.so.80:_ZN18SoGLLightIdElement15getMaxGLSourcesEv
@@ -7250,6 +7287,7 @@ libCoin.so.80:_ZN18SoJavaScriptEngineD0Ev
 libCoin.so.80:_ZN18SoJavaScriptEngineD1Ev
 libCoin.so.80:_ZN18SoJavaScriptEngineD2Ev
 libCoin.so.80:_ZN18SoLineWidthElement10getDefaultEv
+libCoin.so.80:_ZN18SoLineWidthElement12cleanupClassEv
 libCoin.so.80:_ZN18SoLineWidthElement14createInstanceEv
 libCoin.so.80:_ZN18SoLineWidthElement14getClassTypeIdEv
 libCoin.so.80:_ZN18SoLineWidthElement18getClassStackIndexEv
@@ -7263,6 +7301,10 @@ libCoin.so.80:_ZN18SoLineWidthElementC2Ev
 libCoin.so.80:_ZN18SoLineWidthElementD0Ev
 libCoin.so.80:_ZN18SoLineWidthElementD1Ev
 libCoin.so.80:_ZN18SoLineWidthElementD2Ev
+libCoin.so.80:_ZN18SoLocateHighlightP14atexit_cleanupEv
+libCoin.so.80:_ZN18SoLocateHighlightP16free_colorpackerEPv
+libCoin.so.80:_ZN18SoLocateHighlightP17alloc_colorpackerEPv
+libCoin.so.80:_ZN18SoMouseButtonEvent12cleanupClassEv
 libCoin.so.80:_ZN18SoMouseButtonEvent12enumToStringENS_6ButtonER8SbString
 libCoin.so.80:_ZN18SoMouseButtonEvent14createInstanceEv
 libCoin.so.80:_ZN18SoMouseButtonEvent14getClassTypeIdEv
@@ -7279,6 +7321,7 @@ libCoin.so.80:_ZN18SoOffscreenGLXData10getDisplayEv
 libCoin.so.80:_ZN18SoOffscreenGLXData13getResolutionEv
 libCoin.so.80:_ZN18SoOffscreenGLXData7cleanupEv
 libCoin.so.80:_ZN18SoPickStyleElement10getDefaultEv
+libCoin.so.80:_ZN18SoPickStyleElement12cleanupClassEv
 libCoin.so.80:_ZN18SoPickStyleElement14createInstanceEv
 libCoin.so.80:_ZN18SoPickStyleElement14getClassTypeIdEv
 libCoin.so.80:_ZN18SoPickStyleElement18getClassStackIndexEv
@@ -7293,6 +7336,7 @@ libCoin.so.80:_ZN18SoPickStyleElementD0Ev
 libCoin.so.80:_ZN18SoPickStyleElementD1Ev
 libCoin.so.80:_ZN18SoPickStyleElementD2Ev
 libCoin.so.80:_ZN18SoPointSizeElement10getDefaultEv
+libCoin.so.80:_ZN18SoPointSizeElement12cleanupClassEv
 libCoin.so.80:_ZN18SoPointSizeElement14createInstanceEv
 libCoin.so.80:_ZN18SoPointSizeElement14getClassTypeIdEv
 libCoin.so.80:_ZN18SoPointSizeElement18getClassStackIndexEv
@@ -7358,6 +7402,7 @@ libCoin.so.80:_ZN18SoShadowLightCache17createGaussFilterEiif
 libCoin.so.80:_ZN18SoShadowLightCache20shadowmap_glcallbackEPvP8SoAction
 libCoin.so.80:_ZN18SoShadowLightCache25shadowmap_post_glcallbackEPvP8SoAction
 libCoin.so.80:_ZN18SoShininessElement11getInstanceEP7SoState
+libCoin.so.80:_ZN18SoShininessElement12cleanupClassEv
 libCoin.so.80:_ZN18SoShininessElement14createInstanceEv
 libCoin.so.80:_ZN18SoShininessElement14getClassTypeIdEv
 libCoin.so.80:_ZN18SoShininessElement18getClassStackIndexEv
@@ -7600,6 +7645,7 @@ libCoin.so.80:_ZN18SoVectorizeActionPC2EP17SoVectorizeAction
 libCoin.so.80:_ZN18SoVectorizeActionPD1Ev
 libCoin.so.80:_ZN18SoVectorizeActionPD2Ev
 libCoin.so.80:_ZN18SoVertexAttributeP10setDataPtrEv
+libCoin.so.80:_ZN18SoWriterefCounterP14atexit_cleanupEv
 libCoin.so.80:_ZN18soshape_bigtexture10beginShapeEP12SoGLBigImagef
 libCoin.so.80:_ZN18soshape_bigtexture10get_new_pvEv
 libCoin.so.80:_ZN18soshape_bigtexture14clip_trianglesEP7SoState
@@ -7623,6 +7669,95 @@ libCoin.so.80:_ZN18soshape_bumprenderC1Ev
 libCoin.so.80:_ZN18soshape_bumprenderC2Ev
 libCoin.so.80:_ZN18soshape_bumprenderD1Ev
 libCoin.so.80:_ZN18soshape_bumprenderD2Ev
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI10SoMFString10SoSFStringXadL_ZN10CoinVrmlJs8MFStringEEEE10destructorEPvS4_
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI10SoMFString10SoSFStringXadL_ZN10CoinVrmlJs8MFStringEEEE11constructorEPvS4_jPlS5_
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI10SoMFString10SoSFStringXadL_ZN10CoinVrmlJs8MFStringEEEE11field2jsvalEPvPK7SoFieldPl
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI10SoMFString10SoSFStringXadL_ZN10CoinVrmlJs8MFStringEEEE11jsval2fieldEPvlP7SoField
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI10SoMFString10SoSFStringXadL_ZN10CoinVrmlJs8MFStringEEEE3getEPvS4_lPl
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI10SoMFString10SoSFStringXadL_ZN10CoinVrmlJs8MFStringEEEE3setEPvS4_lPl
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI10SoMFString10SoSFStringXadL_ZN10CoinVrmlJs8MFStringEEEE4initEPvS4_
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI12SoMFRotation12SoSFRotationXadL_ZN10CoinVrmlJs10MFRotationEEEE10destructorEPvS4_
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI12SoMFRotation12SoSFRotationXadL_ZN10CoinVrmlJs10MFRotationEEEE11constructorEPvS4_jPlS5_
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI12SoMFRotation12SoSFRotationXadL_ZN10CoinVrmlJs10MFRotationEEEE11field2jsvalEPvPK7SoFieldPl
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI12SoMFRotation12SoSFRotationXadL_ZN10CoinVrmlJs10MFRotationEEEE11jsval2fieldEPvlP7SoField
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI12SoMFRotation12SoSFRotationXadL_ZN10CoinVrmlJs10MFRotationEEEE3getEPvS4_lPl
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI12SoMFRotation12SoSFRotationXadL_ZN10CoinVrmlJs10MFRotationEEEE3setEPvS4_lPl
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI12SoMFRotation12SoSFRotationXadL_ZN10CoinVrmlJs10MFRotationEEEE4initEPvS4_
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI8SoMFNode8SoSFNodeXadL_ZN10CoinVrmlJs6MFNodeEEEE10destructorEPvS4_
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI8SoMFNode8SoSFNodeXadL_ZN10CoinVrmlJs6MFNodeEEEE11constructorEPvS4_jPlS5_
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI8SoMFNode8SoSFNodeXadL_ZN10CoinVrmlJs6MFNodeEEEE11field2jsvalEPvPK7SoFieldPl
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI8SoMFNode8SoSFNodeXadL_ZN10CoinVrmlJs6MFNodeEEEE11jsval2fieldEPvlP7SoField
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI8SoMFNode8SoSFNodeXadL_ZN10CoinVrmlJs6MFNodeEEEE3getEPvS4_lPl
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI8SoMFNode8SoSFNodeXadL_ZN10CoinVrmlJs6MFNodeEEEE3setEPvS4_lPl
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI8SoMFNode8SoSFNodeXadL_ZN10CoinVrmlJs6MFNodeEEEE4initEPvS4_
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI8SoMFTime8SoSFTimeXadL_ZN10CoinVrmlJs6MFTimeEEEE10destructorEPvS4_
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI8SoMFTime8SoSFTimeXadL_ZN10CoinVrmlJs6MFTimeEEEE11constructorEPvS4_jPlS5_
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI8SoMFTime8SoSFTimeXadL_ZN10CoinVrmlJs6MFTimeEEEE11field2jsvalEPvPK7SoFieldPl
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI8SoMFTime8SoSFTimeXadL_ZN10CoinVrmlJs6MFTimeEEEE11jsval2fieldEPvlP7SoField
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI8SoMFTime8SoSFTimeXadL_ZN10CoinVrmlJs6MFTimeEEEE3getEPvS4_lPl
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI8SoMFTime8SoSFTimeXadL_ZN10CoinVrmlJs6MFTimeEEEE3setEPvS4_lPl
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI8SoMFTime8SoSFTimeXadL_ZN10CoinVrmlJs6MFTimeEEEE4initEPvS4_
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI9SoMFColor9SoSFColorXadL_ZN10CoinVrmlJs7MFColorEEEE10destructorEPvS4_
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI9SoMFColor9SoSFColorXadL_ZN10CoinVrmlJs7MFColorEEEE11constructorEPvS4_jPlS5_
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI9SoMFColor9SoSFColorXadL_ZN10CoinVrmlJs7MFColorEEEE11field2jsvalEPvPK7SoFieldPl
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI9SoMFColor9SoSFColorXadL_ZN10CoinVrmlJs7MFColorEEEE11jsval2fieldEPvlP7SoField
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI9SoMFColor9SoSFColorXadL_ZN10CoinVrmlJs7MFColorEEEE3getEPvS4_lPl
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI9SoMFColor9SoSFColorXadL_ZN10CoinVrmlJs7MFColorEEEE3setEPvS4_lPl
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI9SoMFColor9SoSFColorXadL_ZN10CoinVrmlJs7MFColorEEEE4initEPvS4_
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI9SoMFFloat9SoSFFloatXadL_ZN10CoinVrmlJs7MFFloatEEEE10destructorEPvS4_
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI9SoMFFloat9SoSFFloatXadL_ZN10CoinVrmlJs7MFFloatEEEE11constructorEPvS4_jPlS5_
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI9SoMFFloat9SoSFFloatXadL_ZN10CoinVrmlJs7MFFloatEEEE11field2jsvalEPvPK7SoFieldPl
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI9SoMFFloat9SoSFFloatXadL_ZN10CoinVrmlJs7MFFloatEEEE11jsval2fieldEPvlP7SoField
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI9SoMFFloat9SoSFFloatXadL_ZN10CoinVrmlJs7MFFloatEEEE3getEPvS4_lPl
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI9SoMFFloat9SoSFFloatXadL_ZN10CoinVrmlJs7MFFloatEEEE3setEPvS4_lPl
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI9SoMFFloat9SoSFFloatXadL_ZN10CoinVrmlJs7MFFloatEEEE4initEPvS4_
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI9SoMFInt329SoSFInt32XadL_ZN10CoinVrmlJs7MFInt32EEEE10destructorEPvS4_
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI9SoMFInt329SoSFInt32XadL_ZN10CoinVrmlJs7MFInt32EEEE11constructorEPvS4_jPlS5_
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI9SoMFInt329SoSFInt32XadL_ZN10CoinVrmlJs7MFInt32EEEE11field2jsvalEPvPK7SoFieldPl
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI9SoMFInt329SoSFInt32XadL_ZN10CoinVrmlJs7MFInt32EEEE11jsval2fieldEPvlP7SoField
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI9SoMFInt329SoSFInt32XadL_ZN10CoinVrmlJs7MFInt32EEEE3getEPvS4_lPl
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI9SoMFInt329SoSFInt32XadL_ZN10CoinVrmlJs7MFInt32EEEE3setEPvS4_lPl
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI9SoMFInt329SoSFInt32XadL_ZN10CoinVrmlJs7MFInt32EEEE4initEPvS4_
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI9SoMFVec2f9SoSFVec2fXadL_ZN10CoinVrmlJs7MFVec2fEEEE10destructorEPvS4_
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI9SoMFVec2f9SoSFVec2fXadL_ZN10CoinVrmlJs7MFVec2fEEEE11constructorEPvS4_jPlS5_
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI9SoMFVec2f9SoSFVec2fXadL_ZN10CoinVrmlJs7MFVec2fEEEE11field2jsvalEPvPK7SoFieldPl
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI9SoMFVec2f9SoSFVec2fXadL_ZN10CoinVrmlJs7MFVec2fEEEE11jsval2fieldEPvlP7SoField
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI9SoMFVec2f9SoSFVec2fXadL_ZN10CoinVrmlJs7MFVec2fEEEE3getEPvS4_lPl
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI9SoMFVec2f9SoSFVec2fXadL_ZN10CoinVrmlJs7MFVec2fEEEE3setEPvS4_lPl
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI9SoMFVec2f9SoSFVec2fXadL_ZN10CoinVrmlJs7MFVec2fEEEE4initEPvS4_
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI9SoMFVec3d9SoSFVec3dXadL_ZN10CoinVrmlJs7MFVec3dEEEE10destructorEPvS4_
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI9SoMFVec3d9SoSFVec3dXadL_ZN10CoinVrmlJs7MFVec3dEEEE11constructorEPvS4_jPlS5_
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI9SoMFVec3d9SoSFVec3dXadL_ZN10CoinVrmlJs7MFVec3dEEEE11field2jsvalEPvPK7SoFieldPl
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI9SoMFVec3d9SoSFVec3dXadL_ZN10CoinVrmlJs7MFVec3dEEEE11jsval2fieldEPvlP7SoField
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI9SoMFVec3d9SoSFVec3dXadL_ZN10CoinVrmlJs7MFVec3dEEEE3getEPvS4_lPl
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI9SoMFVec3d9SoSFVec3dXadL_ZN10CoinVrmlJs7MFVec3dEEEE3setEPvS4_lPl
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI9SoMFVec3d9SoSFVec3dXadL_ZN10CoinVrmlJs7MFVec3dEEEE4initEPvS4_
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI9SoMFVec3f9SoSFVec3fXadL_ZN10CoinVrmlJs7MFVec3fEEEE10destructorEPvS4_
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI9SoMFVec3f9SoSFVec3fXadL_ZN10CoinVrmlJs7MFVec3fEEEE11constructorEPvS4_jPlS5_
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI9SoMFVec3f9SoSFVec3fXadL_ZN10CoinVrmlJs7MFVec3fEEEE11field2jsvalEPvPK7SoFieldPl
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI9SoMFVec3f9SoSFVec3fXadL_ZN10CoinVrmlJs7MFVec3fEEEE11jsval2fieldEPvlP7SoField
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI9SoMFVec3f9SoSFVec3fXadL_ZN10CoinVrmlJs7MFVec3fEEEE3getEPvS4_lPl
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI9SoMFVec3f9SoSFVec3fXadL_ZN10CoinVrmlJs7MFVec3fEEEE3setEPvS4_lPl
+libCoin.so.80:_ZN19CoinVrmlJsMFHandlerI9SoMFVec3f9SoSFVec3fXadL_ZN10CoinVrmlJs7MFVec3fEEEE4initEPvS4_
+libCoin.so.80:_ZN19CoinVrmlJsSFHandlerI7SbColorLi3EXadL_Z25CoinVrmlJs_SFColorAliasesEEfXadL_Z26CoinVrmlJs_SFdefaultValuesEEE10destructorEPvS2_
+libCoin.so.80:_ZN19CoinVrmlJsSFHandlerI7SbColorLi3EXadL_Z25CoinVrmlJs_SFColorAliasesEEfXadL_Z26CoinVrmlJs_SFdefaultValuesEEE11constructorEPvS2_jPlS3_
+libCoin.so.80:_ZN19CoinVrmlJsSFHandlerI7SbColorLi3EXadL_Z25CoinVrmlJs_SFColorAliasesEEfXadL_Z26CoinVrmlJs_SFdefaultValuesEEE3getEPvS2_lPl
+libCoin.so.80:_ZN19CoinVrmlJsSFHandlerI7SbColorLi3EXadL_Z25CoinVrmlJs_SFColorAliasesEEfXadL_Z26CoinVrmlJs_SFdefaultValuesEEE3setEPvS2_lPl
+libCoin.so.80:_ZN19CoinVrmlJsSFHandlerI7SbVec2fLi2EXadL_Z28CoinVrmlJs_SFRotationAliasesEEfXadL_Z26CoinVrmlJs_SFdefaultValuesEEE10destructorEPvS2_
+libCoin.so.80:_ZN19CoinVrmlJsSFHandlerI7SbVec2fLi2EXadL_Z28CoinVrmlJs_SFRotationAliasesEEfXadL_Z26CoinVrmlJs_SFdefaultValuesEEE11constructorEPvS2_jPlS3_
+libCoin.so.80:_ZN19CoinVrmlJsSFHandlerI7SbVec2fLi2EXadL_Z28CoinVrmlJs_SFRotationAliasesEEfXadL_Z26CoinVrmlJs_SFdefaultValuesEEE3getEPvS2_lPl
+libCoin.so.80:_ZN19CoinVrmlJsSFHandlerI7SbVec2fLi2EXadL_Z28CoinVrmlJs_SFRotationAliasesEEfXadL_Z26CoinVrmlJs_SFdefaultValuesEEE3setEPvS2_lPl
+libCoin.so.80:_ZN19CoinVrmlJsSFHandlerI7SbVec3dLi3EXadL_Z28CoinVrmlJs_SFRotationAliasesEEdXadL_Z32CoinVrmlJs_SFdefaultValuesDoubleEEE10destructorEPvS2_
+libCoin.so.80:_ZN19CoinVrmlJsSFHandlerI7SbVec3dLi3EXadL_Z28CoinVrmlJs_SFRotationAliasesEEdXadL_Z32CoinVrmlJs_SFdefaultValuesDoubleEEE11constructorEPvS2_jPlS3_
+libCoin.so.80:_ZN19CoinVrmlJsSFHandlerI7SbVec3dLi3EXadL_Z28CoinVrmlJs_SFRotationAliasesEEdXadL_Z32CoinVrmlJs_SFdefaultValuesDoubleEEE3getEPvS2_lPl
+libCoin.so.80:_ZN19CoinVrmlJsSFHandlerI7SbVec3dLi3EXadL_Z28CoinVrmlJs_SFRotationAliasesEEdXadL_Z32CoinVrmlJs_SFdefaultValuesDoubleEEE3setEPvS2_lPl
+libCoin.so.80:_ZN19CoinVrmlJsSFHandlerI7SbVec3fLi3EXadL_Z28CoinVrmlJs_SFRotationAliasesEEfXadL_Z26CoinVrmlJs_SFdefaultValuesEEE10destructorEPvS2_
+libCoin.so.80:_ZN19CoinVrmlJsSFHandlerI7SbVec3fLi3EXadL_Z28CoinVrmlJs_SFRotationAliasesEEfXadL_Z26CoinVrmlJs_SFdefaultValuesEEE11constructorEPvS2_jPlS3_
+libCoin.so.80:_ZN19CoinVrmlJsSFHandlerI7SbVec3fLi3EXadL_Z28CoinVrmlJs_SFRotationAliasesEEfXadL_Z26CoinVrmlJs_SFdefaultValuesEEE3getEPvS2_lPl
+libCoin.so.80:_ZN19CoinVrmlJsSFHandlerI7SbVec3fLi3EXadL_Z28CoinVrmlJs_SFRotationAliasesEEfXadL_Z26CoinVrmlJs_SFdefaultValuesEEE3setEPvS2_lPl
+libCoin.so.80:_ZN19CoinVrmlJsSFHandlerI7SbVec4fLi4EXadL_Z28CoinVrmlJs_SFRotationAliasesEEfXadL_Z34CoinVrmlJs_SFRotationDefaultValuesEEE10destructorEPvS2_
+libCoin.so.80:_ZN19CoinVrmlJsSFHandlerI7SbVec4fLi4EXadL_Z28CoinVrmlJs_SFRotationAliasesEEfXadL_Z34CoinVrmlJs_SFRotationDefaultValuesEEE3getEPvS2_lPl
+libCoin.so.80:_ZN19CoinVrmlJsSFHandlerI7SbVec4fLi4EXadL_Z28CoinVrmlJs_SFRotationAliasesEEfXadL_Z34CoinVrmlJs_SFRotationDefaultValuesEEE3setEPvS2_lPl
 libCoin.so.80:_ZN19SbCylinderProjector11setCylinderERK10SbCylinder
 libCoin.so.80:_ZN19SbCylinderProjector14setOrientToEyeEi
 libCoin.so.80:_ZN19SbCylinderProjector15setWorkingSpaceERK8SbMatrix
@@ -7714,6 +7849,7 @@ libCoin.so.80:_ZN19SoCenterballDraggerD0Ev
 libCoin.so.80:_ZN19SoCenterballDraggerD1Ev
 libCoin.so.80:_ZN19SoCenterballDraggerD2Ev
 libCoin.so.80:_ZN19SoComplexityElement10getDefaultEv
+libCoin.so.80:_ZN19SoComplexityElement12cleanupClassEv
 libCoin.so.80:_ZN19SoComplexityElement14createInstanceEv
 libCoin.so.80:_ZN19SoComplexityElement14getClassTypeIdEv
 libCoin.so.80:_ZN19SoComplexityElement18getClassStackIndexEv
@@ -7730,6 +7866,7 @@ libCoin.so.80:_ZN19SoComplexityElementD2Ev
 libCoin.so.80:_ZN19SoCoordinateElement11getDefault3Ev
 libCoin.so.80:_ZN19SoCoordinateElement11getDefault4Ev
 libCoin.so.80:_ZN19SoCoordinateElement11getInstanceEP7SoState
+libCoin.so.80:_ZN19SoCoordinateElement12cleanupClassEv
 libCoin.so.80:_ZN19SoCoordinateElement14createInstanceEv
 libCoin.so.80:_ZN19SoCoordinateElement14getClassTypeIdEv
 libCoin.so.80:_ZN19SoCoordinateElement18getClassStackIndexEv
@@ -7871,6 +8008,7 @@ libCoin.so.80:_ZN19SoIndexedNurbsCurveD1Ev
 libCoin.so.80:_ZN19SoIndexedNurbsCurveD2Ev
 libCoin.so.80:_ZN19SoLightModelElement10getDefaultEv
 libCoin.so.80:_ZN19SoLightModelElement11getInstanceEP7SoState
+libCoin.so.80:_ZN19SoLightModelElement12cleanupClassEv
 libCoin.so.80:_ZN19SoLightModelElement14createInstanceEv
 libCoin.so.80:_ZN19SoLightModelElement14getClassTypeIdEv
 libCoin.so.80:_ZN19SoLightModelElement18getClassStackIndexEv
@@ -8134,6 +8272,7 @@ libCoin.so.80:_ZN19SoShaderParameter4iD0Ev
 libCoin.so.80:_ZN19SoShaderParameter4iD1Ev
 libCoin.so.80:_ZN19SoShaderParameter4iD2Ev
 libCoin.so.80:_ZN19SoShapeHintsElement11getFaceTypeEP7SoState
+libCoin.so.80:_ZN19SoShapeHintsElement12cleanupClassEv
 libCoin.so.80:_ZN19SoShapeHintsElement12getShapeTypeEP7SoState
 libCoin.so.80:_ZN19SoShapeHintsElement14createInstanceEv
 libCoin.so.80:_ZN19SoShapeHintsElement14getClassTypeIdEv
@@ -8157,6 +8296,7 @@ libCoin.so.80:_ZN19SoShapeHintsElementD0Ev
 libCoin.so.80:_ZN19SoShapeHintsElementD1Ev
 libCoin.so.80:_ZN19SoShapeHintsElementD2Ev
 libCoin.so.80:_ZN19SoShapeStyleElement10getElementEP7SoState
+libCoin.so.80:_ZN19SoShapeStyleElement12cleanupClassEv
 libCoin.so.80:_ZN19SoShapeStyleElement12isScreenDoorEP7SoState
 libCoin.so.80:_ZN19SoShapeStyleElement12setDrawStyleEP7SoStatei
 libCoin.so.80:_ZN19SoShapeStyleElement12setOverridesEP7SoStatei
@@ -8295,6 +8435,7 @@ libCoin.so.80:_ZN19SoVRMLElevationGridD0Ev
 libCoin.so.80:_ZN19SoVRMLElevationGridD1Ev
 libCoin.so.80:_ZN19SoVRMLElevationGridD2Ev
 libCoin.so.80:_ZN19SoVRMLImageTextureP14timersensor_cbEPvP8SoSensor
+libCoin.so.80:_ZN19SoVRMLImageTextureP7cleanupEv
 libCoin.so.80:_ZN19SoVectorizePSAction13enableElementE6SoTypei
 libCoin.so.80:_ZN19SoVectorizePSAction14atexit_cleanupEv
 libCoin.so.80:_ZN19SoVectorizePSAction14getClassTypeIdEv
@@ -8309,6 +8450,7 @@ libCoin.so.80:_ZN19SoVectorizePSActionC2Ev
 libCoin.so.80:_ZN19SoVectorizePSActionD0Ev
 libCoin.so.80:_ZN19SoVectorizePSActionD1Ev
 libCoin.so.80:_ZN19SoVectorizePSActionD2Ev
+libCoin.so.80:_ZN19SoViewVolumeElement12cleanupClassEv
 libCoin.so.80:_ZN19SoViewVolumeElement14createInstanceEv
 libCoin.so.80:_ZN19SoViewVolumeElement14getClassTypeIdEv
 libCoin.so.80:_ZN19SoViewVolumeElement18getClassStackIndexEv
@@ -8359,6 +8501,7 @@ libCoin.so.80:_ZN20ScXMLScriptEltReader4readEP8ScXMLEltP10cc_xml_eltP13ScXMLDocu
 libCoin.so.80:_ZN20ScXMLScriptEltReaderC1Ev
 libCoin.so.80:_ZN20ScXMLScriptEltReaderC2Ev
 libCoin.so.80:_ZN20SoAccumulatedElement11copyNodeIdsEPKS_
+libCoin.so.80:_ZN20SoAccumulatedElement12cleanupClassEv
 libCoin.so.80:_ZN20SoAccumulatedElement12clearNodeIdsEv
 libCoin.so.80:_ZN20SoAccumulatedElement14getClassTypeIdEv
 libCoin.so.80:_ZN20SoAccumulatedElement18getClassStackIndexEv
@@ -8387,6 +8530,7 @@ libCoin.so.80:_ZN20SoComputeBoundingBoxD1Ev
 libCoin.so.80:_ZN20SoComputeBoundingBoxD2Ev
 libCoin.so.80:_ZN20SoCreaseAngleElement10getDefaultEi
 libCoin.so.80:_ZN20SoCreaseAngleElement10getDefaultEv
+libCoin.so.80:_ZN20SoCreaseAngleElement12cleanupClassEv
 libCoin.so.80:_ZN20SoCreaseAngleElement14createInstanceEv
 libCoin.so.80:_ZN20SoCreaseAngleElement14getClassTypeIdEv
 libCoin.so.80:_ZN20SoCreaseAngleElement18getClassStackIndexEv
@@ -8402,6 +8546,7 @@ libCoin.so.80:_ZN20SoCreaseAngleElementD0Ev
 libCoin.so.80:_ZN20SoCreaseAngleElementD1Ev
 libCoin.so.80:_ZN20SoCreaseAngleElementD2Ev
 libCoin.so.80:_ZN20SoDepthBufferElement11getFunctionEP7SoState
+libCoin.so.80:_ZN20SoDepthBufferElement12cleanupClassEv
 libCoin.so.80:_ZN20SoDepthBufferElement13getTestEnableEP7SoState
 libCoin.so.80:_ZN20SoDepthBufferElement14createInstanceEv
 libCoin.so.80:_ZN20SoDepthBufferElement14getClassTypeIdEv
@@ -8423,6 +8568,7 @@ libCoin.so.80:_ZN20SoDepthBufferElementD2Ev
 libCoin.so.80:_ZN20SoEnvironmentElement10getDefaultERfR7SbColorR7SbVec3fRiS2_S0_S0_
 libCoin.so.80:_ZN20SoEnvironmentElement10getFogTypeEP7SoState
 libCoin.so.80:_ZN20SoEnvironmentElement11getFogColorEP7SoState
+libCoin.so.80:_ZN20SoEnvironmentElement12cleanupClassEv
 libCoin.so.80:_ZN20SoEnvironmentElement14createInstanceEv
 libCoin.so.80:_ZN20SoEnvironmentElement14getClassTypeIdEv
 libCoin.so.80:_ZN20SoEnvironmentElement15getAmbientColorEP7SoState
@@ -8446,6 +8592,7 @@ libCoin.so.80:_ZN20SoGLARBShaderProgram6enableEv
 libCoin.so.80:_ZN20SoGLARBShaderProgram7disableEv
 libCoin.so.80:_ZN20SoGLARBShaderProgramC1Ev
 libCoin.so.80:_ZN20SoGLARBShaderProgramC2Ev
+libCoin.so.80:_ZN20SoGLClipPlaneElement12cleanupClassEv
 libCoin.so.80:_ZN20SoGLClipPlaneElement14createInstanceEv
 libCoin.so.80:_ZN20SoGLClipPlaneElement14getClassTypeIdEv
 libCoin.so.80:_ZN20SoGLClipPlaneElement14getMaxGLPlanesEv
@@ -8459,6 +8606,7 @@ libCoin.so.80:_ZN20SoGLClipPlaneElementC2Ev
 libCoin.so.80:_ZN20SoGLClipPlaneElementD0Ev
 libCoin.so.80:_ZN20SoGLClipPlaneElementD1Ev
 libCoin.so.80:_ZN20SoGLClipPlaneElementD2Ev
+libCoin.so.80:_ZN20SoGLDrawStyleElement12cleanupClassEv
 libCoin.so.80:_ZN20SoGLDrawStyleElement14createInstanceEv
 libCoin.so.80:_ZN20SoGLDrawStyleElement14getClassTypeIdEv
 libCoin.so.80:_ZN20SoGLDrawStyleElement18getClassStackIndexEv
@@ -8473,6 +8621,7 @@ libCoin.so.80:_ZN20SoGLDrawStyleElementC2Ev
 libCoin.so.80:_ZN20SoGLDrawStyleElementD0Ev
 libCoin.so.80:_ZN20SoGLDrawStyleElementD1Ev
 libCoin.so.80:_ZN20SoGLDrawStyleElementD2Ev
+libCoin.so.80:_ZN20SoGLLineWidthElement12cleanupClassEv
 libCoin.so.80:_ZN20SoGLLineWidthElement14createInstanceEv
 libCoin.so.80:_ZN20SoGLLineWidthElement14getClassTypeIdEv
 libCoin.so.80:_ZN20SoGLLineWidthElement18getClassStackIndexEv
@@ -8487,6 +8636,7 @@ libCoin.so.80:_ZN20SoGLLineWidthElementC2Ev
 libCoin.so.80:_ZN20SoGLLineWidthElementD0Ev
 libCoin.so.80:_ZN20SoGLLineWidthElementD1Ev
 libCoin.so.80:_ZN20SoGLLineWidthElementD2Ev
+libCoin.so.80:_ZN20SoGLPointSizeElement12cleanupClassEv
 libCoin.so.80:_ZN20SoGLPointSizeElement14createInstanceEv
 libCoin.so.80:_ZN20SoGLPointSizeElement14getClassTypeIdEv
 libCoin.so.80:_ZN20SoGLPointSizeElement18getClassStackIndexEv
@@ -8512,6 +8662,7 @@ libCoin.so.80:_ZN20SoInput_GZFileReaderD0Ev
 libCoin.so.80:_ZN20SoInput_GZFileReaderD1Ev
 libCoin.so.80:_ZN20SoInput_GZFileReaderD2Ev
 libCoin.so.80:_ZN20SoLinePatternElement10getDefaultEv
+libCoin.so.80:_ZN20SoLinePatternElement12cleanupClassEv
 libCoin.so.80:_ZN20SoLinePatternElement14createInstanceEv
 libCoin.so.80:_ZN20SoLinePatternElement14getClassTypeIdEv
 libCoin.so.80:_ZN20SoLinePatternElement14getScaleFactorEP7SoState
@@ -8531,6 +8682,7 @@ libCoin.so.80:_ZN20SoModelMatrixElement10pushMatrixEP7SoState
 libCoin.so.80:_ZN20SoModelMatrixElement10scaleEltByERK7SbVec3f
 libCoin.so.80:_ZN20SoModelMatrixElement11rotateEltByERK10SbRotation
 libCoin.so.80:_ZN20SoModelMatrixElement11translateByEP7SoStateP6SoNodeRK7SbVec3f
+libCoin.so.80:_ZN20SoModelMatrixElement12cleanupClassEv
 libCoin.so.80:_ZN20SoModelMatrixElement12makeIdentityEP7SoStateP6SoNode
 libCoin.so.80:_ZN20SoModelMatrixElement12popMatrixEltERK8SbMatrix
 libCoin.so.80:_ZN20SoModelMatrixElement13pushMatrixEltEv
@@ -8630,6 +8782,7 @@ libCoin.so.80:_ZN20SoProfilerTopEngineP22qsort_alphanumeric_incEPKvS1_
 libCoin.so.80:_ZN20SoProfilerTopEngineP24qsort_count_dec_time_decEPKvS1_
 libCoin.so.80:_ZN20SoProfilerTopEngineP28qsort_count_dec_time_avg_decEPKvS1_
 libCoin.so.80:_ZN20SoProfilerTopEngineP28qsort_count_dec_time_max_decEPKvS1_
+libCoin.so.80:_ZN20SoResetMatrixElement12cleanupClassEv
 libCoin.so.80:_ZN20SoResetMatrixElement14createInstanceEv
 libCoin.so.80:_ZN20SoResetMatrixElement14getClassTypeIdEv
 libCoin.so.80:_ZN20SoResetMatrixElement18getClassStackIndexEv
@@ -8655,6 +8808,7 @@ libCoin.so.80:_ZN20SoShaderProgramCacheD0Ev
 libCoin.so.80:_ZN20SoShaderProgramCacheD1Ev
 libCoin.so.80:_ZN20SoShaderProgramCacheD2Ev
 libCoin.so.80:_ZN20SoShadowStyleElement10getDefaultEv
+libCoin.so.80:_ZN20SoShadowStyleElement12cleanupClassEv
 libCoin.so.80:_ZN20SoShadowStyleElement14createInstanceEv
 libCoin.so.80:_ZN20SoShadowStyleElement14getClassTypeIdEv
 libCoin.so.80:_ZN20SoShadowStyleElement18getClassStackIndexEv
@@ -8707,6 +8861,7 @@ libCoin.so.80:_ZN20SoTextureScalePolicyC2Ev
 libCoin.so.80:_ZN20SoTextureScalePolicyD0Ev
 libCoin.so.80:_ZN20SoTextureScalePolicyD1Ev
 libCoin.so.80:_ZN20SoTextureScalePolicyD2Ev
+libCoin.so.80:_ZN20SoTextureUnitElement12cleanupClassEv
 libCoin.so.80:_ZN20SoTextureUnitElement14createInstanceEv
 libCoin.so.80:_ZN20SoTextureUnitElement14getClassTypeIdEv
 libCoin.so.80:_ZN20SoTextureUnitElement18getClassStackIndexEv
@@ -9002,6 +9157,7 @@ libCoin.so.80:_ZN21ScXMLReferenceDataObjD0Ev
 libCoin.so.80:_ZN21ScXMLReferenceDataObjD1Ev
 libCoin.so.80:_ZN21ScXMLReferenceDataObjD2Ev
 libCoin.so.80:_ZN21SoAmbientColorElement11getInstanceEP7SoState
+libCoin.so.80:_ZN21SoAmbientColorElement12cleanupClassEv
 libCoin.so.80:_ZN21SoAmbientColorElement14createInstanceEv
 libCoin.so.80:_ZN21SoAmbientColorElement14getClassTypeIdEv
 libCoin.so.80:_ZN21SoAmbientColorElement18getClassStackIndexEv
@@ -9014,6 +9170,7 @@ libCoin.so.80:_ZN21SoAmbientColorElementD0Ev
 libCoin.so.80:_ZN21SoAmbientColorElementD1Ev
 libCoin.so.80:_ZN21SoAmbientColorElementD2Ev
 libCoin.so.80:_ZN21SoDiffuseColorElement11getInstanceEP7SoState
+libCoin.so.80:_ZN21SoDiffuseColorElement12cleanupClassEv
 libCoin.so.80:_ZN21SoDiffuseColorElement14createInstanceEv
 libCoin.so.80:_ZN21SoDiffuseColorElement14getClassTypeIdEv
 libCoin.so.80:_ZN21SoDiffuseColorElement18getClassStackIndexEv
@@ -9061,6 +9218,7 @@ libCoin.so.80:_ZN21SoGLCgShaderParameterD1Ev
 libCoin.so.80:_ZN21SoGLCgShaderParameterD2Ev
 libCoin.so.80:_ZN21SoGLColorIndexElement10getDefaultEv
 libCoin.so.80:_ZN21SoGLColorIndexElement11getInstanceEP7SoState
+libCoin.so.80:_ZN21SoGLColorIndexElement12cleanupClassEv
 libCoin.so.80:_ZN21SoGLColorIndexElement14createInstanceEv
 libCoin.so.80:_ZN21SoGLColorIndexElement14getClassTypeIdEv
 libCoin.so.80:_ZN21SoGLColorIndexElement16isColorIndexModeEP7SoState
@@ -9073,6 +9231,7 @@ libCoin.so.80:_ZN21SoGLColorIndexElementC2Ev
 libCoin.so.80:_ZN21SoGLColorIndexElementD0Ev
 libCoin.so.80:_ZN21SoGLColorIndexElementD1Ev
 libCoin.so.80:_ZN21SoGLColorIndexElementD2Ev
+libCoin.so.80:_ZN21SoGLCoordinateElement12cleanupClassEv
 libCoin.so.80:_ZN21SoGLCoordinateElement14createInstanceEv
 libCoin.so.80:_ZN21SoGLCoordinateElement14getClassTypeIdEv
 libCoin.so.80:_ZN21SoGLCoordinateElement18getClassStackIndexEv
@@ -9082,6 +9241,7 @@ libCoin.so.80:_ZN21SoGLCoordinateElementC2Ev
 libCoin.so.80:_ZN21SoGLCoordinateElementD0Ev
 libCoin.so.80:_ZN21SoGLCoordinateElementD1Ev
 libCoin.so.80:_ZN21SoGLCoordinateElementD2Ev
+libCoin.so.80:_ZN21SoGLRenderPassElement12cleanupClassEv
 libCoin.so.80:_ZN21SoGLRenderPassElement14createInstanceEv
 libCoin.so.80:_ZN21SoGLRenderPassElement14getClassTypeIdEv
 libCoin.so.80:_ZN21SoGLRenderPassElement18getClassStackIndexEv
@@ -9118,6 +9278,7 @@ libCoin.so.80:_ZN21SoGLSLShaderParameterC2Ev
 libCoin.so.80:_ZN21SoGLSLShaderParameterD0Ev
 libCoin.so.80:_ZN21SoGLSLShaderParameterD1Ev
 libCoin.so.80:_ZN21SoGLSLShaderParameterD2Ev
+libCoin.so.80:_ZN21SoGLShapeHintsElement12cleanupClassEv
 libCoin.so.80:_ZN21SoGLShapeHintsElement14createInstanceEv
 libCoin.so.80:_ZN21SoGLShapeHintsElement14getClassTypeIdEv
 libCoin.so.80:_ZN21SoGLShapeHintsElement18getClassStackIndexEv
@@ -9134,6 +9295,7 @@ libCoin.so.80:_ZN21SoGLShapeHintsElementC2Ev
 libCoin.so.80:_ZN21SoGLShapeHintsElementD0Ev
 libCoin.so.80:_ZN21SoGLShapeHintsElementD1Ev
 libCoin.so.80:_ZN21SoGLShapeHintsElementD2Ev
+libCoin.so.80:_ZN21SoGLUpdateAreaElement12cleanupClassEv
 libCoin.so.80:_ZN21SoGLUpdateAreaElement14createInstanceEv
 libCoin.so.80:_ZN21SoGLUpdateAreaElement14getClassTypeIdEv
 libCoin.so.80:_ZN21SoGLUpdateAreaElement14getDefaultSizeEv
@@ -9187,6 +9349,7 @@ libCoin.so.80:_ZN21SoInterpolateRotationC2Ev
 libCoin.so.80:_ZN21SoInterpolateRotationD0Ev
 libCoin.so.80:_ZN21SoInterpolateRotationD1Ev
 libCoin.so.80:_ZN21SoInterpolateRotationD2Ev
+libCoin.so.80:_ZN21SoListenerGainElement12cleanupClassEv
 libCoin.so.80:_ZN21SoListenerGainElement14createInstanceEv
 libCoin.so.80:_ZN21SoListenerGainElement14getClassTypeIdEv
 libCoin.so.80:_ZN21SoListenerGainElement18getClassStackIndexEv
@@ -9265,6 +9428,7 @@ libCoin.so.80:_ZN21SoTransformBoxDraggerD0Ev
 libCoin.so.80:_ZN21SoTransformBoxDraggerD1Ev
 libCoin.so.80:_ZN21SoTransformBoxDraggerD2Ev
 libCoin.so.80:_ZN21SoTransparencyElement11getInstanceEP7SoState
+libCoin.so.80:_ZN21SoTransparencyElement12cleanupClassEv
 libCoin.so.80:_ZN21SoTransparencyElement14createInstanceEv
 libCoin.so.80:_ZN21SoTransparencyElement14getClassTypeIdEv
 libCoin.so.80:_ZN21SoTransparencyElement18getClassStackIndexEv
@@ -9319,6 +9483,7 @@ libCoin.so.80:_ZN22ScXMLValidateEltReaderC2Ev
 libCoin.so.80:_ZN22SoBumpMapMatrixElement10scaleEltByERK7SbVec3f
 libCoin.so.80:_ZN22SoBumpMapMatrixElement11rotateEltByERK10SbRotation
 libCoin.so.80:_ZN22SoBumpMapMatrixElement11translateByEP7SoStateP6SoNodeRK7SbVec3f
+libCoin.so.80:_ZN22SoBumpMapMatrixElement12cleanupClassEv
 libCoin.so.80:_ZN22SoBumpMapMatrixElement12makeIdentityEP7SoStateP6SoNode
 libCoin.so.80:_ZN22SoBumpMapMatrixElement14createInstanceEv
 libCoin.so.80:_ZN22SoBumpMapMatrixElement14getClassTypeIdEv
@@ -9341,6 +9506,7 @@ libCoin.so.80:_ZN22SoBumpMapMatrixElementD0Ev
 libCoin.so.80:_ZN22SoBumpMapMatrixElementD1Ev
 libCoin.so.80:_ZN22SoBumpMapMatrixElementD2Ev
 libCoin.so.80:_ZN22SoEmissiveColorElement11getInstanceEP7SoState
+libCoin.so.80:_ZN22SoEmissiveColorElement12cleanupClassEv
 libCoin.so.80:_ZN22SoEmissiveColorElement14createInstanceEv
 libCoin.so.80:_ZN22SoEmissiveColorElement14getClassTypeIdEv
 libCoin.so.80:_ZN22SoEmissiveColorElement18getClassStackIndexEv
@@ -9353,6 +9519,7 @@ libCoin.so.80:_ZN22SoEmissiveColorElementD0Ev
 libCoin.so.80:_ZN22SoEmissiveColorElementD1Ev
 libCoin.so.80:_ZN22SoEmissiveColorElementD2Ev
 libCoin.so.80:_ZN22SoFocalDistanceElement10getDefaultEv
+libCoin.so.80:_ZN22SoFocalDistanceElement12cleanupClassEv
 libCoin.so.80:_ZN22SoFocalDistanceElement14createInstanceEv
 libCoin.so.80:_ZN22SoFocalDistanceElement14getClassTypeIdEv
 libCoin.so.80:_ZN22SoFocalDistanceElement18getClassStackIndexEv
@@ -9398,6 +9565,7 @@ libCoin.so.80:_ZN22SoGLARBShaderParameterC2Ev
 libCoin.so.80:_ZN22SoGLARBShaderParameterD0Ev
 libCoin.so.80:_ZN22SoGLARBShaderParameterD1Ev
 libCoin.so.80:_ZN22SoGLARBShaderParameterD2Ev
+libCoin.so.80:_ZN22SoGLDepthBufferElement12cleanupClassEv
 libCoin.so.80:_ZN22SoGLDepthBufferElement14createInstanceEv
 libCoin.so.80:_ZN22SoGLDepthBufferElement14getClassTypeIdEv
 libCoin.so.80:_ZN22SoGLDepthBufferElement18getClassStackIndexEv
@@ -9411,6 +9579,7 @@ libCoin.so.80:_ZN22SoGLDepthBufferElementC2Ev
 libCoin.so.80:_ZN22SoGLDepthBufferElementD0Ev
 libCoin.so.80:_ZN22SoGLDepthBufferElementD1Ev
 libCoin.so.80:_ZN22SoGLDepthBufferElementD2Ev
+libCoin.so.80:_ZN22SoGLEnvironmentElement12cleanupClassEv
 libCoin.so.80:_ZN22SoGLEnvironmentElement14createInstanceEv
 libCoin.so.80:_ZN22SoGLEnvironmentElement14getClassTypeIdEv
 libCoin.so.80:_ZN22SoGLEnvironmentElement18getClassStackIndexEv
@@ -9424,6 +9593,7 @@ libCoin.so.80:_ZN22SoGLEnvironmentElementC2Ev
 libCoin.so.80:_ZN22SoGLEnvironmentElementD0Ev
 libCoin.so.80:_ZN22SoGLEnvironmentElementD1Ev
 libCoin.so.80:_ZN22SoGLEnvironmentElementD2Ev
+libCoin.so.80:_ZN22SoGLLinePatternElement12cleanupClassEv
 libCoin.so.80:_ZN22SoGLLinePatternElement14createInstanceEv
 libCoin.so.80:_ZN22SoGLLinePatternElement14getClassTypeIdEv
 libCoin.so.80:_ZN22SoGLLinePatternElement18getClassStackIndexEv
@@ -9440,6 +9610,7 @@ libCoin.so.80:_ZN22SoGLLinePatternElementD1Ev
 libCoin.so.80:_ZN22SoGLLinePatternElementD2Ev
 libCoin.so.80:_ZN22SoGLModelMatrixElement10scaleEltByERK7SbVec3f
 libCoin.so.80:_ZN22SoGLModelMatrixElement11rotateEltByERK10SbRotation
+libCoin.so.80:_ZN22SoGLModelMatrixElement12cleanupClassEv
 libCoin.so.80:_ZN22SoGLModelMatrixElement12popMatrixEltERK8SbMatrix
 libCoin.so.80:_ZN22SoGLModelMatrixElement13pushMatrixEltEv
 libCoin.so.80:_ZN22SoGLModelMatrixElement14createInstanceEv
@@ -9494,6 +9665,7 @@ libCoin.so.80:_ZN22SoHeightMapToNormalMapC1Ev
 libCoin.so.80:_ZN22SoHeightMapToNormalMapC2Ev
 libCoin.so.80:_ZN22SoIndexedNurbsSurfaceP7doNurbsEP8SoActioni
 libCoin.so.80:_ZN22SoNormalBindingElement10getDefaultEv
+libCoin.so.80:_ZN22SoNormalBindingElement12cleanupClassEv
 libCoin.so.80:_ZN22SoNormalBindingElement14createInstanceEv
 libCoin.so.80:_ZN22SoNormalBindingElement14getClassTypeIdEv
 libCoin.so.80:_ZN22SoNormalBindingElement18getClassStackIndexEv
@@ -9515,6 +9687,7 @@ libCoin.so.80:_ZN22SoOutput_BZ2FileWriterD0Ev
 libCoin.so.80:_ZN22SoOutput_BZ2FileWriterD1Ev
 libCoin.so.80:_ZN22SoOutput_BZ2FileWriterD2Ev
 libCoin.so.80:_ZN22SoPolygonOffsetElement10getDefaultERfS0_RNS_5StyleERi
+libCoin.so.80:_ZN22SoPolygonOffsetElement12cleanupClassEv
 libCoin.so.80:_ZN22SoPolygonOffsetElement14createInstanceEv
 libCoin.so.80:_ZN22SoPolygonOffsetElement14getClassTypeIdEv
 libCoin.so.80:_ZN22SoPolygonOffsetElement18getClassStackIndexEv
@@ -9584,6 +9757,7 @@ libCoin.so.80:_ZN22SoSceneTextureCubeMapPC1EP21SoSceneTextureCubeMap
 libCoin.so.80:_ZN22SoSceneTextureCubeMapPC2EP21SoSceneTextureCubeMap
 libCoin.so.80:_ZN22SoSceneTextureCubeMapPD1Ev
 libCoin.so.80:_ZN22SoSceneTextureCubeMapPD2Ev
+libCoin.so.80:_ZN22SoSpaceballButtonEvent12cleanupClassEv
 libCoin.so.80:_ZN22SoSpaceballButtonEvent12enumToStringENS_6ButtonER8SbString
 libCoin.so.80:_ZN22SoSpaceballButtonEvent14createInstanceEv
 libCoin.so.80:_ZN22SoSpaceballButtonEvent14getClassTypeIdEv
@@ -9597,6 +9771,7 @@ libCoin.so.80:_ZN22SoSpaceballButtonEventD0Ev
 libCoin.so.80:_ZN22SoSpaceballButtonEventD1Ev
 libCoin.so.80:_ZN22SoSpaceballButtonEventD2Ev
 libCoin.so.80:_ZN22SoSpecularColorElement11getInstanceEP7SoState
+libCoin.so.80:_ZN22SoSpecularColorElement12cleanupClassEv
 libCoin.so.80:_ZN22SoSpecularColorElement14createInstanceEv
 libCoin.so.80:_ZN22SoSpecularColorElement14getClassTypeIdEv
 libCoin.so.80:_ZN22SoSpecularColorElement18getClassStackIndexEv
@@ -9645,6 +9820,7 @@ libCoin.so.80:_ZN22SoVRMLVisibilitySensorC2Ev
 libCoin.so.80:_ZN22SoVRMLVisibilitySensorD0Ev
 libCoin.so.80:_ZN22SoVRMLVisibilitySensorD1Ev
 libCoin.so.80:_ZN22SoVRMLVisibilitySensorD2Ev
+libCoin.so.80:_ZN22SoViewingMatrixElement12cleanupClassEv
 libCoin.so.80:_ZN22SoViewingMatrixElement14createInstanceEv
 libCoin.so.80:_ZN22SoViewingMatrixElement14getClassTypeIdEv
 libCoin.so.80:_ZN22SoViewingMatrixElement18getClassStackIndexEv
@@ -9665,6 +9841,7 @@ libCoin.so.80:_ZN23ScXMLMinimumExprDataObj10cleanClassEv
 libCoin.so.80:_ZN23ScXMLMinimumExprDataObj14getClassTypeIdEv
 libCoin.so.80:_ZN23ScXMLMinimumExprDataObj9initClassEv
 libCoin.so.80:_ZN23SoComplexityTypeElement10getDefaultEv
+libCoin.so.80:_ZN23SoComplexityTypeElement12cleanupClassEv
 libCoin.so.80:_ZN23SoComplexityTypeElement14createInstanceEv
 libCoin.so.80:_ZN23SoComplexityTypeElement14getClassTypeIdEv
 libCoin.so.80:_ZN23SoComplexityTypeElement18getClassStackIndexEv
@@ -9691,6 +9868,7 @@ libCoin.so.80:_ZN23SoComposeRotationFromToD0Ev
 libCoin.so.80:_ZN23SoComposeRotationFromToD1Ev
 libCoin.so.80:_ZN23SoComposeRotationFromToD2Ev
 libCoin.so.80:_ZN23SoDecimationTypeElement10getDefaultEv
+libCoin.so.80:_ZN23SoDecimationTypeElement12cleanupClassEv
 libCoin.so.80:_ZN23SoDecimationTypeElement14createInstanceEv
 libCoin.so.80:_ZN23SoDecimationTypeElement14getClassTypeIdEv
 libCoin.so.80:_ZN23SoDecimationTypeElement18getClassStackIndexEv
@@ -9730,6 +9908,7 @@ libCoin.so.80:_ZN23SoDirectionalLightManipC2Ev
 libCoin.so.80:_ZN23SoDirectionalLightManipD0Ev
 libCoin.so.80:_ZN23SoDirectionalLightManipD1Ev
 libCoin.so.80:_ZN23SoDirectionalLightManipD2Ev
+libCoin.so.80:_ZN23SoGLCacheContextElement12cleanupClassEv
 libCoin.so.80:_ZN23SoGLCacheContextElement12extSupportedEP7SoStatei
 libCoin.so.80:_ZN23SoGLCacheContextElement12getNumShapesEP7SoState
 libCoin.so.80:_ZN23SoGLCacheContextElement12incNumShapesEP7SoState
@@ -9805,6 +9984,7 @@ libCoin.so.80:_ZN23SoShaderParameterMatrixC2Ev
 libCoin.so.80:_ZN23SoShaderParameterMatrixD0Ev
 libCoin.so.80:_ZN23SoShaderParameterMatrixD1Ev
 libCoin.so.80:_ZN23SoShaderParameterMatrixD2Ev
+libCoin.so.80:_ZN23SoTextureCombineElement12cleanupClassEv
 libCoin.so.80:_ZN23SoTextureCombineElement14createInstanceEv
 libCoin.so.80:_ZN23SoTextureCombineElement14getClassTypeIdEv
 libCoin.so.80:_ZN23SoTextureCombineElement18getClassStackIndexEv
@@ -9840,6 +10020,7 @@ libCoin.so.80:_ZN23SoTextureCoordinateCubeD0Ev
 libCoin.so.80:_ZN23SoTextureCoordinateCubeD1Ev
 libCoin.so.80:_ZN23SoTextureCoordinateCubeD2Ev
 libCoin.so.80:_ZN23SoTextureQualityElement10getDefaultEv
+libCoin.so.80:_ZN23SoTextureQualityElement12cleanupClassEv
 libCoin.so.80:_ZN23SoTextureQualityElement14createInstanceEv
 libCoin.so.80:_ZN23SoTextureQualityElement14getClassTypeIdEv
 libCoin.so.80:_ZN23SoTextureQualityElement18getClassStackIndexEv
@@ -9885,6 +10066,7 @@ libCoin.so.80:_ZN23SoVertexAttributeBundleC1EP8SoActioni
 libCoin.so.80:_ZN23SoVertexAttributeBundleC2EP8SoActioni
 libCoin.so.80:_ZN23SoVertexAttributeBundleD1Ev
 libCoin.so.80:_ZN23SoVertexAttributeBundleD2Ev
+libCoin.so.80:_ZN23SoViewportRegionElement12cleanupClassEv
 libCoin.so.80:_ZN23SoViewportRegionElement14createInstanceEv
 libCoin.so.80:_ZN23SoViewportRegionElement14getClassTypeIdEv
 libCoin.so.80:_ZN23SoViewportRegionElement18getClassStackIndexEv
@@ -9993,6 +10175,7 @@ libCoin.so.80:_ZN24ScXMLTransitionEltReaderC2Ev
 libCoin.so.80:_ZN24SoBBoxModelMatrixElement10pushMatrixEP7SoStateR8SbMatrixS3_
 libCoin.so.80:_ZN24SoBBoxModelMatrixElement10scaleEltByERK7SbVec3f
 libCoin.so.80:_ZN24SoBBoxModelMatrixElement11rotateEltByERK10SbRotation
+libCoin.so.80:_ZN24SoBBoxModelMatrixElement12cleanupClassEv
 libCoin.so.80:_ZN24SoBBoxModelMatrixElement12popMatrixEltERK8SbMatrix
 libCoin.so.80:_ZN24SoBBoxModelMatrixElement13pushMatrixEltEv
 libCoin.so.80:_ZN24SoBBoxModelMatrixElement14createInstanceEv
@@ -10012,6 +10195,7 @@ libCoin.so.80:_ZN24SoBBoxModelMatrixElementC2Ev
 libCoin.so.80:_ZN24SoBBoxModelMatrixElementD0Ev
 libCoin.so.80:_ZN24SoBBoxModelMatrixElementD1Ev
 libCoin.so.80:_ZN24SoBBoxModelMatrixElementD2Ev
+libCoin.so.80:_ZN24SoGLPolygonOffsetElement12cleanupClassEv
 libCoin.so.80:_ZN24SoGLPolygonOffsetElement14createInstanceEv
 libCoin.so.80:_ZN24SoGLPolygonOffsetElement14getClassTypeIdEv
 libCoin.so.80:_ZN24SoGLPolygonOffsetElement18getClassStackIndexEv
@@ -10026,6 +10210,7 @@ libCoin.so.80:_ZN24SoGLPolygonOffsetElementC2Ev
 libCoin.so.80:_ZN24SoGLPolygonOffsetElementD0Ev
 libCoin.so.80:_ZN24SoGLPolygonOffsetElementD1Ev
 libCoin.so.80:_ZN24SoGLPolygonOffsetElementD2Ev
+libCoin.so.80:_ZN24SoGLShaderProgramElement12cleanupClassEv
 libCoin.so.80:_ZN24SoGLShaderProgramElement14createInstanceEv
 libCoin.so.80:_ZN24SoGLShaderProgramElement14getClassTypeIdEv
 libCoin.so.80:_ZN24SoGLShaderProgramElement18getClassStackIndexEv
@@ -10042,6 +10227,7 @@ libCoin.so.80:_ZN24SoGLShaderProgramElementD0Ev
 libCoin.so.80:_ZN24SoGLShaderProgramElementD1Ev
 libCoin.so.80:_ZN24SoGLShaderProgramElementD2Ev
 libCoin.so.80:_ZN24SoGLShadowCullingElement10getDefaultEv
+libCoin.so.80:_ZN24SoGLShadowCullingElement12cleanupClassEv
 libCoin.so.80:_ZN24SoGLShadowCullingElement14createInstanceEv
 libCoin.so.80:_ZN24SoGLShadowCullingElement14getClassTypeIdEv
 libCoin.so.80:_ZN24SoGLShadowCullingElement18getClassStackIndexEv
@@ -10058,6 +10244,7 @@ libCoin.so.80:_ZN24SoGLShadowCullingElementC2Ev
 libCoin.so.80:_ZN24SoGLShadowCullingElementD0Ev
 libCoin.so.80:_ZN24SoGLShadowCullingElementD1Ev
 libCoin.so.80:_ZN24SoGLShadowCullingElementD2Ev
+libCoin.so.80:_ZN24SoGLViewingMatrixElement12cleanupClassEv
 libCoin.so.80:_ZN24SoGLViewingMatrixElement14createInstanceEv
 libCoin.so.80:_ZN24SoGLViewingMatrixElement14getClassTypeIdEv
 libCoin.so.80:_ZN24SoGLViewingMatrixElement14getResetMatrixEP7SoState
@@ -10074,6 +10261,7 @@ libCoin.so.80:_ZN24SoGLViewingMatrixElementC2Ev
 libCoin.so.80:_ZN24SoGLViewingMatrixElementD0Ev
 libCoin.so.80:_ZN24SoGLViewingMatrixElementD1Ev
 libCoin.so.80:_ZN24SoGLViewingMatrixElementD2Ev
+libCoin.so.80:_ZN24SoListenerDopplerElement12cleanupClassEv
 libCoin.so.80:_ZN24SoListenerDopplerElement14createInstanceEv
 libCoin.so.80:_ZN24SoListenerDopplerElement14getClassTypeIdEv
 libCoin.so.80:_ZN24SoListenerDopplerElement16getDopplerFactorEP7SoState
@@ -10090,6 +10278,7 @@ libCoin.so.80:_ZN24SoListenerDopplerElementD1Ev
 libCoin.so.80:_ZN24SoListenerDopplerElementD2Ev
 libCoin.so.80:_ZN24SoLocalBBoxMatrixElement10pushMatrixEP7SoState
 libCoin.so.80:_ZN24SoLocalBBoxMatrixElement11translateByEP7SoStateRK7SbVec3f
+libCoin.so.80:_ZN24SoLocalBBoxMatrixElement12cleanupClassEv
 libCoin.so.80:_ZN24SoLocalBBoxMatrixElement12makeIdentityEP7SoState
 libCoin.so.80:_ZN24SoLocalBBoxMatrixElement14createInstanceEv
 libCoin.so.80:_ZN24SoLocalBBoxMatrixElement14getClassTypeIdEv
@@ -10110,6 +10299,7 @@ libCoin.so.80:_ZN24SoLocalBBoxMatrixElementD0Ev
 libCoin.so.80:_ZN24SoLocalBBoxMatrixElementD1Ev
 libCoin.so.80:_ZN24SoLocalBBoxMatrixElementD2Ev
 libCoin.so.80:_ZN24SoMaterialBindingElement10getDefaultEv
+libCoin.so.80:_ZN24SoMaterialBindingElement12cleanupClassEv
 libCoin.so.80:_ZN24SoMaterialBindingElement14createInstanceEv
 libCoin.so.80:_ZN24SoMaterialBindingElement14getClassTypeIdEv
 libCoin.so.80:_ZN24SoMaterialBindingElement18getClassStackIndexEv
@@ -10293,6 +10483,7 @@ libCoin.so.80:_ZN24SoTextureMatrixTransformC2Ev
 libCoin.so.80:_ZN24SoTextureMatrixTransformD0Ev
 libCoin.so.80:_ZN24SoTextureMatrixTransformD1Ev
 libCoin.so.80:_ZN24SoTextureMatrixTransformD2Ev
+libCoin.so.80:_ZN24SoTextureOverrideElement12cleanupClassEv
 libCoin.so.80:_ZN24SoTextureOverrideElement14createInstanceEv
 libCoin.so.80:_ZN24SoTextureOverrideElement14getClassTypeIdEv
 libCoin.so.80:_ZN24SoTextureOverrideElement16getImageOverrideEP7SoState
@@ -10363,6 +10554,7 @@ libCoin.so.80:_ZN24SoVertexAttributeBindingD0Ev
 libCoin.so.80:_ZN24SoVertexAttributeBindingD1Ev
 libCoin.so.80:_ZN24SoVertexAttributeBindingD2Ev
 libCoin.so.80:_ZN24SoVertexAttributeElement11getInstanceEP7SoState
+libCoin.so.80:_ZN24SoVertexAttributeElement12cleanupClassEv
 libCoin.so.80:_ZN24SoVertexAttributeElement14createInstanceEv
 libCoin.so.80:_ZN24SoVertexAttributeElement14getClassTypeIdEv
 libCoin.so.80:_ZN24SoVertexAttributeElement18getClassStackIndexEv
@@ -10397,6 +10589,7 @@ libCoin.so.80:_ZN25SoDirectionalLightDraggerC2Ev
 libCoin.so.80:_ZN25SoDirectionalLightDraggerD0Ev
 libCoin.so.80:_ZN25SoDirectionalLightDraggerD1Ev
 libCoin.so.80:_ZN25SoDirectionalLightDraggerD2Ev
+libCoin.so.80:_ZN25SoGLViewportRegionElement12cleanupClassEv
 libCoin.so.80:_ZN25SoGLViewportRegionElement14createInstanceEv
 libCoin.so.80:_ZN25SoGLViewportRegionElement14getClassTypeIdEv
 libCoin.so.80:_ZN25SoGLViewportRegionElement18getClassStackIndexEv
@@ -10468,6 +10661,7 @@ libCoin.so.80:_ZN25SoInput_GZMemBufferReaderD0Ev
 libCoin.so.80:_ZN25SoInput_GZMemBufferReaderD1Ev
 libCoin.so.80:_ZN25SoInput_GZMemBufferReaderD2Ev
 libCoin.so.80:_ZN25SoLightAttenuationElement10getDefaultEv
+libCoin.so.80:_ZN25SoLightAttenuationElement12cleanupClassEv
 libCoin.so.80:_ZN25SoLightAttenuationElement14createInstanceEv
 libCoin.so.80:_ZN25SoLightAttenuationElement14getClassTypeIdEv
 libCoin.so.80:_ZN25SoLightAttenuationElement18getClassStackIndexEv
@@ -10480,6 +10674,7 @@ libCoin.so.80:_ZN25SoLightAttenuationElementC2Ev
 libCoin.so.80:_ZN25SoLightAttenuationElementD0Ev
 libCoin.so.80:_ZN25SoLightAttenuationElementD1Ev
 libCoin.so.80:_ZN25SoLightAttenuationElementD2Ev
+libCoin.so.80:_ZN25SoListenerPositionElement12cleanupClassEv
 libCoin.so.80:_ZN25SoListenerPositionElement14createInstanceEv
 libCoin.so.80:_ZN25SoListenerPositionElement14getClassTypeIdEv
 libCoin.so.80:_ZN25SoListenerPositionElement15isSetByListenerEP7SoState
@@ -10493,6 +10688,7 @@ libCoin.so.80:_ZN25SoListenerPositionElementC2Ev
 libCoin.so.80:_ZN25SoListenerPositionElementD0Ev
 libCoin.so.80:_ZN25SoListenerPositionElementD1Ev
 libCoin.so.80:_ZN25SoListenerPositionElementD2Ev
+libCoin.so.80:_ZN25SoProjectionMatrixElement12cleanupClassEv
 libCoin.so.80:_ZN25SoProjectionMatrixElement14createInstanceEv
 libCoin.so.80:_ZN25SoProjectionMatrixElement14getClassTypeIdEv
 libCoin.so.80:_ZN25SoProjectionMatrixElement18getClassStackIndexEv
@@ -10610,6 +10806,7 @@ libCoin.so.80:_ZN26SoBoxHighlightRenderActionD0Ev
 libCoin.so.80:_ZN26SoBoxHighlightRenderActionD1Ev
 libCoin.so.80:_ZN26SoBoxHighlightRenderActionD2Ev
 libCoin.so.80:_ZN26SoBumpMapCoordinateElement11getInstanceEP7SoState
+libCoin.so.80:_ZN26SoBumpMapCoordinateElement12cleanupClassEv
 libCoin.so.80:_ZN26SoBumpMapCoordinateElement14createInstanceEv
 libCoin.so.80:_ZN26SoBumpMapCoordinateElement14getClassTypeIdEv
 libCoin.so.80:_ZN26SoBumpMapCoordinateElement18getClassStackIndexEv
@@ -10622,6 +10819,7 @@ libCoin.so.80:_ZN26SoBumpMapCoordinateElementD0Ev
 libCoin.so.80:_ZN26SoBumpMapCoordinateElementD1Ev
 libCoin.so.80:_ZN26SoBumpMapCoordinateElementD2Ev
 libCoin.so.80:_ZN26SoGLVertexAttributeElement11getInstanceEP7SoState
+libCoin.so.80:_ZN26SoGLVertexAttributeElement12cleanupClassEv
 libCoin.so.80:_ZN26SoGLVertexAttributeElement14createInstanceEv
 libCoin.so.80:_ZN26SoGLVertexAttributeElement14getClassTypeIdEv
 libCoin.so.80:_ZN26SoGLVertexAttributeElement18getClassStackIndexEv
@@ -10636,6 +10834,7 @@ libCoin.so.80:_ZN26SoGLVertexAttributeElementD2Ev
 libCoin.so.80:_ZN26SoMultiTextureImageElement10getDefaultER7SbVec2sRi
 libCoin.so.80:_ZN26SoMultiTextureImageElement10getDefaultER7SbVec3sRi
 libCoin.so.80:_ZN26SoMultiTextureImageElement10setDefaultEP7SoStateP6SoNodei
+libCoin.so.80:_ZN26SoMultiTextureImageElement12cleanupClassEv
 libCoin.so.80:_ZN26SoMultiTextureImageElement13getBlendColorEP7SoStatei
 libCoin.so.80:_ZN26SoMultiTextureImageElement14createInstanceEv
 libCoin.so.80:_ZN26SoMultiTextureImageElement14getClassTypeIdEv
@@ -10676,6 +10875,7 @@ libCoin.so.80:_ZN26SoPerspectiveCameraManagerC2EP8SoCamera
 libCoin.so.80:_ZN26SoProfileCoordinateElement11getDefault2Ev
 libCoin.so.80:_ZN26SoProfileCoordinateElement11getDefault3Ev
 libCoin.so.80:_ZN26SoProfileCoordinateElement11getInstanceEP7SoState
+libCoin.so.80:_ZN26SoProfileCoordinateElement12cleanupClassEv
 libCoin.so.80:_ZN26SoProfileCoordinateElement14createInstanceEv
 libCoin.so.80:_ZN26SoProfileCoordinateElement14getClassTypeIdEv
 libCoin.so.80:_ZN26SoProfileCoordinateElement18getClassStackIndexEv
@@ -10799,6 +10999,7 @@ libCoin.so.80:_ZN26SoVRMLPositionInterpolatorD1Ev
 libCoin.so.80:_ZN26SoVRMLPositionInterpolatorD2Ev
 libCoin.so.80:_ZN27SoBoxHighlightRenderActionP12initBoxGraphEv
 libCoin.so.80:_ZN27SoBoxHighlightRenderActionP16drawHighlightBoxEPK6SoPath
+libCoin.so.80:_ZN27SoGLProjectionMatrixElement12cleanupClassEv
 libCoin.so.80:_ZN27SoGLProjectionMatrixElement14createInstanceEv
 libCoin.so.80:_ZN27SoGLProjectionMatrixElement14getClassTypeIdEv
 libCoin.so.80:_ZN27SoGLProjectionMatrixElement18getClassStackIndexEv
@@ -10834,6 +11035,7 @@ libCoin.so.80:_ZN27SoLineHighlightRenderActionD0Ev
 libCoin.so.80:_ZN27SoLineHighlightRenderActionD1Ev
 libCoin.so.80:_ZN27SoLineHighlightRenderActionD2Ev
 libCoin.so.80:_ZN27SoMultiTextureMatrixElement11getUnitDataEi
+libCoin.so.80:_ZN27SoMultiTextureMatrixElement12cleanupClassEv
 libCoin.so.80:_ZN27SoMultiTextureMatrixElement14createInstanceEv
 libCoin.so.80:_ZN27SoMultiTextureMatrixElement14getClassTypeIdEv
 libCoin.so.80:_ZN27SoMultiTextureMatrixElement18getClassStackIndexEv
@@ -10881,6 +11083,7 @@ libCoin.so.80:_ZN27SoProfilingReportGeneratorP9cmpMemDesERK15SbProfilingDataN26S
 libCoin.so.80:_ZN27SoProfilingReportGeneratorP9printNameERK15SbProfilingDataR8SbStringi
 libCoin.so.80:_ZN27SoProfilingReportGeneratorP9printTypeERK15SbProfilingDataR8SbStringi
 libCoin.so.80:_ZN27SoTextOutlineEnabledElement10getDefaultEv
+libCoin.so.80:_ZN27SoTextOutlineEnabledElement12cleanupClassEv
 libCoin.so.80:_ZN27SoTextOutlineEnabledElement14createInstanceEv
 libCoin.so.80:_ZN27SoTextOutlineEnabledElement14getClassTypeIdEv
 libCoin.so.80:_ZN27SoTextOutlineEnabledElement18getClassStackIndexEv
@@ -10920,6 +11123,7 @@ libCoin.so.80:_ZN27SoTextureCoordinateFunctionD0Ev
 libCoin.so.80:_ZN27SoTextureCoordinateFunctionD1Ev
 libCoin.so.80:_ZN27SoTextureCoordinateFunctionD2Ev
 libCoin.so.80:_ZN27SoTextureScalePolicyElement10getDefaultEv
+libCoin.so.80:_ZN27SoTextureScalePolicyElement12cleanupClassEv
 libCoin.so.80:_ZN27SoTextureScalePolicyElement14createInstanceEv
 libCoin.so.80:_ZN27SoTextureScalePolicyElement14getClassTypeIdEv
 libCoin.so.80:_ZN27SoTextureScalePolicyElement18getClassStackIndexEv
@@ -10942,6 +11146,7 @@ libCoin.so.80:_ZN28ScXMLCoinEqualsOpExprDataObj14createInstanceEv
 libCoin.so.80:_ZN28ScXMLCoinEqualsOpExprDataObj14getClassTypeIdEv
 libCoin.so.80:_ZN28ScXMLCoinEqualsOpExprDataObj9initClassEv
 libCoin.so.80:_ZN28SoAnnoText3CharOrientElement10getDefaultEv
+libCoin.so.80:_ZN28SoAnnoText3CharOrientElement12cleanupClassEv
 libCoin.so.80:_ZN28SoAnnoText3CharOrientElement14createInstanceEv
 libCoin.so.80:_ZN28SoAnnoText3CharOrientElement14getClassTypeIdEv
 libCoin.so.80:_ZN28SoAnnoText3CharOrientElement18getClassStackIndexEv
@@ -10954,6 +11159,7 @@ libCoin.so.80:_ZN28SoAnnoText3CharOrientElementC2Ev
 libCoin.so.80:_ZN28SoAnnoText3CharOrientElementD0Ev
 libCoin.so.80:_ZN28SoAnnoText3CharOrientElementD1Ev
 libCoin.so.80:_ZN28SoAnnoText3CharOrientElementD2Ev
+libCoin.so.80:_ZN28SoGLMultiTextureImageElement12cleanupClassEv
 libCoin.so.80:_ZN28SoGLMultiTextureImageElement14createInstanceEv
 libCoin.so.80:_ZN28SoGLMultiTextureImageElement14getClassTypeIdEv
 libCoin.so.80:_ZN28SoGLMultiTextureImageElement15hasTransparencyEP7SoState
@@ -10973,6 +11179,7 @@ libCoin.so.80:_ZN28SoGLMultiTextureImageElementD0Ev
 libCoin.so.80:_ZN28SoGLMultiTextureImageElementD1Ev
 libCoin.so.80:_ZN28SoGLMultiTextureImageElementD2Ev
 libCoin.so.80:_ZN28SoLineHighlightRenderActionP9drawBoxesEP6SoPathPK10SoPathList
+libCoin.so.80:_ZN28SoListenerOrientationElement12cleanupClassEv
 libCoin.so.80:_ZN28SoListenerOrientationElement14createInstanceEv
 libCoin.so.80:_ZN28SoListenerOrientationElement14getClassTypeIdEv
 libCoin.so.80:_ZN28SoListenerOrientationElement15isSetByListenerEP7SoState
@@ -10987,6 +11194,7 @@ libCoin.so.80:_ZN28SoListenerOrientationElementD0Ev
 libCoin.so.80:_ZN28SoListenerOrientationElementD1Ev
 libCoin.so.80:_ZN28SoListenerOrientationElementD2Ev
 libCoin.so.80:_ZN28SoMultiTextureEnabledElement10disableAllEP7SoState
+libCoin.so.80:_ZN28SoMultiTextureEnabledElement12cleanupClassEv
 libCoin.so.80:_ZN28SoMultiTextureEnabledElement13enableCubeMapEP7SoStateP6SoNodei
 libCoin.so.80:_ZN28SoMultiTextureEnabledElement14createInstanceEv
 libCoin.so.80:_ZN28SoMultiTextureEnabledElement14enableTexture3EP7SoStateP6SoNodei
@@ -11048,6 +11256,7 @@ libCoin.so.80:_ZN28SoTextureCoordinateNormalMapD0Ev
 libCoin.so.80:_ZN28SoTextureCoordinateNormalMapD1Ev
 libCoin.so.80:_ZN28SoTextureCoordinateNormalMapD2Ev
 libCoin.so.80:_ZN28SoTextureScaleQualityElement10getDefaultEv
+libCoin.so.80:_ZN28SoTextureScaleQualityElement12cleanupClassEv
 libCoin.so.80:_ZN28SoTextureScaleQualityElement14createInstanceEv
 libCoin.so.80:_ZN28SoTextureScaleQualityElement14getClassTypeIdEv
 libCoin.so.80:_ZN28SoTextureScaleQualityElement18getClassStackIndexEv
@@ -11074,6 +11283,7 @@ libCoin.so.80:_ZN28SoVRMLCoordinateInterpolatorD0Ev
 libCoin.so.80:_ZN28SoVRMLCoordinateInterpolatorD1Ev
 libCoin.so.80:_ZN28SoVRMLCoordinateInterpolatorD2Ev
 libCoin.so.80:_ZN29SoAnnoText3RenderPrintElement10getDefaultEv
+libCoin.so.80:_ZN29SoAnnoText3RenderPrintElement12cleanupClassEv
 libCoin.so.80:_ZN29SoAnnoText3RenderPrintElement14createInstanceEv
 libCoin.so.80:_ZN29SoAnnoText3RenderPrintElement14getClassTypeIdEv
 libCoin.so.80:_ZN29SoAnnoText3RenderPrintElement18getClassStackIndexEv
@@ -11088,6 +11298,7 @@ libCoin.so.80:_ZN29SoAnnoText3RenderPrintElementD0Ev
 libCoin.so.80:_ZN29SoAnnoText3RenderPrintElementD1Ev
 libCoin.so.80:_ZN29SoAnnoText3RenderPrintElementD2Ev
 libCoin.so.80:_ZN29SoDecimationPercentageElement10getDefaultEv
+libCoin.so.80:_ZN29SoDecimationPercentageElement12cleanupClassEv
 libCoin.so.80:_ZN29SoDecimationPercentageElement14createInstanceEv
 libCoin.so.80:_ZN29SoDecimationPercentageElement14getClassTypeIdEv
 libCoin.so.80:_ZN29SoDecimationPercentageElement18getClassStackIndexEv
@@ -11101,6 +11312,7 @@ libCoin.so.80:_ZN29SoDecimationPercentageElementC2Ev
 libCoin.so.80:_ZN29SoDecimationPercentageElementD0Ev
 libCoin.so.80:_ZN29SoDecimationPercentageElementD1Ev
 libCoin.so.80:_ZN29SoDecimationPercentageElementD2Ev
+libCoin.so.80:_ZN29SoGLMultiTextureMatrixElement12cleanupClassEv
 libCoin.so.80:_ZN29SoGLMultiTextureMatrixElement14createInstanceEv
 libCoin.so.80:_ZN29SoGLMultiTextureMatrixElement14getClassTypeIdEv
 libCoin.so.80:_ZN29SoGLMultiTextureMatrixElement18getClassStackIndexEv
@@ -11194,6 +11406,7 @@ libCoin.so.80:_ZN30ScXMLCoinSubtractOpExprDataObj14getClassTypeIdEv
 libCoin.so.80:_ZN30ScXMLCoinSubtractOpExprDataObj9createForEP12ScXMLDataObjS1_
 libCoin.so.80:_ZN30ScXMLCoinSubtractOpExprDataObj9initClassEv
 libCoin.so.80:_ZN30SoAnnoText3FontSizeHintElement10getDefaultEv
+libCoin.so.80:_ZN30SoAnnoText3FontSizeHintElement12cleanupClassEv
 libCoin.so.80:_ZN30SoAnnoText3FontSizeHintElement14createInstanceEv
 libCoin.so.80:_ZN30SoAnnoText3FontSizeHintElement14getClassTypeIdEv
 libCoin.so.80:_ZN30SoAnnoText3FontSizeHintElement18getClassStackIndexEv
@@ -11207,6 +11420,7 @@ libCoin.so.80:_ZN30SoAnnoText3FontSizeHintElementC2Ev
 libCoin.so.80:_ZN30SoAnnoText3FontSizeHintElementD0Ev
 libCoin.so.80:_ZN30SoAnnoText3FontSizeHintElementD1Ev
 libCoin.so.80:_ZN30SoAnnoText3FontSizeHintElementD2Ev
+libCoin.so.80:_ZN30SoGLMultiTextureEnabledElement12cleanupClassEv
 libCoin.so.80:_ZN30SoGLMultiTextureEnabledElement14createInstanceEv
 libCoin.so.80:_ZN30SoGLMultiTextureEnabledElement14getClassTypeIdEv
 libCoin.so.80:_ZN30SoGLMultiTextureEnabledElement18getClassStackIndexEv
@@ -11242,6 +11456,7 @@ libCoin.so.80:_ZN31SoMultiTextureCoordinateElement10setDefaultEP7SoStateP6SoNode
 libCoin.so.80:_ZN31SoMultiTextureCoordinateElement11getInstanceEP7SoState
 libCoin.so.80:_ZN31SoMultiTextureCoordinateElement11getUnitDataEi
 libCoin.so.80:_ZN31SoMultiTextureCoordinateElement11setFunctionEP7SoStateP6SoNodeiPFRK7SbVec4fPvRK7SbVec3fSA_ES7_
+libCoin.so.80:_ZN31SoMultiTextureCoordinateElement12cleanupClassEv
 libCoin.so.80:_ZN31SoMultiTextureCoordinateElement14createInstanceEv
 libCoin.so.80:_ZN31SoMultiTextureCoordinateElement14getClassTypeIdEv
 libCoin.so.80:_ZN31SoMultiTextureCoordinateElement18getClassStackIndexEv
@@ -11271,6 +11486,7 @@ libCoin.so.80:_ZN31SoOrthoPerspectiveCameraManagerC1EP8SoCamera
 libCoin.so.80:_ZN31SoOrthoPerspectiveCameraManagerC2EP8SoCamera
 libCoin.so.80:_ZN31SoTextureCoordinateEnvironmentP12cleanup_funcEv
 libCoin.so.80:_ZN31SoVertexAttributeBindingElement10getDefaultEv
+libCoin.so.80:_ZN31SoVertexAttributeBindingElement12cleanupClassEv
 libCoin.so.80:_ZN31SoVertexAttributeBindingElement14createInstanceEv
 libCoin.so.80:_ZN31SoVertexAttributeBindingElement14getClassTypeIdEv
 libCoin.so.80:_ZN31SoVertexAttributeBindingElement18getClassStackIndexEv
@@ -11301,6 +11517,7 @@ libCoin.so.80:_ZN32SoTextureCoordinateReflectionMapD0Ev
 libCoin.so.80:_ZN32SoTextureCoordinateReflectionMapD1Ev
 libCoin.so.80:_ZN32SoTextureCoordinateReflectionMapD2Ev
 libCoin.so.80:_ZN33SoGLMultiTextureCoordinateElement11getInstanceEP7SoState
+libCoin.so.80:_ZN33SoGLMultiTextureCoordinateElement12cleanupClassEv
 libCoin.so.80:_ZN33SoGLMultiTextureCoordinateElement14createInstanceEv
 libCoin.so.80:_ZN33SoGLMultiTextureCoordinateElement14getClassTypeIdEv
 libCoin.so.80:_ZN33SoGLMultiTextureCoordinateElement18getClassStackIndexEv
@@ -11316,6 +11533,7 @@ libCoin.so.80:_ZN33SoGLMultiTextureCoordinateElementD0Ev
 libCoin.so.80:_ZN33SoGLMultiTextureCoordinateElementD1Ev
 libCoin.so.80:_ZN33SoGLMultiTextureCoordinateElementD2Ev
 libCoin.so.80:_ZN33SoTextureCoordinateBindingElement10getDefaultEv
+libCoin.so.80:_ZN33SoTextureCoordinateBindingElement12cleanupClassEv
 libCoin.so.80:_ZN33SoTextureCoordinateBindingElement14createInstanceEv
 libCoin.so.80:_ZN33SoTextureCoordinateBindingElement14getClassTypeIdEv
 libCoin.so.80:_ZN33SoTextureCoordinateBindingElement18getClassStackIndexEv
@@ -12013,6 +12231,7 @@ libCoin.so.80:_ZN7SoEvent10initEventsEv
 libCoin.so.80:_ZN7SoEvent10setAltDownEi
 libCoin.so.80:_ZN7SoEvent11setCtrlDownEi
 libCoin.so.80:_ZN7SoEvent11setPositionERK7SbVec2s
+libCoin.so.80:_ZN7SoEvent12cleanupClassEv
 libCoin.so.80:_ZN7SoEvent12setShiftDownEi
 libCoin.so.80:_ZN7SoEvent14getClassTypeIdEv
 libCoin.so.80:_ZN7SoEvent7setTimeE6SbTime
@@ -12411,6 +12630,7 @@ libCoin.so.80:_ZN7SoUnitsC2Ev
 libCoin.so.80:_ZN7SoUnitsD0Ev
 libCoin.so.80:_ZN7SoUnitsD1Ev
 libCoin.so.80:_ZN7SoUnitsD2Ev
+libCoin.so.80:_ZN7tagFace4initEP10tagContexttttt
 libCoin.so.80:_ZN8SbDPLine8setValueERK7SbVec3dS2_
 libCoin.so.80:_ZN8SbDPLine9setPosDirERK7SbVec3dS2_
 libCoin.so.80:_ZN8SbDPLineC1ERK7SbVec3dS2_
@@ -12614,6 +12834,7 @@ libCoin.so.80:_ZN8SoInputP5debugEv
 libCoin.so.80:_ZN8SoMFBool10read1ValueEP7SoInputi
 libCoin.so.80:_ZN8SoMFBool11allocValuesEi
 libCoin.so.80:_ZN8SoMFBool12setValuesPtrEPv
+libCoin.so.80:_ZN8SoMFBool14atexit_cleanupEv
 libCoin.so.80:_ZN8SoMFBool14createInstanceEv
 libCoin.so.80:_ZN8SoMFBool14getClassTypeIdEv
 libCoin.so.80:_ZN8SoMFBool15deleteAllValuesEv
@@ -12637,6 +12858,7 @@ libCoin.so.80:_ZN8SoMFEnum10read1ValueEP7SoInputi
 libCoin.so.80:_ZN8SoMFEnum11allocValuesEi
 libCoin.so.80:_ZN8SoMFEnum12setValuesPtrEPv
 libCoin.so.80:_ZN8SoMFEnum13findEnumValueERK6SbNameRi
+libCoin.so.80:_ZN8SoMFEnum14atexit_cleanupEv
 libCoin.so.80:_ZN8SoMFEnum14createInstanceEv
 libCoin.so.80:_ZN8SoMFEnum14getClassTypeIdEv
 libCoin.so.80:_ZN8SoMFEnum15deleteAllValuesEv
@@ -12660,6 +12882,7 @@ libCoin.so.80:_ZN8SoMFEnumaSERKS_
 libCoin.so.80:_ZN8SoMFName10read1ValueEP7SoInputi
 libCoin.so.80:_ZN8SoMFName11allocValuesEi
 libCoin.so.80:_ZN8SoMFName12setValuesPtrEPv
+libCoin.so.80:_ZN8SoMFName14atexit_cleanupEv
 libCoin.so.80:_ZN8SoMFName14createInstanceEv
 libCoin.so.80:_ZN8SoMFName14getClassTypeIdEv
 libCoin.so.80:_ZN8SoMFName15deleteAllValuesEv
@@ -12689,6 +12912,7 @@ libCoin.so.80:_ZN8SoMFNode11replaceNodeEP6SoNodeS1_
 libCoin.so.80:_ZN8SoMFNode11replaceNodeEiP6SoNode
 libCoin.so.80:_ZN8SoMFNode12deleteValuesEii
 libCoin.so.80:_ZN8SoMFNode12setValuesPtrEPv
+libCoin.so.80:_ZN8SoMFNode14atexit_cleanupEv
 libCoin.so.80:_ZN8SoMFNode14createInstanceEv
 libCoin.so.80:_ZN8SoMFNode14getClassTypeIdEv
 libCoin.so.80:_ZN8SoMFNode14removeAllNodesEv
@@ -12714,6 +12938,7 @@ libCoin.so.80:_ZN8SoMFPath11allocValuesEi
 libCoin.so.80:_ZN8SoMFPath11insertSpaceEii
 libCoin.so.80:_ZN8SoMFPath12deleteValuesEii
 libCoin.so.80:_ZN8SoMFPath12setValuesPtrEPv
+libCoin.so.80:_ZN8SoMFPath14atexit_cleanupEv
 libCoin.so.80:_ZN8SoMFPath14createInstanceEv
 libCoin.so.80:_ZN8SoMFPath14getClassTypeIdEv
 libCoin.so.80:_ZN8SoMFPath15deleteAllValuesEv
@@ -12736,6 +12961,7 @@ libCoin.so.80:_ZN8SoMFPathaSERKS_
 libCoin.so.80:_ZN8SoMFTime10read1ValueEP7SoInputi
 libCoin.so.80:_ZN8SoMFTime11allocValuesEi
 libCoin.so.80:_ZN8SoMFTime12setValuesPtrEPv
+libCoin.so.80:_ZN8SoMFTime14atexit_cleanupEv
 libCoin.so.80:_ZN8SoMFTime14createInstanceEv
 libCoin.so.80:_ZN8SoMFTime14getClassTypeIdEv
 libCoin.so.80:_ZN8SoMFTime15deleteAllValuesEv
@@ -12798,6 +13024,26 @@ libCoin.so.80:_ZN8SoNotRec7setTypeENS_4TypeE
 libCoin.so.80:_ZN8SoNotRec8setIndexEi
 libCoin.so.80:_ZN8SoNotRecC1EP6SoBase
 libCoin.so.80:_ZN8SoNotRecC2EP6SoBase
+libCoin.so.80:_ZN8SoNurbsPI12SoNurbsCurveE10tessNormalEPfPv
+libCoin.so.80:_ZN8SoNurbsPI12SoNurbsCurveE10tessVertexEPfPv
+libCoin.so.80:_ZN8SoNurbsPI12SoNurbsCurveE12tessTexCoordEPfPv
+libCoin.so.80:_ZN8SoNurbsPI12SoNurbsCurveE7tessEndEPv
+libCoin.so.80:_ZN8SoNurbsPI12SoNurbsCurveE9tessBeginEiPv
+libCoin.so.80:_ZN8SoNurbsPI14SoNurbsSurfaceE10tessNormalEPfPv
+libCoin.so.80:_ZN8SoNurbsPI14SoNurbsSurfaceE10tessVertexEPfPv
+libCoin.so.80:_ZN8SoNurbsPI14SoNurbsSurfaceE12tessTexCoordEPfPv
+libCoin.so.80:_ZN8SoNurbsPI14SoNurbsSurfaceE7tessEndEPv
+libCoin.so.80:_ZN8SoNurbsPI14SoNurbsSurfaceE9tessBeginEiPv
+libCoin.so.80:_ZN8SoNurbsPI19SoIndexedNurbsCurveE10tessNormalEPfPv
+libCoin.so.80:_ZN8SoNurbsPI19SoIndexedNurbsCurveE10tessVertexEPfPv
+libCoin.so.80:_ZN8SoNurbsPI19SoIndexedNurbsCurveE12tessTexCoordEPfPv
+libCoin.so.80:_ZN8SoNurbsPI19SoIndexedNurbsCurveE7tessEndEPv
+libCoin.so.80:_ZN8SoNurbsPI19SoIndexedNurbsCurveE9tessBeginEiPv
+libCoin.so.80:_ZN8SoNurbsPI21SoIndexedNurbsSurfaceE10tessNormalEPfPv
+libCoin.so.80:_ZN8SoNurbsPI21SoIndexedNurbsSurfaceE10tessVertexEPfPv
+libCoin.so.80:_ZN8SoNurbsPI21SoIndexedNurbsSurfaceE12tessTexCoordEPfPv
+libCoin.so.80:_ZN8SoNurbsPI21SoIndexedNurbsSurfaceE7tessEndEPv
+libCoin.so.80:_ZN8SoNurbsPI21SoIndexedNurbsSurfaceE9tessBeginEiPv
 libCoin.so.80:_ZN8SoOutput10addDEFNodeE6SbName
 libCoin.so.80:_ZN8SoOutput10setCompactEi
 libCoin.so.80:_ZN8SoOutput11checkHeaderEv
@@ -12866,6 +13112,7 @@ libCoin.so.80:_ZN8SoOutputD2Ev
 libCoin.so.80:_ZN8SoRotorP11setRotationEv
 libCoin.so.80:_ZN8SoRotorP13fieldSensorCBEPvP8SoSensor
 libCoin.so.80:_ZN8SoRotorP15rtFieldSensorCBEPvP8SoSensor
+libCoin.so.80:_ZN8SoSFBool14atexit_cleanupEv
 libCoin.so.80:_ZN8SoSFBool14createInstanceEv
 libCoin.so.80:_ZN8SoSFBool14getClassTypeIdEv
 libCoin.so.80:_ZN8SoSFBool8copyFromERK7SoField
@@ -12879,6 +13126,7 @@ libCoin.so.80:_ZN8SoSFBoolD1Ev
 libCoin.so.80:_ZN8SoSFBoolD2Ev
 libCoin.so.80:_ZN8SoSFBoolaSERKS_
 libCoin.so.80:_ZN8SoSFEnum13findEnumValueERK6SbNameRi
+libCoin.so.80:_ZN8SoSFEnum14atexit_cleanupEv
 libCoin.so.80:_ZN8SoSFEnum14createInstanceEv
 libCoin.so.80:_ZN8SoSFEnum14getClassTypeIdEv
 libCoin.so.80:_ZN8SoSFEnum8copyFromERK7SoField
@@ -12893,6 +13141,7 @@ libCoin.so.80:_ZN8SoSFEnumD0Ev
 libCoin.so.80:_ZN8SoSFEnumD1Ev
 libCoin.so.80:_ZN8SoSFEnumD2Ev
 libCoin.so.80:_ZN8SoSFEnumaSERKS_
+libCoin.so.80:_ZN8SoSFName14atexit_cleanupEv
 libCoin.so.80:_ZN8SoSFName14createInstanceEv
 libCoin.so.80:_ZN8SoSFName14getClassTypeIdEv
 libCoin.so.80:_ZN8SoSFName8copyFromERK7SoField
@@ -12906,6 +13155,7 @@ libCoin.so.80:_ZN8SoSFNameD0Ev
 libCoin.so.80:_ZN8SoSFNameD1Ev
 libCoin.so.80:_ZN8SoSFNameD2Ev
 libCoin.so.80:_ZN8SoSFNameaSERKS_
+libCoin.so.80:_ZN8SoSFNode14atexit_cleanupEv
 libCoin.so.80:_ZN8SoSFNode14createInstanceEv
 libCoin.so.80:_ZN8SoSFNode14getClassTypeIdEv
 libCoin.so.80:_ZN8SoSFNode7fixCopyEi
@@ -12919,6 +13169,7 @@ libCoin.so.80:_ZN8SoSFNodeD0Ev
 libCoin.so.80:_ZN8SoSFNodeD1Ev
 libCoin.so.80:_ZN8SoSFNodeD2Ev
 libCoin.so.80:_ZN8SoSFNodeaSERKS_
+libCoin.so.80:_ZN8SoSFPath14atexit_cleanupEv
 libCoin.so.80:_ZN8SoSFPath14createInstanceEv
 libCoin.so.80:_ZN8SoSFPath14getClassTypeIdEv
 libCoin.so.80:_ZN8SoSFPath6notifyEP9SoNotList
@@ -12933,6 +13184,7 @@ libCoin.so.80:_ZN8SoSFPathD0Ev
 libCoin.so.80:_ZN8SoSFPathD1Ev
 libCoin.so.80:_ZN8SoSFPathD2Ev
 libCoin.so.80:_ZN8SoSFPathaSERKS_
+libCoin.so.80:_ZN8SoSFTime14atexit_cleanupEv
 libCoin.so.80:_ZN8SoSFTime14createInstanceEv
 libCoin.so.80:_ZN8SoSFTime14getClassTypeIdEv
 libCoin.so.80:_ZN8SoSFTime8copyFromERK7SoField
@@ -12985,6 +13237,72 @@ libCoin.so.80:_ZN8SoSphereC2Ev
 libCoin.so.80:_ZN8SoSphereD0Ev
 libCoin.so.80:_ZN8SoSphereD1Ev
 libCoin.so.80:_ZN8SoSphereD2Ev
+libCoin.so.80:_ZN8SoStream10commonInitEv
+libCoin.so.80:_ZN8SoStream10readBufferEPvm
+libCoin.so.80:_ZN8SoStream10readDigIntEPcPKc
+libCoin.so.80:_ZN8SoStream10readDoubleERd
+libCoin.so.80:_ZN8SoStream10readHexIntEPcPKc
+libCoin.so.80:_ZN8SoStream10readStreamERS_
+libCoin.so.80:_ZN8SoStream10readUInt16ERt
+libCoin.so.80:_ZN8SoStream10readUInt32ERj
+libCoin.so.80:_ZN8SoStream10writeFloatEf
+libCoin.so.80:_ZN8SoStream10writeInt16Es
+libCoin.so.80:_ZN8SoStream10writeInt32Ei
+libCoin.so.80:_ZN8SoStream10writeUInt8Eh
+libCoin.so.80:_ZN8SoStream11clearBadBitEv
+libCoin.so.80:_ZN8SoStream11closeStreamEv
+libCoin.so.80:_ZN8SoStream11emptyBufferEm
+libCoin.so.80:_ZN8SoStream11readZStringEPci
+libCoin.so.80:_ZN8SoStream11resetBufferEv
+libCoin.so.80:_ZN8SoStream11wrapSoInputEP7SoInput
+libCoin.so.80:_ZN8SoStream11writeBufferEPvm
+libCoin.so.80:_ZN8SoStream11writeDoubleEd
+libCoin.so.80:_ZN8SoStream11writeStreamERKS_
+libCoin.so.80:_ZN8SoStream11writeUInt16Et
+libCoin.so.80:_ZN8SoStream11writeUInt32Ej
+libCoin.so.80:_ZN8SoStream12writeZStringEPKc
+libCoin.so.80:_ZN8SoStream13reallocBufferEm
+libCoin.so.80:_ZN8SoStream13writeToStreamERS_
+libCoin.so.80:_ZN8SoStream13writeToStreamERS_m
+libCoin.so.80:_ZN8SoStream14readFromStreamERS_
+libCoin.so.80:_ZN8SoStream14readFromStreamERS_m
+libCoin.so.80:_ZN8SoStream14setFilePointerEP8_IO_FILE
+libCoin.so.80:_ZN8SoStream15readBinaryArrayEPvm
+libCoin.so.80:_ZN8SoStream15setAccessRightsEii
+libCoin.so.80:_ZN8SoStream16writeBinaryArrayEPvm
+libCoin.so.80:_ZN8SoStream17setEndianOrderingENS_20StreamEndianOrderingE
+libCoin.so.80:_ZN8SoStream17storeBufferToFileEP8_IO_FILE
+libCoin.so.80:_ZN8SoStream17storeBufferToFileEPKc
+libCoin.so.80:_ZN8SoStream18loadBufferFromFileEP8_IO_FILE
+libCoin.so.80:_ZN8SoStream18loadBufferFromFileEPKc
+libCoin.so.80:_ZN8SoStream21getHostEndianOrderingEv
+libCoin.so.80:_ZN8SoStream26updateNeedEndianConversionEv
+libCoin.so.80:_ZN8SoStream6setPosEm
+libCoin.so.80:_ZN8SoStream7getCharERc
+libCoin.so.80:_ZN8SoStream7putCharEc
+libCoin.so.80:_ZN8SoStream8openFileEPKc
+libCoin.so.80:_ZN8SoStream8readInt8ERa
+libCoin.so.80:_ZN8SoStream9closeFileEv
+libCoin.so.80:_ZN8SoStream9readFloatERf
+libCoin.so.80:_ZN8SoStream9readInt16ERs
+libCoin.so.80:_ZN8SoStream9readInt32ERi
+libCoin.so.80:_ZN8SoStream9readUInt8ERh
+libCoin.so.80:_ZN8SoStream9setBadBitEv
+libCoin.so.80:_ZN8SoStream9setBinaryEi
+libCoin.so.80:_ZN8SoStream9setBufferEPvm
+libCoin.so.80:_ZN8SoStream9ungetCharEc
+libCoin.so.80:_ZN8SoStream9writeInt8Ea
+libCoin.so.80:_ZN8SoStreamC1EP8_IO_FILE
+libCoin.so.80:_ZN8SoStreamC1EPKc
+libCoin.so.80:_ZN8SoStreamC1Em
+libCoin.so.80:_ZN8SoStreamC1Ev
+libCoin.so.80:_ZN8SoStreamC2EP8_IO_FILE
+libCoin.so.80:_ZN8SoStreamC2EPKc
+libCoin.so.80:_ZN8SoStreamC2Em
+libCoin.so.80:_ZN8SoStreamC2Ev
+libCoin.so.80:_ZN8SoStreamD0Ev
+libCoin.so.80:_ZN8SoStreamD1Ev
+libCoin.so.80:_ZN8SoStreamD2Ev
 libCoin.so.80:_ZN8SoSwitch11audioRenderEP19SoAudioRenderAction
 libCoin.so.80:_ZN8SoSwitch11handleEventEP19SoHandleEventAction
 libCoin.so.80:_ZN8SoSwitch14atexit_cleanupEv
@@ -13018,6 +13336,7 @@ libCoin.so.80:_ZN8SoText2P15buildGlyphCacheEP7SoState
 libCoin.so.80:_ZN8SoText2P15flushGlyphCacheEv
 libCoin.so.80:_ZN8SoText2P21shouldBuildGlyphCacheEP7SoState
 libCoin.so.80:_ZN8SoText2P7getQuadEP7SoStateR7SbVec3fS3_S3_S3_
+libCoin.so.80:_ZN8SoText2P9sensor_cbEPvP8SoSensor
 libCoin.so.80:_ZN8SoText3P11setUpGlyphsEP7SoStateP7SoText3
 libCoin.so.80:_ZN8SoText3P6renderEP7SoStatePK21cc_font_specificationj
 libCoin.so.80:_ZN8SoText3P8generateEP8SoActionPK21cc_font_specificationj
@@ -13432,6 +13751,7 @@ libCoin.so.80:_ZN9SoMFColor12set1HSVValueEiPKf
 libCoin.so.80:_ZN9SoMFColor12set1HSVValueEifff
 libCoin.so.80:_ZN9SoMFColor12setHSVValuesEiiPA3_Kf
 libCoin.so.80:_ZN9SoMFColor12setValuesPtrEPv
+libCoin.so.80:_ZN9SoMFColor14atexit_cleanupEv
 libCoin.so.80:_ZN9SoMFColor14createInstanceEv
 libCoin.so.80:_ZN9SoMFColor14getClassTypeIdEv
 libCoin.so.80:_ZN9SoMFColor15deleteAllValuesEv
@@ -13463,6 +13783,7 @@ libCoin.so.80:_ZN9SoMFColoraSERKS_
 libCoin.so.80:_ZN9SoMFFloat10read1ValueEP7SoInputi
 libCoin.so.80:_ZN9SoMFFloat11allocValuesEi
 libCoin.so.80:_ZN9SoMFFloat12setValuesPtrEPv
+libCoin.so.80:_ZN9SoMFFloat14atexit_cleanupEv
 libCoin.so.80:_ZN9SoMFFloat14createInstanceEv
 libCoin.so.80:_ZN9SoMFFloat14getClassTypeIdEv
 libCoin.so.80:_ZN9SoMFFloat15deleteAllValuesEv
@@ -13485,6 +13806,7 @@ libCoin.so.80:_ZN9SoMFFloataSERKS_
 libCoin.so.80:_ZN9SoMFInt3210read1ValueEP7SoInputi
 libCoin.so.80:_ZN9SoMFInt3211allocValuesEi
 libCoin.so.80:_ZN9SoMFInt3212setValuesPtrEPv
+libCoin.so.80:_ZN9SoMFInt3214atexit_cleanupEv
 libCoin.so.80:_ZN9SoMFInt3214createInstanceEv
 libCoin.so.80:_ZN9SoMFInt3214getClassTypeIdEv
 libCoin.so.80:_ZN9SoMFInt3215deleteAllValuesEv
@@ -13507,6 +13829,7 @@ libCoin.so.80:_ZN9SoMFInt32aSERKS_
 libCoin.so.80:_ZN9SoMFPlane10read1ValueEP7SoInputi
 libCoin.so.80:_ZN9SoMFPlane11allocValuesEi
 libCoin.so.80:_ZN9SoMFPlane12setValuesPtrEPv
+libCoin.so.80:_ZN9SoMFPlane14atexit_cleanupEv
 libCoin.so.80:_ZN9SoMFPlane14createInstanceEv
 libCoin.so.80:_ZN9SoMFPlane14getClassTypeIdEv
 libCoin.so.80:_ZN9SoMFPlane15deleteAllValuesEv
@@ -13527,6 +13850,7 @@ libCoin.so.80:_ZN9SoMFPlaneaSERKS_
 libCoin.so.80:_ZN9SoMFShort10read1ValueEP7SoInputi
 libCoin.so.80:_ZN9SoMFShort11allocValuesEi
 libCoin.so.80:_ZN9SoMFShort12setValuesPtrEPv
+libCoin.so.80:_ZN9SoMFShort14atexit_cleanupEv
 libCoin.so.80:_ZN9SoMFShort14createInstanceEv
 libCoin.so.80:_ZN9SoMFShort14getClassTypeIdEv
 libCoin.so.80:_ZN9SoMFShort15deleteAllValuesEv
@@ -13549,6 +13873,7 @@ libCoin.so.80:_ZN9SoMFShortaSERKS_
 libCoin.so.80:_ZN9SoMFVec2b10read1ValueEP7SoInputi
 libCoin.so.80:_ZN9SoMFVec2b11allocValuesEi
 libCoin.so.80:_ZN9SoMFVec2b12setValuesPtrEPv
+libCoin.so.80:_ZN9SoMFVec2b14atexit_cleanupEv
 libCoin.so.80:_ZN9SoMFVec2b14createInstanceEv
 libCoin.so.80:_ZN9SoMFVec2b14getClassTypeIdEv
 libCoin.so.80:_ZN9SoMFVec2b15deleteAllValuesEv
@@ -13578,6 +13903,7 @@ libCoin.so.80:_ZN9SoMFVec2baSERKS_
 libCoin.so.80:_ZN9SoMFVec2d10read1ValueEP7SoInputi
 libCoin.so.80:_ZN9SoMFVec2d11allocValuesEi
 libCoin.so.80:_ZN9SoMFVec2d12setValuesPtrEPv
+libCoin.so.80:_ZN9SoMFVec2d14atexit_cleanupEv
 libCoin.so.80:_ZN9SoMFVec2d14createInstanceEv
 libCoin.so.80:_ZN9SoMFVec2d14getClassTypeIdEv
 libCoin.so.80:_ZN9SoMFVec2d15deleteAllValuesEv
@@ -13607,6 +13933,7 @@ libCoin.so.80:_ZN9SoMFVec2daSERKS_
 libCoin.so.80:_ZN9SoMFVec2f10read1ValueEP7SoInputi
 libCoin.so.80:_ZN9SoMFVec2f11allocValuesEi
 libCoin.so.80:_ZN9SoMFVec2f12setValuesPtrEPv
+libCoin.so.80:_ZN9SoMFVec2f14atexit_cleanupEv
 libCoin.so.80:_ZN9SoMFVec2f14createInstanceEv
 libCoin.so.80:_ZN9SoMFVec2f14getClassTypeIdEv
 libCoin.so.80:_ZN9SoMFVec2f15deleteAllValuesEv
@@ -13636,6 +13963,7 @@ libCoin.so.80:_ZN9SoMFVec2faSERKS_
 libCoin.so.80:_ZN9SoMFVec2s10read1ValueEP7SoInputi
 libCoin.so.80:_ZN9SoMFVec2s11allocValuesEi
 libCoin.so.80:_ZN9SoMFVec2s12setValuesPtrEPv
+libCoin.so.80:_ZN9SoMFVec2s14atexit_cleanupEv
 libCoin.so.80:_ZN9SoMFVec2s14createInstanceEv
 libCoin.so.80:_ZN9SoMFVec2s14getClassTypeIdEv
 libCoin.so.80:_ZN9SoMFVec2s15deleteAllValuesEv
@@ -13665,6 +13993,7 @@ libCoin.so.80:_ZN9SoMFVec2saSERKS_
 libCoin.so.80:_ZN9SoMFVec3b10read1ValueEP7SoInputi
 libCoin.so.80:_ZN9SoMFVec3b11allocValuesEi
 libCoin.so.80:_ZN9SoMFVec3b12setValuesPtrEPv
+libCoin.so.80:_ZN9SoMFVec3b14atexit_cleanupEv
 libCoin.so.80:_ZN9SoMFVec3b14createInstanceEv
 libCoin.so.80:_ZN9SoMFVec3b14getClassTypeIdEv
 libCoin.so.80:_ZN9SoMFVec3b15deleteAllValuesEv
@@ -13694,6 +14023,7 @@ libCoin.so.80:_ZN9SoMFVec3baSERKS_
 libCoin.so.80:_ZN9SoMFVec3d10read1ValueEP7SoInputi
 libCoin.so.80:_ZN9SoMFVec3d11allocValuesEi
 libCoin.so.80:_ZN9SoMFVec3d12setValuesPtrEPv
+libCoin.so.80:_ZN9SoMFVec3d14atexit_cleanupEv
 libCoin.so.80:_ZN9SoMFVec3d14createInstanceEv
 libCoin.so.80:_ZN9SoMFVec3d14getClassTypeIdEv
 libCoin.so.80:_ZN9SoMFVec3d15deleteAllValuesEv
@@ -13723,6 +14053,7 @@ libCoin.so.80:_ZN9SoMFVec3daSERKS_
 libCoin.so.80:_ZN9SoMFVec3f10read1ValueEP7SoInputi
 libCoin.so.80:_ZN9SoMFVec3f11allocValuesEi
 libCoin.so.80:_ZN9SoMFVec3f12setValuesPtrEPv
+libCoin.so.80:_ZN9SoMFVec3f14atexit_cleanupEv
 libCoin.so.80:_ZN9SoMFVec3f14createInstanceEv
 libCoin.so.80:_ZN9SoMFVec3f14getClassTypeIdEv
 libCoin.so.80:_ZN9SoMFVec3f15deleteAllValuesEv
@@ -13752,6 +14083,7 @@ libCoin.so.80:_ZN9SoMFVec3faSERKS_
 libCoin.so.80:_ZN9SoMFVec3s10read1ValueEP7SoInputi
 libCoin.so.80:_ZN9SoMFVec3s11allocValuesEi
 libCoin.so.80:_ZN9SoMFVec3s12setValuesPtrEPv
+libCoin.so.80:_ZN9SoMFVec3s14atexit_cleanupEv
 libCoin.so.80:_ZN9SoMFVec3s14createInstanceEv
 libCoin.so.80:_ZN9SoMFVec3s14getClassTypeIdEv
 libCoin.so.80:_ZN9SoMFVec3s15deleteAllValuesEv
@@ -13781,6 +14113,7 @@ libCoin.so.80:_ZN9SoMFVec3saSERKS_
 libCoin.so.80:_ZN9SoMFVec4b10read1ValueEP7SoInputi
 libCoin.so.80:_ZN9SoMFVec4b11allocValuesEi
 libCoin.so.80:_ZN9SoMFVec4b12setValuesPtrEPv
+libCoin.so.80:_ZN9SoMFVec4b14atexit_cleanupEv
 libCoin.so.80:_ZN9SoMFVec4b14createInstanceEv
 libCoin.so.80:_ZN9SoMFVec4b14getClassTypeIdEv
 libCoin.so.80:_ZN9SoMFVec4b15deleteAllValuesEv
@@ -13810,6 +14143,7 @@ libCoin.so.80:_ZN9SoMFVec4baSERKS_
 libCoin.so.80:_ZN9SoMFVec4d10read1ValueEP7SoInputi
 libCoin.so.80:_ZN9SoMFVec4d11allocValuesEi
 libCoin.so.80:_ZN9SoMFVec4d12setValuesPtrEPv
+libCoin.so.80:_ZN9SoMFVec4d14atexit_cleanupEv
 libCoin.so.80:_ZN9SoMFVec4d14createInstanceEv
 libCoin.so.80:_ZN9SoMFVec4d14getClassTypeIdEv
 libCoin.so.80:_ZN9SoMFVec4d15deleteAllValuesEv
@@ -13839,6 +14173,7 @@ libCoin.so.80:_ZN9SoMFVec4daSERKS_
 libCoin.so.80:_ZN9SoMFVec4f10read1ValueEP7SoInputi
 libCoin.so.80:_ZN9SoMFVec4f11allocValuesEi
 libCoin.so.80:_ZN9SoMFVec4f12setValuesPtrEPv
+libCoin.so.80:_ZN9SoMFVec4f14atexit_cleanupEv
 libCoin.so.80:_ZN9SoMFVec4f14createInstanceEv
 libCoin.so.80:_ZN9SoMFVec4f14getClassTypeIdEv
 libCoin.so.80:_ZN9SoMFVec4f15deleteAllValuesEv
@@ -13868,6 +14203,7 @@ libCoin.so.80:_ZN9SoMFVec4faSERKS_
 libCoin.so.80:_ZN9SoMFVec4s10read1ValueEP7SoInputi
 libCoin.so.80:_ZN9SoMFVec4s11allocValuesEi
 libCoin.so.80:_ZN9SoMFVec4s12setValuesPtrEPv
+libCoin.so.80:_ZN9SoMFVec4s14atexit_cleanupEv
 libCoin.so.80:_ZN9SoMFVec4s14createInstanceEv
 libCoin.so.80:_ZN9SoMFVec4s14getClassTypeIdEv
 libCoin.so.80:_ZN9SoMFVec4s15deleteAllValuesEv
@@ -13932,6 +14268,7 @@ libCoin.so.80:_ZN9SoProfileC2Ev
 libCoin.so.80:_ZN9SoProfileD0Ev
 libCoin.so.80:_ZN9SoProfileD1Ev
 libCoin.so.80:_ZN9SoProfileD2Ev
+libCoin.so.80:_ZN9SoSFBox2d14atexit_cleanupEv
 libCoin.so.80:_ZN9SoSFBox2d14createInstanceEv
 libCoin.so.80:_ZN9SoSFBox2d14getClassTypeIdEv
 libCoin.so.80:_ZN9SoSFBox2d8copyFromERK7SoField
@@ -13946,6 +14283,7 @@ libCoin.so.80:_ZN9SoSFBox2dD0Ev
 libCoin.so.80:_ZN9SoSFBox2dD1Ev
 libCoin.so.80:_ZN9SoSFBox2dD2Ev
 libCoin.so.80:_ZN9SoSFBox2daSERKS_
+libCoin.so.80:_ZN9SoSFBox2f14atexit_cleanupEv
 libCoin.so.80:_ZN9SoSFBox2f14createInstanceEv
 libCoin.so.80:_ZN9SoSFBox2f14getClassTypeIdEv
 libCoin.so.80:_ZN9SoSFBox2f8copyFromERK7SoField
@@ -13960,6 +14298,7 @@ libCoin.so.80:_ZN9SoSFBox2fD0Ev
 libCoin.so.80:_ZN9SoSFBox2fD1Ev
 libCoin.so.80:_ZN9SoSFBox2fD2Ev
 libCoin.so.80:_ZN9SoSFBox2faSERKS_
+libCoin.so.80:_ZN9SoSFBox2s14atexit_cleanupEv
 libCoin.so.80:_ZN9SoSFBox2s14createInstanceEv
 libCoin.so.80:_ZN9SoSFBox2s14getClassTypeIdEv
 libCoin.so.80:_ZN9SoSFBox2s8copyFromERK7SoField
@@ -13974,6 +14313,7 @@ libCoin.so.80:_ZN9SoSFBox2sD0Ev
 libCoin.so.80:_ZN9SoSFBox2sD1Ev
 libCoin.so.80:_ZN9SoSFBox2sD2Ev
 libCoin.so.80:_ZN9SoSFBox2saSERKS_
+libCoin.so.80:_ZN9SoSFBox3d14atexit_cleanupEv
 libCoin.so.80:_ZN9SoSFBox3d14createInstanceEv
 libCoin.so.80:_ZN9SoSFBox3d14getClassTypeIdEv
 libCoin.so.80:_ZN9SoSFBox3d8copyFromERK7SoField
@@ -13988,6 +14328,7 @@ libCoin.so.80:_ZN9SoSFBox3dD0Ev
 libCoin.so.80:_ZN9SoSFBox3dD1Ev
 libCoin.so.80:_ZN9SoSFBox3dD2Ev
 libCoin.so.80:_ZN9SoSFBox3daSERKS_
+libCoin.so.80:_ZN9SoSFBox3f14atexit_cleanupEv
 libCoin.so.80:_ZN9SoSFBox3f14createInstanceEv
 libCoin.so.80:_ZN9SoSFBox3f14getClassTypeIdEv
 libCoin.so.80:_ZN9SoSFBox3f8copyFromERK7SoField
@@ -14002,6 +14343,7 @@ libCoin.so.80:_ZN9SoSFBox3fD0Ev
 libCoin.so.80:_ZN9SoSFBox3fD1Ev
 libCoin.so.80:_ZN9SoSFBox3fD2Ev
 libCoin.so.80:_ZN9SoSFBox3faSERKS_
+libCoin.so.80:_ZN9SoSFBox3s14atexit_cleanupEv
 libCoin.so.80:_ZN9SoSFBox3s14createInstanceEv
 libCoin.so.80:_ZN9SoSFBox3s14getClassTypeIdEv
 libCoin.so.80:_ZN9SoSFBox3s8copyFromERK7SoField
@@ -14018,6 +14360,7 @@ libCoin.so.80:_ZN9SoSFBox3sD2Ev
 libCoin.so.80:_ZN9SoSFBox3saSERKS_
 libCoin.so.80:_ZN9SoSFColor11setHSVValueEPKf
 libCoin.so.80:_ZN9SoSFColor11setHSVValueEfff
+libCoin.so.80:_ZN9SoSFColor14atexit_cleanupEv
 libCoin.so.80:_ZN9SoSFColor14createInstanceEv
 libCoin.so.80:_ZN9SoSFColor14getClassTypeIdEv
 libCoin.so.80:_ZN9SoSFColor8copyFromERK7SoField
@@ -14033,6 +14376,7 @@ libCoin.so.80:_ZN9SoSFColorD0Ev
 libCoin.so.80:_ZN9SoSFColorD1Ev
 libCoin.so.80:_ZN9SoSFColorD2Ev
 libCoin.so.80:_ZN9SoSFColoraSERKS_
+libCoin.so.80:_ZN9SoSFFloat14atexit_cleanupEv
 libCoin.so.80:_ZN9SoSFFloat14createInstanceEv
 libCoin.so.80:_ZN9SoSFFloat14getClassTypeIdEv
 libCoin.so.80:_ZN9SoSFFloat8copyFromERK7SoField
@@ -14050,6 +14394,7 @@ libCoin.so.80:_ZN9SoSFImage12setSubValuesEPK7SbVec2sS2_iPPh
 libCoin.so.80:_ZN9SoSFImage12startEditingER7SbVec2sRi
 libCoin.so.80:_ZN9SoSFImage13finishEditingEv
 libCoin.so.80:_ZN9SoSFImage13setNeverWriteEi
+libCoin.so.80:_ZN9SoSFImage14atexit_cleanupEv
 libCoin.so.80:_ZN9SoSFImage14createInstanceEv
 libCoin.so.80:_ZN9SoSFImage14getClassTypeIdEv
 libCoin.so.80:_ZN9SoSFImage14hasSubTexturesERi
@@ -14063,6 +14408,7 @@ libCoin.so.80:_ZN9SoSFImageD0Ev
 libCoin.so.80:_ZN9SoSFImageD1Ev
 libCoin.so.80:_ZN9SoSFImageD2Ev
 libCoin.so.80:_ZN9SoSFImageaSERKS_
+libCoin.so.80:_ZN9SoSFInt3214atexit_cleanupEv
 libCoin.so.80:_ZN9SoSFInt3214createInstanceEv
 libCoin.so.80:_ZN9SoSFInt3214getClassTypeIdEv
 libCoin.so.80:_ZN9SoSFInt328copyFromERK7SoField
@@ -14075,6 +14421,7 @@ libCoin.so.80:_ZN9SoSFInt32D0Ev
 libCoin.so.80:_ZN9SoSFInt32D1Ev
 libCoin.so.80:_ZN9SoSFInt32D2Ev
 libCoin.so.80:_ZN9SoSFInt32aSERKS_
+libCoin.so.80:_ZN9SoSFPlane14atexit_cleanupEv
 libCoin.so.80:_ZN9SoSFPlane14createInstanceEv
 libCoin.so.80:_ZN9SoSFPlane14getClassTypeIdEv
 libCoin.so.80:_ZN9SoSFPlane8copyFromERK7SoField
@@ -14087,6 +14434,7 @@ libCoin.so.80:_ZN9SoSFPlaneD0Ev
 libCoin.so.80:_ZN9SoSFPlaneD1Ev
 libCoin.so.80:_ZN9SoSFPlaneD2Ev
 libCoin.so.80:_ZN9SoSFPlaneaSERKS_
+libCoin.so.80:_ZN9SoSFShort14atexit_cleanupEv
 libCoin.so.80:_ZN9SoSFShort14createInstanceEv
 libCoin.so.80:_ZN9SoSFShort14getClassTypeIdEv
 libCoin.so.80:_ZN9SoSFShort8copyFromERK7SoField
@@ -14099,6 +14447,7 @@ libCoin.so.80:_ZN9SoSFShortD0Ev
 libCoin.so.80:_ZN9SoSFShortD1Ev
 libCoin.so.80:_ZN9SoSFShortD2Ev
 libCoin.so.80:_ZN9SoSFShortaSERKS_
+libCoin.so.80:_ZN9SoSFVec2b14atexit_cleanupEv
 libCoin.so.80:_ZN9SoSFVec2b14createInstanceEv
 libCoin.so.80:_ZN9SoSFVec2b14getClassTypeIdEv
 libCoin.so.80:_ZN9SoSFVec2b8copyFromERK7SoField
@@ -14113,6 +14462,7 @@ libCoin.so.80:_ZN9SoSFVec2bD0Ev
 libCoin.so.80:_ZN9SoSFVec2bD1Ev
 libCoin.so.80:_ZN9SoSFVec2bD2Ev
 libCoin.so.80:_ZN9SoSFVec2baSERKS_
+libCoin.so.80:_ZN9SoSFVec2d14atexit_cleanupEv
 libCoin.so.80:_ZN9SoSFVec2d14createInstanceEv
 libCoin.so.80:_ZN9SoSFVec2d14getClassTypeIdEv
 libCoin.so.80:_ZN9SoSFVec2d8copyFromERK7SoField
@@ -14127,6 +14477,7 @@ libCoin.so.80:_ZN9SoSFVec2dD0Ev
 libCoin.so.80:_ZN9SoSFVec2dD1Ev
 libCoin.so.80:_ZN9SoSFVec2dD2Ev
 libCoin.so.80:_ZN9SoSFVec2daSERKS_
+libCoin.so.80:_ZN9SoSFVec2f14atexit_cleanupEv
 libCoin.so.80:_ZN9SoSFVec2f14createInstanceEv
 libCoin.so.80:_ZN9SoSFVec2f14getClassTypeIdEv
 libCoin.so.80:_ZN9SoSFVec2f8copyFromERK7SoField
@@ -14141,6 +14492,7 @@ libCoin.so.80:_ZN9SoSFVec2fD0Ev
 libCoin.so.80:_ZN9SoSFVec2fD1Ev
 libCoin.so.80:_ZN9SoSFVec2fD2Ev
 libCoin.so.80:_ZN9SoSFVec2faSERKS_
+libCoin.so.80:_ZN9SoSFVec2s14atexit_cleanupEv
 libCoin.so.80:_ZN9SoSFVec2s14createInstanceEv
 libCoin.so.80:_ZN9SoSFVec2s14getClassTypeIdEv
 libCoin.so.80:_ZN9SoSFVec2s8copyFromERK7SoField
@@ -14155,6 +14507,7 @@ libCoin.so.80:_ZN9SoSFVec2sD0Ev
 libCoin.so.80:_ZN9SoSFVec2sD1Ev
 libCoin.so.80:_ZN9SoSFVec2sD2Ev
 libCoin.so.80:_ZN9SoSFVec2saSERKS_
+libCoin.so.80:_ZN9SoSFVec3b14atexit_cleanupEv
 libCoin.so.80:_ZN9SoSFVec3b14createInstanceEv
 libCoin.so.80:_ZN9SoSFVec3b14getClassTypeIdEv
 libCoin.so.80:_ZN9SoSFVec3b8copyFromERK7SoField
@@ -14169,6 +14522,7 @@ libCoin.so.80:_ZN9SoSFVec3bD0Ev
 libCoin.so.80:_ZN9SoSFVec3bD1Ev
 libCoin.so.80:_ZN9SoSFVec3bD2Ev
 libCoin.so.80:_ZN9SoSFVec3baSERKS_
+libCoin.so.80:_ZN9SoSFVec3d14atexit_cleanupEv
 libCoin.so.80:_ZN9SoSFVec3d14createInstanceEv
 libCoin.so.80:_ZN9SoSFVec3d14getClassTypeIdEv
 libCoin.so.80:_ZN9SoSFVec3d8copyFromERK7SoField
@@ -14183,6 +14537,7 @@ libCoin.so.80:_ZN9SoSFVec3dD0Ev
 libCoin.so.80:_ZN9SoSFVec3dD1Ev
 libCoin.so.80:_ZN9SoSFVec3dD2Ev
 libCoin.so.80:_ZN9SoSFVec3daSERKS_
+libCoin.so.80:_ZN9SoSFVec3f14atexit_cleanupEv
 libCoin.so.80:_ZN9SoSFVec3f14createInstanceEv
 libCoin.so.80:_ZN9SoSFVec3f14getClassTypeIdEv
 libCoin.so.80:_ZN9SoSFVec3f8copyFromERK7SoField
@@ -14197,6 +14552,7 @@ libCoin.so.80:_ZN9SoSFVec3fD0Ev
 libCoin.so.80:_ZN9SoSFVec3fD1Ev
 libCoin.so.80:_ZN9SoSFVec3fD2Ev
 libCoin.so.80:_ZN9SoSFVec3faSERKS_
+libCoin.so.80:_ZN9SoSFVec3s14atexit_cleanupEv
 libCoin.so.80:_ZN9SoSFVec3s14createInstanceEv
 libCoin.so.80:_ZN9SoSFVec3s14getClassTypeIdEv
 libCoin.so.80:_ZN9SoSFVec3s8copyFromERK7SoField
@@ -14211,6 +14567,7 @@ libCoin.so.80:_ZN9SoSFVec3sD0Ev
 libCoin.so.80:_ZN9SoSFVec3sD1Ev
 libCoin.so.80:_ZN9SoSFVec3sD2Ev
 libCoin.so.80:_ZN9SoSFVec3saSERKS_
+libCoin.so.80:_ZN9SoSFVec4b14atexit_cleanupEv
 libCoin.so.80:_ZN9SoSFVec4b14createInstanceEv
 libCoin.so.80:_ZN9SoSFVec4b14getClassTypeIdEv
 libCoin.so.80:_ZN9SoSFVec4b8copyFromERK7SoField
@@ -14225,6 +14582,7 @@ libCoin.so.80:_ZN9SoSFVec4bD0Ev
 libCoin.so.80:_ZN9SoSFVec4bD1Ev
 libCoin.so.80:_ZN9SoSFVec4bD2Ev
 libCoin.so.80:_ZN9SoSFVec4baSERKS_
+libCoin.so.80:_ZN9SoSFVec4d14atexit_cleanupEv
 libCoin.so.80:_ZN9SoSFVec4d14createInstanceEv
 libCoin.so.80:_ZN9SoSFVec4d14getClassTypeIdEv
 libCoin.so.80:_ZN9SoSFVec4d8copyFromERK7SoField
@@ -14239,6 +14597,7 @@ libCoin.so.80:_ZN9SoSFVec4dD0Ev
 libCoin.so.80:_ZN9SoSFVec4dD1Ev
 libCoin.so.80:_ZN9SoSFVec4dD2Ev
 libCoin.so.80:_ZN9SoSFVec4daSERKS_
+libCoin.so.80:_ZN9SoSFVec4f14atexit_cleanupEv
 libCoin.so.80:_ZN9SoSFVec4f14createInstanceEv
 libCoin.so.80:_ZN9SoSFVec4f14getClassTypeIdEv
 libCoin.so.80:_ZN9SoSFVec4f8copyFromERK7SoField
@@ -14253,6 +14612,7 @@ libCoin.so.80:_ZN9SoSFVec4fD0Ev
 libCoin.so.80:_ZN9SoSFVec4fD1Ev
 libCoin.so.80:_ZN9SoSFVec4fD2Ev
 libCoin.so.80:_ZN9SoSFVec4faSERKS_
+libCoin.so.80:_ZN9SoSFVec4s14atexit_cleanupEv
 libCoin.so.80:_ZN9SoSFVec4s14createInstanceEv
 libCoin.so.80:_ZN9SoSFVec4s14getClassTypeIdEv
 libCoin.so.80:_ZN9SoSFVec4s8copyFromERK7SoField
@@ -14563,6 +14923,8 @@ libCoin.so.80:_ZNK10SoVRMLCone9getTypeIdEv
 libCoin.so.80:_ZNK10SoVRMLText11getChildrenEv
 libCoin.so.80:_ZNK10SoVRMLText12getFieldDataEv
 libCoin.so.80:_ZNK10SoVRMLText9getTypeIdEv
+libCoin.so.80:_ZNK10tagContext21createSoCoordinate3_iEPS_
+libCoin.so.80:_ZNK10tagContext28createSoTextureCoordinate2_iEPS_
 libCoin.so.80:_ZNK11SbProjector13getViewVolumeEv
 libCoin.so.80:_ZNK11SbProjector14getWorkingLineERK7SbVec2f
 libCoin.so.80:_ZNK11SbProjector15getWorkingSpaceEv
@@ -16711,6 +17073,7 @@ libCoin.so.80:_ZNK6SoType22getInstantiationMethodEv
 libCoin.so.80:_ZNK6SoType7getDataEv
 libCoin.so.80:_ZNK6SoType7getNameEv
 libCoin.so.80:_ZNK6SoType9getParentEv
+libCoin.so.80:_ZNK6Vertex9getNormalEP10tagContextt
 libCoin.so.80:_ZNK7SbBox2d15getClosestPointERK7SbVec2d
 libCoin.so.80:_ZNK7SbBox2d16findIntersectionERK7SbVec2dS2_RS0_S3_
 libCoin.so.80:_ZNK7SbBox2d9intersectERK7SbVec2d
@@ -16902,6 +17265,9 @@ libCoin.so.80:_ZNK7SoText312getFieldDataEv
 libCoin.so.80:_ZNK7SoText39getTypeIdEv
 libCoin.so.80:_ZNK7SoUnits12getFieldDataEv
 libCoin.so.80:_ZNK7SoUnits9getTypeIdEv
+libCoin.so.80:_ZNK7tagFace17getWeightedNormalEP10tagContextt
+libCoin.so.80:_ZNK7tagFace8getAngleEP10tagContextt
+libCoin.so.80:_ZNK7tagFace9getNormalEP10tagContext
 libCoin.so.80:_ZNK8SbDPLine11getPositionEv
 libCoin.so.80:_ZNK8SbDPLine12getDirectionEv
 libCoin.so.80:_ZNK8SbDPLine15getClosestPointERK7SbVec3d
@@ -17070,6 +17436,17 @@ libCoin.so.80:_ZNK8SoSensor14getNextInQueueEv
 libCoin.so.80:_ZNK8SoSensor7getDataEv
 libCoin.so.80:_ZNK8SoSphere12getFieldDataEv
 libCoin.so.80:_ZNK8SoSphere9getTypeIdEv
+libCoin.so.80:_ZNK8SoStream10isReadableEv
+libCoin.so.80:_ZNK8SoStream11isWriteableEv
+libCoin.so.80:_ZNK8SoStream13getBufferSizeEv
+libCoin.so.80:_ZNK8SoStream13getStreamTypeEv
+libCoin.so.80:_ZNK8SoStream14getFilePointerEv
+libCoin.so.80:_ZNK8SoStream17getEndianOrderingEv
+libCoin.so.80:_ZNK8SoStream5isBadEv
+libCoin.so.80:_ZNK8SoStream6getPosEv
+libCoin.so.80:_ZNK8SoStream7getSizeEv
+libCoin.so.80:_ZNK8SoStream8isBinaryEv
+libCoin.so.80:_ZNK8SoStream9getBufferERPvRm
 libCoin.so.80:_ZNK8SoSwitch12affectsStateEv
 libCoin.so.80:_ZNK8SoSwitch12getFieldDataEv
 libCoin.so.80:_ZNK8SoSwitch9getTypeIdEv
