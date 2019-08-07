@@ -4,7 +4,7 @@
 #
 Name     : Coin
 Version  : 4.0.0
-Release  : 3
+Release  : 4
 URL      : https://bitbucket.org/Coin3D/coin/downloads/coin-4.0.0-src.zip
 Source0  : https://bitbucket.org/Coin3D/coin/downloads/coin-4.0.0-src.zip
 Summary  : A high-level 3D graphics toolkit, fully compatible with SGI Open Inventor 2.1
