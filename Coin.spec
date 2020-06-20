@@ -4,7 +4,7 @@
 #
 Name     : Coin
 Version  : 4.0.0
-Release  : 6
+Release  : 7
 URL      : https://bitbucket.org/Coin3D/coin/downloads/coin-4.0.0-src.zip
 Source0  : https://bitbucket.org/Coin3D/coin/downloads/coin-4.0.0-src.zip
 Summary  : A high-level 3D graphics toolkit, fully compatible with SGI Open Inventor 2.1
@@ -80,13 +80,14 @@ license components for the Coin package.
 
 %prep
 %setup -q -n coin-6enkw
+cd %{_builddir}/coin-6enkw
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1565130042
+export SOURCE_DATE_EPOCH=1592615711
 mkdir -p clr-build
 pushd clr-build
 export GCC_IGNORE_WERROR=1
@@ -94,11 +95,11 @@ export AR=gcc-ar
 export RANLIB=gcc-ranlib
 export NM=gcc-nm
 export CFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
-export FCFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
-export FFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
+export FCFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=4 "
+export FFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=4 "
 export CXXFLAGS="$CXXFLAGS -O3 -ffat-lto-objects -flto=4 -std=gnu++98"
 %cmake .. -DCOIN_THREADSAFE=ON -DUSE_EXTERNAL_EXPAT=ON
-make  %{?_smp_mflags} VERBOSE=1
+make  %{?_smp_mflags}  VERBOSE=1
 popd
 
 %check
@@ -109,11 +110,11 @@ export no_proxy=localhost,127.0.0.1,0.0.0.0
 cd clr-build; make test
 
 %install
-export SOURCE_DATE_EPOCH=1565130042
+export SOURCE_DATE_EPOCH=1592615711
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/Coin
-cp COPYING %{buildroot}/usr/share/package-licenses/Coin/COPYING
-cp src/xml/expat/COPYING %{buildroot}/usr/share/package-licenses/Coin/src_xml_expat_COPYING
+cp %{_builddir}/coin-6enkw/COPYING %{buildroot}/usr/share/package-licenses/Coin/942939307e4a0e0e1964e021b967143e93f975ea
+cp %{_builddir}/coin-6enkw/src/xml/expat/COPYING %{buildroot}/usr/share/package-licenses/Coin/1830cf88edd943aadba8ca7504d45113ca3431a2
 pushd clr-build
 %make_install
 popd
@@ -155,7 +156,6 @@ popd
 
 %files dev
 %defattr(-,root,root,-)
-/usr/include/*.h
 /usr/include/Inventor/C/XML/attribute.h
 /usr/include/Inventor/C/XML/document.h
 /usr/include/Inventor/C/XML/element.h
@@ -1029,6 +1029,9 @@ popd
 /usr/include/Inventor/threads/SbTypedStorage.h
 /usr/include/Inventor/tools/SbLazyPimplPtr.h
 /usr/include/Inventor/tools/SbPimplPtr.h
+/usr/include/SoDebug.h
+/usr/include/SoWinEnterScope.h
+/usr/include/SoWinLeaveScope.h
 /usr/lib64/cmake/Coin-4.0.0/coin-config-version.cmake
 /usr/lib64/cmake/Coin-4.0.0/coin-config.cmake
 /usr/lib64/cmake/Coin-4.0.0/coin-export-relwithdebinfo.cmake
@@ -1043,5 +1046,5 @@ popd
 
 %files license
 %defattr(0644,root,root,0755)
-/usr/share/package-licenses/Coin/COPYING
-/usr/share/package-licenses/Coin/src_xml_expat_COPYING
+/usr/share/package-licenses/Coin/1830cf88edd943aadba8ca7504d45113ca3431a2
+/usr/share/package-licenses/Coin/942939307e4a0e0e1964e021b967143e93f975ea
