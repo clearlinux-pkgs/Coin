@@ -4,13 +4,15 @@
 #
 Name     : Coin
 Version  : 4.0.0
-Release  : 7
-URL      : https://bitbucket.org/Coin3D/coin/downloads/coin-4.0.0-src.zip
-Source0  : https://bitbucket.org/Coin3D/coin/downloads/coin-4.0.0-src.zip
+Release  : 8
+URL      : https://github.com/coin3d/coin/releases/download/Coin-4.0.0/coin-4.0.0-src.tar.gz
+Source0  : https://github.com/coin3d/coin/releases/download/Coin-4.0.0/coin-4.0.0-src.tar.gz
 Summary  : A high-level 3D graphics toolkit, fully compatible with SGI Open Inventor 2.1
 Group    : Development/Tools
 License  : BSD-3-Clause MIT
+Requires: Coin-bin = %{version}-%{release}
 Requires: Coin-data = %{version}-%{release}
+Requires: Coin-info = %{version}-%{release}
 Requires: Coin-lib = %{version}-%{release}
 Requires: Coin-license = %{version}-%{release}
 BuildRequires : boost-dev
@@ -33,12 +35,18 @@ BuildRequires : pkgconfig(sm)
 BuildRequires : zlib-dev
 
 %description
-Coin 3.1.2 "Buffalo spawn"
-http://www.coin3d.org/
-Introduction
-============
 Coin is an OpenGL-based, 3D graphics library that has its roots in the
 Open Inventor 2.1 API, which Coin still is compatible with.
+
+%package bin
+Summary: bin components for the Coin package.
+Group: Binaries
+Requires: Coin-data = %{version}-%{release}
+Requires: Coin-license = %{version}-%{release}
+
+%description bin
+bin components for the Coin package.
+
 
 %package data
 Summary: data components for the Coin package.
@@ -52,12 +60,21 @@ data components for the Coin package.
 Summary: dev components for the Coin package.
 Group: Development
 Requires: Coin-lib = %{version}-%{release}
+Requires: Coin-bin = %{version}-%{release}
 Requires: Coin-data = %{version}-%{release}
 Provides: Coin-devel = %{version}-%{release}
 Requires: Coin = %{version}-%{release}
 
 %description dev
 dev components for the Coin package.
+
+
+%package info
+Summary: info components for the Coin package.
+Group: Default
+
+%description info
+info components for the Coin package.
 
 
 %package lib
@@ -79,15 +96,15 @@ license components for the Coin package.
 
 
 %prep
-%setup -q -n coin-6enkw
-cd %{_builddir}/coin-6enkw
+%setup -q -n coin
+cd %{_builddir}/coin
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1592615711
+export SOURCE_DATE_EPOCH=1598321153
 mkdir -p clr-build
 pushd clr-build
 export GCC_IGNORE_WERROR=1
@@ -99,7 +116,7 @@ export FCFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=4 "
 export FFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=4 "
 export CXXFLAGS="$CXXFLAGS -O3 -ffat-lto-objects -flto=4 -std=gnu++98"
 %cmake .. -DCOIN_THREADSAFE=ON -DUSE_EXTERNAL_EXPAT=ON
-make  %{?_smp_mflags}  VERBOSE=1
+make  %{?_smp_mflags}
 popd
 
 %check
@@ -110,17 +127,21 @@ export no_proxy=localhost,127.0.0.1,0.0.0.0
 cd clr-build; make test
 
 %install
-export SOURCE_DATE_EPOCH=1592615711
+export SOURCE_DATE_EPOCH=1598321153
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/Coin
-cp %{_builddir}/coin-6enkw/COPYING %{buildroot}/usr/share/package-licenses/Coin/942939307e4a0e0e1964e021b967143e93f975ea
-cp %{_builddir}/coin-6enkw/src/xml/expat/COPYING %{buildroot}/usr/share/package-licenses/Coin/1830cf88edd943aadba8ca7504d45113ca3431a2
+cp %{_builddir}/coin/COPYING %{buildroot}/usr/share/package-licenses/Coin/942939307e4a0e0e1964e021b967143e93f975ea
+cp %{_builddir}/coin/src/xml/expat/COPYING %{buildroot}/usr/share/package-licenses/Coin/1830cf88edd943aadba8ca7504d45113ca3431a2
 pushd clr-build
 %make_install
 popd
 
 %files
 %defattr(-,root,root,-)
+
+%files bin
+%defattr(-,root,root,-)
+/usr/bin/coin-config
 
 %files data
 %defattr(-,root,root,-)
@@ -1038,6 +1059,10 @@ popd
 /usr/lib64/cmake/Coin-4.0.0/coin-export.cmake
 /usr/lib64/libCoin.so
 /usr/lib64/pkgconfig/Coin.pc
+
+%files info
+%defattr(0644,root,root,0755)
+/usr/share/info/Coin4/build-options.txt
 
 %files lib
 %defattr(-,root,root,-)
